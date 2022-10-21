@@ -3,3 +3,5 @@
 .RData
 .Ruserdata
 psych-490-reproducibility-2023-spring-notes.Rproj
+.DS_Store
+csv

@@ -1,0 +1,10 @@
+# Course intro 
+
+```{r, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, 
+                      cache=FALSE, 
+                      fig.align = "center")
+```
+
+## Prelude {-}
+
