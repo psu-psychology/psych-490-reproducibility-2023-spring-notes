@@ -33,7 +33,7 @@ Authenticate to Google.
 #googledrive::drive_auth(email = "rick.o.gilmore@gmail.com")
 ```
 
-```{r}
+```{r, eval = FALSE}
 if (!dir.exists('csv')) {
   dir.create('csv')
 }
@@ -47,7 +47,7 @@ googledrive::drive_download(file = 'PSYCH 490.002 Survey 1 (Responses)', path = 
 
 Load the data file.
 
-```{r}
+```{r, eval = FALSE}
 if (file.exists(csv_fn)) {
   survey_01 <- readr::read_csv(csv_fn, show_col_types = FALSE)
 } else {
@@ -58,7 +58,7 @@ if (file.exists(csv_fn)) {
 
 Examine the variable names.
 
-```{r}
+```{r, eval = FALSE}
 if (is.null(survey_01)) {
   warning("Error loading data file")
 } else {
@@ -72,7 +72,7 @@ Let's look at the source publication [[@Kardash2012-kq]](https://doi.org/10.1007
 So, the Appendix labels each question with a short phrase and notes whether the concept is a norm (N) or counter-norm (CN).
 Let's rename the variables using the single words.
 
-```{r}
+```{r, eval = FALSE}
 new_names <- c("Timestamp", "Disinterestedness", "Organized Skepticism", "Particularism",
                "Communality", "Organized Dogmatism", "Self-interestedness",
                "Universalism", "Solitariness", "Comments")
@@ -83,7 +83,7 @@ names(survey_01) <- new_names
 These data are 'wide', meaning that there are multiple variables for each respondent.
 The data will be easier to visualize and analyze if we make the data 'longer'.
 
-```{r}
+```{r, eval = FALSE}
 survey_01_long <- survey_01 %>%
   tidyr::pivot_longer(., !c('Timestamp', 'Comments'), 
                       names_to = "norm_counternorm", values_to = "rating")
@@ -93,13 +93,13 @@ survey_01_long <- survey_01 %>%
 Finally, there is a "test" set of responses that I used to test this data processing workflow.
 We should delete those responses since they are nonsensical--I just hit random buttons to make some data.
 
-```{r}
+```{r, eval = FALSE}
 survey_01_long <- survey_01_long %>%
   dplyr::filter(., !(Comments == "Test"))
 ```
 
 ## Visualize data {-}
 
-```{r}
+```{r, eval = FALSE}
 
 ```

@@ -1,0 +1,18 @@
+# Bias
+
+## Read
+
+- [@Ritchie2020-fm], Chapter 4
+
+## Exercise
+
+- P-hack your way to scientific glory
+
+## Kinds of bias
+
+## Discuss p-hacking exercise
+
+1. Who got a "significant" result?
+1. How many different analyses did you try?
+1. Who changed their analysis after finding a significant result?
+1. Did anyone try another analysis and *keep* the non-significant result?

@@ -1,4 +1,10 @@
+fig:unnamed-chunk-3
+fig:unnamed-chunk-4
+fig:unnamed-chunk-5
+fig:unnamed-chunk-6
 course-intro
+begleys-bombshell
+talk-by-begley-crossfit2019-xq
 how-science-works
 readings
 scientific-norms-and-counter-norms
@@ -6,3 +12,8 @@ readings-1
 assignment
 adherence-to-norms-and-counter-norms
 read
+bias
+read-1
+exercise
+kinds-of-bias
+discuss-p-hacking-exercise
