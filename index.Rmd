@@ -19,10 +19,6 @@ url: 'https\://psu-psychology.github.io/psych-490-reproducibility-2023-spring-no
 
 These lecture notes are for your use as a student in PSYCH 490.002
 
-:::: {.infobox}
-This text should appear in a box!
-::::
-
 ```{r include=FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
