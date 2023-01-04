@@ -7,9 +7,6 @@ They are loosely related to some of the themes of the course that day.
 Most are songs or artists I like.
 Showing them is just for fun.
 
-<!-- Thomas Dolby, She Blinded Me With Science 3:47 -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V83JR2IoI8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <!-- Trust in Me, Jungle Book, Original -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cCX5JJwkZhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -188,14 +185,15 @@ Table 1 from [[@begley_drug_2012]](http://dx.doi.org/10.1038/483531a)
 - [Tue Feb 7](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/schedule.html#tuesday-february-7): Reproducibility and replicability reconsidered.
 - [Exercise 04](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_replication.html): Replication
 
-#### Talk by Begley [[@CrossFit2019-xq]](https://www.youtube.com/watch?v=YJADzllTM9w) {-}
+## Learn more
+
+### Talk by Begley [[@CrossFit2019-xq]](https://www.youtube.com/watch?v=YJADzllTM9w) {-}
 
 :::: {.infobox}
 
 Watching the talk by Begley is not required. But you might get inspired and decide to focus your final project around the topic.
 
 ::::
-
 
 <!-- Dr. Glenn Begley: Perverse Incentives Promote Scientific Laziness, Exaggeration, and Desperation -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YJADzllTM9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -204,3 +202,11 @@ Watching the talk by Begley is not required. But you might get inspired and deci
 > “What I'm alleging is that the reviewers, the editors of the so-called top-tier journals, grant review committees, promotion committees, and the scientific community repeatedly tolerate poor-quality science.”
 > 
 > -- C. Glenn Begley
+
+## Next time...
+
+- How science works (or should)
+- Readings
+    - [@Ritchie2020-fm], Chapter 1.
+    - [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215)
+    - Optional [@sagan-1996-baloney], Chapter 12, "The Fine Art of Baloney Detection"

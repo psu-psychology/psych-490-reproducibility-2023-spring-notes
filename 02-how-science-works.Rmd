@@ -1,6 +1,0 @@
-# How science works
-
-## Readings
-
-- Ritchie, Chapter 1
-- [@sagan-1996-baloney]

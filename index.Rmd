@@ -31,5 +31,5 @@ knitr::write_bib(c(
 # Defaults for chunks, especially figures
 knitr::opts_chunk$set(echo = FALSE, cache=TRUE, 
                       fig.align = "center",
-                      out.width = "800px")
+                      out.width = "50%")
 ```
