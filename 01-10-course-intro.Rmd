@@ -34,7 +34,7 @@ Showing them is just for fun.
 
 - Syllabus: <https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/>
 - Class notes: <https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/>
-- Canvas: <https://link.to.canvas.site>
+- Canvas readings: <https://psu.instructure.com/courses/2245007/files/folder/readings>
 
 ### Book {-}
 
@@ -169,6 +169,31 @@ knitr::include_graphics("img/harris-rigor-mortis.jpg")
 
 Table 1 from [[@begley_drug_2012]](http://dx.doi.org/10.1038/483531a)
 
+#### Findings
+
+- Findings of 6/53 published papers (11%) could be reproduced
+- Original authors often could not reproduce their own work
+- Earlier paper [[@Prinz2011-vo]](http://dx.doi.org/10.1038/nrd3439-c1) had also found low rate of reproducibility. Paper titled "Believe it or not: How much can we rely on published data on potential drug targets?"
+
+```{r fig-1-prinz-et-al, fig.cap="Figure 1 from [[@Prinz2011-vo]](http://dx.doi.org/10.1038/nrd3439-c1)"}
+knitr::include_url("https://www.nature.com/articles/nrd3439-c1/figures/1")
+```
+
+> We received input from 23 scientists (heads of laboratories) and collected data from 67 projects, most of them (47) from the field of oncology. This analysis revealed that only in ∼20–25% of the projects were the relevant published data completely in line with our in-house findings
+>
+> - Prinz et al., 2011
+
+- Published papers (that can't be reproduced) are cited hundreds or thousands of times
+- Cost of irreproducible research estimated in billions of dollars [[@Freedman2015-ki]](http://dx.doi.org/10.1371/journal.pbio.1002165).
+
+> An analysis of past studies indicates that the cumulative (total) prevalence of irreproducible preclinical research exceeds 50%, resulting in approximately US$28,000,000,000 (US$28B)/year spent on preclinical research that is not reproducible—in the United States alone.
+>
+> - Freedman et al.
+
+```{r fig-2-freedman-et-al, fig.cap="Figure 2 from [[@Freedman2015-ki]](http://dx.doi.org/10.1371/journal.pbio.1002165)"}
+knitr::include_graphics("https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pbio.1002165/1/pbio.1002165.g002.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20230109%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230109T145649Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=3550d81240fee010845e2c16251cf503fb8ab9a548152a0b5a593aec7048cb9de86eab074c44c43b60feaab6dabacd63d47f281964125a7842275fbea7e101e57cdea9cba458a7304c8af582b2850ef0915d6a9b757e5c8e93e329b133514e322beca031027837326fc0831f1b58d59e1b3608fb805912ea16aba6af7eb51aa7f17f0f145d03ba1ef28aab33275e18d263f07b0345dd3bcb720b5d9a4ce60b027dd7409ee6ecdf80ef40170d4ff79352317238891323740df0589f24291da24cabc81ec4889e69bc7180863e35bc8dc2268b9791e3d8d9e267462b9eed4399a305ea3fa00286f02e5cd46faea9593a4cdb27f18d0a428bb33ac07add110052bc")
+```
+
 #### Questions to ponder {-}
 
 - Why does Harris call this a 'bombshell'?
@@ -185,7 +210,7 @@ Table 1 from [[@begley_drug_2012]](http://dx.doi.org/10.1038/483531a)
 - [Tue Feb 7](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/schedule.html#tuesday-february-7): Reproducibility and replicability reconsidered.
 - [Exercise 04](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_replication.html): Replication
 
-## Learn more
+## Learn more {-}
 
 ### Talk by Begley [[@CrossFit2019-xq]](https://www.youtube.com/watch?v=YJADzllTM9w) {-}
 
@@ -203,7 +228,7 @@ Watching the talk by Begley is not required. But you might get inspired and deci
 > 
 > -- C. Glenn Begley
 
-## Next time...
+## Next time... {-}
 
 - How science works (or should)
 - Readings
