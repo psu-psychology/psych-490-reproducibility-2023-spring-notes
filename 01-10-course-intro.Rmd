@@ -79,6 +79,10 @@ knitr::include_graphics(c("img/chambers-seven-deadly-sins.jpg", "img/bausell-pro
 
 ## Are we (scientists, the public) fooling ourselves? How can we know? Why might it matter? {-}
 
+### A humorous perspective [[@NYU_Health_Sciences_Library2013-gp]](https://www.youtube.com/watch?v=66oNv_DJuPc) {-}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/66oNv_DJuPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### Feynmann on 'Cargo Cult Science' {-}
 
 - [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman)
@@ -96,6 +100,8 @@ knitr::include_url("https://calteches.library.caltech.edu/51/2/CargoCult.htm")
 #### What does Feynman mean by 'Cargo Cult Science'? {-}
 
 > I think the educational and psychological studies I mentioned are examples of what I would like to call Cargo Cult Science.  In the South Seas there is a Cargo Cult of people.  During the war they saw airplanes land with lots of good materials, and they want the same thing to happen now.  So they’ve arranged to make things like runways, to put fires along the sides of the runways, to make a wooden hut for a man to sit in, with two wooden pieces on his head like headphones and bars of bamboo sticking out like antennas—he’s the controller—and they wait for the airplanes to land.  They’re doing everything right.  The form is perfect.  It looks exactly the way it looked before.  But it doesn’t work.  No airplanes land.  So I call these things Cargo Cult Science, because they follow all the apparent precepts and forms of scientific investigation, but they’re missing something essential, because the planes don’t land.
+
+More about "cargo cults": [[@Rjlipton2023-sb]](https://rjlipton.wpcomstaging.com/2023/01/06/cargo-cult-redo/)
 
 #### Implicit rules (practices or norms) in science {-}
 
