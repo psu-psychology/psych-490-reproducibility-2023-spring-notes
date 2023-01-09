@@ -16,6 +16,7 @@ fig:fig-1-munafo
 fig:unnamed-chunk-9
 course-intro
 findings
+todays-topics-1
 bias
 read-1
 exercise

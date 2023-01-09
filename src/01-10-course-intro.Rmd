@@ -151,7 +151,7 @@ knitr::include_graphics("include/img/oreskes-why-trust-science.jpg")
 - Are these 'rules' or principles taught explicitly? Where and how?
 - If not, why not?
 - Do you agree or disagree that these rules are essential for scientific integrity?
-- Why does Feynman suggest that you, the scientist, are the easiest one to fool?
+- Why does Feynman suggest that you, the scientist or student, are the easiest one to fool?
 
 #### Going deeper {-}
 
@@ -171,7 +171,7 @@ knitr::include_graphics("include/img/harris-rigor-mortis.jpg")
 #### Background {-}
 
 - [C. Glenn Begley](https://en.wikipedia.org/wiki/C._Glenn_Begley)
-- [[@begley_drug_2012]](http://dx.doi.org/10.1038/483531a)
+- [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
 
 > The scientific community assumes that the claims in a preclinical study can be taken at face value — that although there might be some errors in detail, the main message of the paper can be relied on and the data will, for the most part, stand the test of time. Unfortunately, this is not always the case.
 
@@ -182,7 +182,7 @@ knitr::include_graphics("include/img/harris-rigor-mortis.jpg")
 | >20 | 21 | 248 [3, 800] | 231 [82-519] |
 | 5-19 | 32 | 168 [6, 1,909] | 13 [3, 24] |
 
-Table 1 from [[@begley_drug_2012]](http://dx.doi.org/10.1038/483531a)
+Table 1 from [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
 
 #### Findings
 
@@ -246,7 +246,7 @@ Watching the talk by Begley is not required. But you might get inspired and deci
 ## Next time... {-}
 
 - How science works (or should)
-- Readings
+- Read
     - [@Ritchie2020-fm], Chapter 1.
     - [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215)
     - Optional [@sagan-1996-baloney], Chapter 12, "The Fine Art of Baloney Detection"

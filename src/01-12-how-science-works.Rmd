@@ -14,11 +14,17 @@
     - [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215)
     - Optional [@sagan-1996-baloney], Chapter 12, "The Fine Art of Baloney Detection"
 
-## Thoughts about last time {-}
+## Last time {-}
 
 - Comments on Feynman
-- Comments on Begley
+- Comments on Begley & Ellis
 - Other comments or questions
+
+## Today's topics
+
+- How sciences works (or should)
+- Discuss [@Ritchie2020-fm], Chapter 1
+- Discuss [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215)
 
 ## [@Ritchie2020-fm], Chapter 1 {-}
 

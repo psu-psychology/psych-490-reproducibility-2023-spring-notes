@@ -17,7 +17,7 @@ url: 'https\://psu-psychology.github.io/psych-490-reproducibility-2023-spring-no
 
 # About {-}
 
-These lecture notes are for your use as a student in PSYCH 490.002
+These lecture notes are for your use as a student in PSYCH 490.002.
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages

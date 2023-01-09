@@ -1,0 +1,12 @@
+# A replication failure: The "Lady Macbeth Effect" {-}
+
+## Last time {-}
+
+## Today's topics {-}
+
+- A replication failure: The "Lady Macbeth Effect" {-}
+- Read {-}
+    - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)
+    - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792)
+- [Due]{.orange_due} 
+    - [Exercise 01: Norms and counter-norms write-up](#ex_norms_counternorms)
