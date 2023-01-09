@@ -1,0 +1,30 @@
+**Rick O. Gilmore**, Ph.D.</br>
+Professor of Psychology
+
+```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DenverCP.JPG/266px-DenverCP.JPG", out.width="75%"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DenverCP.JPG/266px-DenverCP.JPG")
+```
+
+```{r, out.width="75%", fig.cap="http://watson.brown.edu/ds/sites/all/themes/ds/img/header/brown_large.png"}
+knitr::include_graphics("http://watson.brown.edu/ds/sites/all/themes/ds/img/header/brown_large.png")
+```
+
+```{r, out.width="75%", fig.cap="https://www.wheretraveler.com/sites/default/files/styles/wt17_promoted/public/WashingtonDC-shutterstock_93633676.jpg?itok=IT7CL9PU"}
+knitr::include_graphics("https://www.wheretraveler.com/sites/default/files/styles/wt17_promoted/public/WashingtonDC-shutterstock_93633676.jpg?itok=IT7CL9PU")
+```
+
+```{r, out.width="75%", fig.cap="https://ai.cs.cmu.edu/sites/default/files/CMU.png"}
+knitr::include_graphics("https://ai.cs.cmu.edu/sites/default/files/CMU.png")
+```
+
+```{r, out.width="75%", fig.cap="http://onwardstate.com/wp-content/uploads/2014/10/93"}
+knitr::include_graphics("http://onwardstate.com/wp-content/uploads/2014/10/93")
+```
+
+```{r, out.width="75%", fig.cap="https://imaging.psu.edu"}
+knitr::include_graphics("include/img/sleic.png")
+```
+
+```{r, out.width="75%", fig.cap="https://nyu.databrary.org/web/images/logo/databrary-nav.svg"}
+knitr::include_graphics("https://nyu.databrary.org/web/images/logo/databrary-nav.svg")
+```

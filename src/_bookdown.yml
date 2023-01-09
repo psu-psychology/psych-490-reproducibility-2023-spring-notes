@@ -1,0 +1,9 @@
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Topic "
+  label:
+    fig: "Figure "
+    tab: "Table "
+output_dir: "../docs"
+github-repo: "psu-psychology/psych-260-2023-spring-notes/src"
