@@ -1,4 +1,4 @@
-# How science works {-}
+# How science works (or should) {-}
 
 ## Prelude {-}
 
@@ -7,12 +7,34 @@
 
 ## Roadmap {-}
 
+- Newsflash
 - Last time
 - How science works (or should)
 - Readings
     - [@Ritchie2020-fm], Chapter 1.
     - [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215)
     - Optional [@sagan-1996-baloney], Chapter 12, "The Fine Art of Baloney Detection"
+    
+## Newsflash {-}
+
+> Hi Rick, 
+>
+> Join us tomorrow at noon ET for a live presentation by the data science leaders at Roche about why they’re making open source the default for clinical trials in 2023. 
+>
+> The presentation will take place on YouTube Live. You can tune in using [this link](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Finfo.posit.co%2FNzA5LU5YTi03MDYAAAGJPBcWPn9FrTeHKROkOvY-WzUkq4VGr-ogcKiT1nX8HPMXAknkWSFFFUIfheDkQc0UNeZajT0%3D&data=05%7C01%7Crog1%40psu.edu%7Cecd213d95d0c4f53773108daf33f6b43%7C7cf48d453ddb4389a9c1c115526eb52e%7C0%7C0%7C638089750958624980%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=Rp6Mj57C2UovZQW5SLIcABCY6kZe2LBZndD3xtdQZQc%3D&reserved=0). You can also add the event to your calendar as a reminder here. 
+>
+> We couldn’t be more excited to highlight this historic industry shift. 
+>
+> Thomas Neitmann, Ning Leng, and Dr. Kieran Martin will detail the years of preparation and innovation that went into making this shift a reality, along with how the organization plans to enable the transition of over 1,000 statistical programmers and statisticians to R and Python-centric tools. 
+> 
+> In the interest of providing additional context and drumming up some more excitement for the event, we highly recommend reading James Black’s ( Director of Insights Engineering at Roche) recent post on LinkedIn. 
+> 
+We reserved time at the end of the presentation for questions, so don’t hesitate to show up curious! Additionally, if you have any questions that you’d like us to pass along to the team at Roche, feel free to respond directly to this email! 
+>
+>From everyone at Posit and the incredible teams at Roche, we can’t wait to see you there! 
+>
+> Robert @ RStudio 
+
 
 ## Last time {-}
 
