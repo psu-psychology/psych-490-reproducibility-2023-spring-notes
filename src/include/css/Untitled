@@ -1,7 +1,0 @@
-.infobox {
-  padding: 1em 1em 1em 4 em;
-  margin-bottom: 10px;
-  border: 2px solid green;
-  border-radius: 10px;
-  background: #f5f5f5 5 px center/3em no-repeat;
-}
