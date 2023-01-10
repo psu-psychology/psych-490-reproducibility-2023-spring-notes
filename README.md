@@ -15,5 +15,5 @@ To regenerate the site:
 ## Contents
 
 - `src/`: Source files for the lecture notes
-- `docs/:` Output of the rendering process. The root of the site.
+- `docs/:` Output of the rendering process. The root of the site available at <https://github.com/psu-psychology/psych-490-reproducibility-2023-spring-notes>.
 - `shiny`: Files related to an in-progress Shiny application.

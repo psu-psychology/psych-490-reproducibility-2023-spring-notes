@@ -43,7 +43,7 @@ Showing them is just for fun.
 
 - Syllabus: <https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/>
 - Class notes: <https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/>
-- Canvas readings: <https://psu.instructure.com/courses/2245007/files/folder/readings>
+
 
 ### Book {-}
 
@@ -59,7 +59,7 @@ knitr::include_graphics("include/img/ritchie-science-fictions.jpg")
 knitr::include_graphics(c("include/img/chambers-seven-deadly-sins.jpg", "include/img/bausell-problem-with-science.jpg", "include/img/harris-rigor-mortis.jpg", "include/img/oreskes-why-trust-science.jpg"))
 ```
 
-- Scanned PDFs of book selections are available on Canvas: <https://url.to.readings/>
+- Scanned PDFs of book selections are available on Canvas: <https://psu.instructure.com/courses/2245007/files/folder/readings>
 
 #### Articles {-}
 
