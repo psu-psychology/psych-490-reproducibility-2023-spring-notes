@@ -7,7 +7,7 @@
 
 ## Roadmap {-}
 
-- Thoughts about last time
+- Last time
 - How science works (or should)
 - Readings
     - [@Ritchie2020-fm], Chapter 1.
@@ -22,7 +22,7 @@
 
 ## Today's topics {-}
 
-- How sciences works (or should)
+- How science works (or should)
 - Discuss [@Ritchie2020-fm], Chapter 1
 - Discuss [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215)
 
@@ -98,7 +98,7 @@ Nosek, B. A., Spies, J. R. & Motyl, M. (2012). Scientific utopia II: Restructuri
 
 ## Learn more {-}
 
-### Talk by Brian Nosek {-}
+### Talk by Brian Nosek, [@University_of_California_Television_UCTV2018-sf] {-}
 
 :::: {.infobox}
 
