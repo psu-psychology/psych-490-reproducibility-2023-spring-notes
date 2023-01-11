@@ -5,6 +5,14 @@
 <!-- Thomas Dolby, She Blinded Me With Science 3:47 -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V83JR2IoI8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Announcement {-}
+
+Penn State School of Theatre **Free tickets**
+
+```{r fig-psu-school-of-theatre-tix, fig.cap="https://theatre.psu.edu/centrestage"}
+knitr::include_graphics("include/img/psu-school-of-theatre-free-tixs.png")
+```
+
 ## Roadmap {-}
 
 - Newsflash

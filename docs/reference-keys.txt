@@ -9,6 +9,7 @@ fig:unnamed-chunk-5
 fig:unnamed-chunk-6
 fig:unnamed-chunk-7
 fig:unnamed-chunk-8
+fig:fig-psu-school-of-theatre-tix
 fig:fig-stuart-ritchie
 fig:fig-1-munafo
 fig:unnamed-chunk-9
