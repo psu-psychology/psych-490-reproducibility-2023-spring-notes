@@ -43,12 +43,22 @@ We reserved time at the end of the presentation for questions, so don’t hesita
 >
 > Robert @ RStudio 
 
-
 ## Last time {-}
 
 - Comments on Feynman
 - Comments on Begley & Ellis
 - Other comments or questions
+
+::: {.infobox}
+
+**Extra credit opportunity**
+
+1. Read [[@Feynman1974-ld]](https://calteches.library.caltech.edu/51/2/CargoCult.htm) or one of [@Harris2017-oz], Chapter 1, Begley's Bombshell. [PDF on Canvas](https://psu.instructure.com/files/144517093/download?download_frd=1) or [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a).
+2. In no more than one page, answer one of the questions posed in the notes from last time on [Feynman](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/course-intro.html#questions-to-ponder) or on [Begley & Ellis](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/course-intro.html#questions-to-ponder-1).
+3. Submit your answer via Canvas to Garrett by Monday, January 16, 2023 at 5:00 pm.
+4. Worth 2 points.
+
+:::
 
 ## Today's topics {-}
 
@@ -56,7 +66,7 @@ We reserved time at the end of the presentation for questions, so don’t hesita
 - Discuss [@Ritchie2020-fm], Chapter 1
 - Discuss [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215)
 
-## [@Ritchie2020-fm], Chapter 1 {-}
+## Discuss [@Ritchie2020-fm], Chapter 1 {-}
 
 ### Author {-}
 
@@ -67,12 +77,11 @@ We reserved time at the end of the presentation for questions, so don’t hesita
 knitr::include_graphics("https://jacobsfoundation.org/wp-content/uploads/2020/01/Ritchie_Stuart_300x300px.jpg")
 ```
 
-### [@Ritchie2020-fm], Chapter 1: How Science Works {-}
+### Chapter 1: How Science Works {-}
 
 - "Science is a social construct."
     - How so?
     - What are the consequences?
-
 - What is the "process" of science?
 
 ```{r fig-1-munafo, out.width = "75%", fig.cap="Figure 1 from [[@munafo_manifesto_2017]](https://doi.org/10.1038/s41562-016-0021)"}
@@ -87,7 +96,7 @@ knitr::include_graphics("https://media.springernature.com/full/springer-static/i
 >
 > [@Ritchie2020-fm], Chapter 1, pp. 14-15.
 
-## [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215) {-}
+## Discuss [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215) {-}
 
 ### Authors {-}
 
@@ -105,7 +114,7 @@ knitr::include_graphics("https://cdn.theconversation.com/avatars/883473/width238
     
 ### Scientific Utopia: I. Opening Scientific Communication {-}
 
-#### What's [Utopia](https://en.wikipedia.org/wiki/Utopia? {-}
+#### What's [Utopia](https://en.wikipedia.org/wiki/Utopia?) {-}
 
 #### Where's [Part II](https://doi.org/10.1177/1745691612459058)? {-}
 
