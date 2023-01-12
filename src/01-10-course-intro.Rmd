@@ -203,7 +203,10 @@ Table 1 from [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
 >
 > - [[@Freedman2015-ki]](http://dx.doi.org/10.1371/journal.pbio.1002165).
 
-- [Figure 2](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pbio.1002165/1/pbio.1002165.g002.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20230110%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230110T171557Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=b9227f9379c2e55197326ea311fb9b554436f88d9053a72ed433af479ac607bb4f79bfc7f8a3b51da4fee702750475c77cafa2dcb4650e1431a488551f46d3cc46c8a7c3b97b71c4f82ef8e4c0642c51dc9437869802c1686ccb7da2e8acd1f346e4765619355a5daafd8894d2d5fa807012254093d8c6bd01fbf238eb9ea456afac5c77d23a8821af0b0a455023d4143927c8c57e6fc3c2c307808b234d1710993dd7cb379b1c5a595941c2c5fd8c5ef6103dbf5cffeaf85460155432df55ec529d54be79c3f75cd6855017a4582aa7498e7bc994c4646fc8376035c62b9f22e64d3d89eaa7128a777406a197dc5def01bfd0443b3ff6e9aeb1bb0ec10a460c) from [@Freedman2015-ki]: 
+- [Figure 2](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pbio.1002165/1/pbio.1002165.g002.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20230110%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230110T171557Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=b9227f9379c2e55197326ea311fb9b554436f88d9053a72ed433af479ac607bb4f79bfc7f8a3b51da4fee702750475c77cafa2dcb4650e1431a488551f46d3cc46c8a7c3b97b71c4f82ef8e4c0642c51dc9437869802c1686ccb7da2e8acd1f346e4765619355a5daafd8894d2d5fa807012254093d8c6bd01fbf238eb9ea456afac5c77d23a8821af0b0a455023d4143927c8c57e6fc3c2c307808b234d1710993dd7cb379b1c5a595941c2c5fd8c5ef6103dbf5cffeaf85460155432df55ec529d54be79c3f75cd6855017a4582aa7498e7bc994c4646fc8376035c62b9f22e64d3d89eaa7128a777406a197dc5def01bfd0443b3ff6e9aeb1bb0ec10a460c) from [@Freedman2015-ki]
+
+Information about U.S. Research & Development (R&D) Expenditures from the [Congressional Research Service](https://sgp.fas.org/crs/misc/R44307.pdf).
+- Note that business accounts for 2-3x+ the Government's share of R&D expenditures.
 
 #### Questions to ponder {-}
 
