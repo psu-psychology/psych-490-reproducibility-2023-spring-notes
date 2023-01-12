@@ -1,11 +1,38 @@
 # Scientific norms and counter-norms {-}
 
-## Readings {-}
+## Roadmap {-}
 
-- Merton, R.K. (1973). The normative structure of science. In *The Sociology of Science: Theoretical and Empirical Investigations*.
-- [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423).
+- Last time
+    - How science works (or should)
+- Readings
+    - [@Merton1973-vf]. [PDF on Canvas](https://psu.instructure.com/files/144517091/download?download_frd=1).
+    - [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423).
+- Assignment
+    - Complete (anonymous) [survey](https://forms.gle/1zqzfNNXWyCgiDSJ9) on scientific norms and counter-norms.
+    
+::: {.infobox}
 
-## Assignment {-}
+**Extra credit opportunity**
 
-- Complete (anonymous) [survey](https://forms.gle/1zqzfNNXWyCgiDSJ9) on scientific norms and counter-norms.
+1. Read [[@Feynman1974-ld]](https://calteches.library.caltech.edu/51/2/CargoCult.htm) or one of [@Harris2017-oz], Chapter 1, Begley's Bombshell. [PDF on Canvas](https://psu.instructure.com/files/144517093/download?download_frd=1) or [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a).
+2. In no more than one page, answer one of the questions posed in the notes from last time on [Feynman](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/course-intro.html#questions-to-ponder) or on [Begley & Ellis](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/course-intro.html#questions-to-ponder-1).
+3. Submit your answer via Canvas to Garrett by Monday, January 16, 2023 at 5:00 pm.
+4. Worth 2 points.
 
+:::
+
+## Discuss [@Merton1973-vf] {-}
+
+## Discuss [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423) {-}
+
+## Next time...
+
+- Adherence to norms and counter-norms
+- Read
+    - [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0).
+    - [[@Macfarlane2008-tc]](https://doi.org/10.1007/s10805-008-9055-y).
+- Skim
+    - [[@Anderson2010-rl]](http://dx.doi.org/10.1353/jhe.0.0095).
+    - [[@Kim2018-tr]](https://doi.org/10.1177/0971721817744438).
+- [Assignment]{.green_assigned}
+    - [Exercise 01: Norms and counter-norms write-up](#ex_norms_counternorms)

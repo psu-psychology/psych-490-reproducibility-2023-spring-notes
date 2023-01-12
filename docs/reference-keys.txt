@@ -14,6 +14,7 @@ fig:fig-stuart-ritchie
 fig:fig-1-munafo
 fig:unnamed-chunk-9
 course-intro
+next-time-2
 bias
 read-1
 exercise
