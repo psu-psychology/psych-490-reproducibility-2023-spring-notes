@@ -1,16 +1,16 @@
-# Bias
+# Bias  {-}
 
-## Read
+## Read {-}
 
 - [@Ritchie2020-fm], Chapter 4
 
-## Exercise
+## Exercise {-}
 
 - P-hack your way to scientific glory
 
-## Kinds of bias
+## Kinds of bias {-}
 
-## Discuss p-hacking exercise
+## Discuss p-hacking exercise {-}
 
 1. Who got a "significant" result?
 1. How many different analyses did you try?

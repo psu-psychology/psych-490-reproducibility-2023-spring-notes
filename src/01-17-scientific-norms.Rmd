@@ -6,7 +6,7 @@
     - How science works (or should)
 - Readings
     - [@Merton1973-vf]. [PDF on Canvas](https://psu.instructure.com/files/144517091/download?download_frd=1).
-    - [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423).
+    - [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=144804512).
 - Assignment
     - Complete (anonymous) [survey](https://forms.gle/1zqzfNNXWyCgiDSJ9) on scientific norms and counter-norms.
     
@@ -23,9 +23,109 @@
 
 ## Discuss [@Merton1973-vf] {-}
 
+- **Note**: [Merton 1973 PDF on Canvas](https://psu.instructure.com/files/144517091/download?download_frd=1)
+
+> Difficult as the notion may appear to those reared in a
+culture that grants science a prominent if not a commanding place in the
+scheme of things, it is evident that science is not immune from attack,
+restraint, and repression. Writing a little while ago, Veblen could observe
+that the faith of western culture in science was unbounded, unquestioned,
+unrivaled. The revolt from science which then appeared so improbable as
+to concern only the timid academician who would ponder all contingencies,
+however remote, has now been forced upon the attention of scientist and
+layman alike. Local contagions of anti-intellectualism threaten to become
+epidemic.
+>
+> -- [@Merton1973-vf], p. 267
+
+> Science is a deceptively inclusive word which refers to a variety of distinct though interrelated items. It is commonly used to denote (1) a set of characteristic methods by means of which knowledge is certified; (2) a stock of accumulated knowledge stemming from the application of these methods; (3) a set of cultural values and mores governing the activities termed scientific; or (4) any combination of the foregoing.
+>
+> -- [@Merton1973-vf], p. 268
+
+### The [ethos](https://www.dictionary.com/browse/ethos) of science {-}
+
+> The mores of science possess a methodologic rationale ut they are binding, not only because they are procedurally efficient, but because they are believed right and good.
+>
+> -- [@Merton1973-vf], p. 270
+
+#### Universalism {-}
+
+- See paragraph at top of p. 271 for context about the following:
+
+> Yet this very deviation from the norm of universalism actually presupposed the the legitimacy of the norm. For nationalistic bias is oppropbrious only if judged in terms of the standard of universalism; within another institutional context, it is redefined as a virtue patriotism. Thus, in the process of condemning their violation, the mores are reaffirmed.
+>
+> -- [@Merton1973-vf], p. 271
+
+> To restrict scientific careers on grounds other than lack of competence is to prejudice the furtherance of knowledge.
+>
+> -- [@Merton1973-vf], p. 272
+
+#### "Communism" {-}
+
+> "Communism" in the nontechnical and extended sense of common ownership of goods...The substantive findings of science are a product of a social collaboration and are assigned to the community...Property rights in sciences are whittled down to a bare minimum by the rationale of the scientific ethic.
+>
+> -- [@Merton1973-vf], p. 273
+
+> The institutional conception of science as part of the public domain is linked with the imperative for communication of scientific findings. Secrecy is the antithesis of this norm; full and open communication is its enactment.
+>
+> -- [@Merton1973-vf], p. 274
+
+- [Henry Cavendish](https://en.wikipedia.org/wiki/Henry_Cavendish) was known for not publishing much of his work.
+
+#### Disinterestedness {-}
+
+- [disinterested](https://www.dictionary.com/browse/disinterested)
+
+> The virtual absence of fraud in the annals of science, which appears exceptional when compared with the record of other spheres of activity, has at times been attributed to the personal qualities of scientists...There is, in fact, no satisfactory evidence that such is the case; a more plausible explanation may be found in certain characteristcs of science itself...the activities of scientists are subject to rigorous policing, to a degree perhaps unparalleled in any other field of activity.
+>
+> -- [@Merton1973-vf], p. 276
+
+> It is probable that the reputability of science and its lofty ethical status in the estimate of the layman is in no small measure due to technological achievements...the laity is often in no position to distinguish spurious from genuine claims...The presumably scientific pronouncements of totalitarian spokensmen are for the uninstructed laity of the same order as newspaper reports on an expanding universe or wave mechanics.
+> 
+> -- [@Merton1973-vf], p. 277
+
+#### Organized Skepticism {-}
+
+> ...is variously interrelated with other elements of the scientific ethos. It is both a methodological and institutional mandate.
+> 
+> -- [@Merton1973-vf], p. 277
+
+> The scientific investigator does not preserve the cleavage between the sacred and the profane, between that which requires uncritical respect and that which can be objectively analyzed.
+> 
+> -- [@Merton1973-vf], p. 277-278
+
 ## Discuss [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423) {-}
 
-## Next time...
+> ...the personal character of science infuses its entire structure. The testing and validating of scientific ideas is as governed by the deep personal character of science as the initial discovery of the ideas...Polyani (1958) argues that not only is this the case, but it ought to be the case. That is, science outght to be personal to its core.
+>
+> -- [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423), p. 580
+
+> ...what the body of scientists thought about their fellow scientists. Who were perceived as most committed to their pet hypotheses? What did they think of such behavior? What did the scientists think of the abstract idea of commitment [to a pet hypothesis] itself...
+>
+> -- [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423), p. 582
+
+> All the interviews exhibit high affective content. They document the often fierce, sometimes bitter, competitive races for discovery and the intense emotions which permeate the doing of science.
+>
+> -- [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423), p. 585
+
+> The term "commitment" was used in three distinct (but related) senses. The first expresssed the notion of intellectual commitment, that is that scientific observerations were theory-laden...The second sense expressed the notion of affective commitment...The third sense expressed the notion that the entire process of science demanded deep personal commitment.
+>
+> -- [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423), p. 586
+
+**Table 4: A Tentative List of Norms and Counternorms**
+
+| Norms | Counternorms |
+|-------|--------------|
+| Faith in the moral virtue of rationality. | Faith in the moral virtue of rationality and nonrationality |
+| Emotional neutrality as an instrumental condition for the achievement of rationality | Emotional commitment as an instrumental condition for the achievement of rationality. |
+| Universalism | Particularism |
+| Communism | Solitariness |
+| Disinterestedness | Interestedness |
+| Organized scepticism | Organized dogmatism |
+
+Adapted from Table 4. [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423), p. 592.
+
+## Next time... {-}
 
 - Adherence to norms and counter-norms
 - Read
