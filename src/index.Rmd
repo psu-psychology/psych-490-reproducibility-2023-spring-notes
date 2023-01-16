@@ -29,7 +29,7 @@ knitr::write_bib(c(
 
 ```{r set-up, include = FALSE}
 # Defaults for chunks, especially figures
-knitr::opts_chunk$set(echo = FALSE, cache=TRUE, 
+knitr::opts_chunk$set(echo = FALSE, cache=FALSE, 
                       fig.align = "center",
                       out.width = "50%")
 ```

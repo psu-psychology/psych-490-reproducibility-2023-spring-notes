@@ -116,12 +116,13 @@ epidemic.
 
 | Norms | Counternorms |
 |-------|--------------|
-| Faith in the moral virtue of rationality. | Faith in the moral virtue of rationality and nonrationality |
-| Emotional neutrality as an instrumental condition for the achievement of rationality | Emotional commitment as an instrumental condition for the achievement of rationality. |
-| Universalism | Particularism |
-| Communism | Solitariness |
-| Disinterestedness | Interestedness |
-| Organized scepticism | Organized dogmatism |
+| 1.	Faith in the moral virtue of rationality (Barber, 1952). | 1.	Faith in the moral virtue of rationality and nonrationality (cf., Tart, 1972). |
+| 2.	Emotional neutrality as an instru­ mental condition for the achieve­ ment of rationality (Barber, 1952). | 2. Emotional commitment as an instrumental condition for the achievement of rationality. |
+| 3.	Universalism: "The acceptance or rejection of claims entering the list of science is not to depend on the personal or social attri­ butes of their protagonist; his race, nationality, religion, class and personal qualities are as such irrelevant. Objectivity precludes particularism .... The imperative of universalism is rooted deep in the impersonal character of science" (Merton, 1949:607).
+ | 3.	Particularism: "The acceptance or rejection of claims entering the list of science is to a large extent a function of who makes the claim" (Boguslaw, 1968:59). The social and psychological characteristics of the scientist are important factors influencing how his work will be judged. The work of certain scientists will be given priority over that of others (Mitroff, 1974b). The imperative of particularism is rooted deep in the personal character of science (Merton, 1963a; Polanyi, 1958). |
+| 4.	Communism: "Property rights are reduced to the absolute minimum of credit for priority of discovery" (Barber, 1952:130). "Secrecy is the antithesis' of this norm; full and open communication [of scientific results] its enactment" (Merton, 1949:611). | 4.	Solitariness (or, "Miserism" [Boguslaw, 1968:59]): Property rights are expanded to include protective control over the disposition of one's discoveries; secrecy thus becomes a necessary moral act (Mitroff, 1974b). |
+| 5.	Disinterestedness: "Scientists are expected by their peers to achieve the self-interest they have in work--satisfaction and in prestige through serving the [scientific] community interest directly" (Barber, 1952:132). | 5.	Interestedness: Scientists are expected by their close colleagues to achieve the self-interest they have in work-satisfaction and in prestige through serving their special communities of interest, e.g., their invisible college (Boguslaw, 1968:59; Mitroff, 1974b) |
+| 6.	Organized scepticism: "The scientist is obliged ...	to make public his criticisms of the work of others when he believes it to be in error ...	no scientist's contribution to knowledge can be accepted without careful scrutiny, and that the scientist must doubt his own findjngs as well as those of others" (Storer, 1966: 79). | 6.	Organized dogmatism: "Each scientist should make certain that previous work by others on which he bases his work is sufficiently identified so that others can be held responsible for inadequacies while any possible credit accrues to oneself" (Boguslaw, 1968:59). The scientist must believe in his own findings with utter conviction while doubting those of others with all his worth (Mitroff, 1974b). |
 
 Adapted from Table 4. [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423), p. 592.
 
