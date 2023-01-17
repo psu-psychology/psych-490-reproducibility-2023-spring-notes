@@ -15,4 +15,6 @@ fig:fig-1-munafo
 fig:unnamed-chunk-9
 fig:img-merton
 fig:fig-ian-mitroff
+fig:fig-carolanne-kardash
+fig:fig-kardash-2012
 what-participants-were-asked
