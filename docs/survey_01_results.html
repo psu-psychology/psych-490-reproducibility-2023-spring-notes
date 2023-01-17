@@ -23,7 +23,7 @@
 <meta name="author" content="Rick O. Gilmore, Ph.D." />
 
 
-<meta name="date" content="2023-01-16" />
+<meta name="date" content="2023-01-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -160,7 +160,7 @@ div.csl-indent {
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About</a></li>
-<li class="chapter" data-level="1" data-path="course-intro.html"><a href="course-intro.html"><i class="fa fa-check"></i><b>1</b> Course intro</a>
+<li class="chapter" data-level="" data-path="course-intro.html"><a href="course-intro.html"><i class="fa fa-check"></i>Course intro</a>
 <ul>
 <li class="chapter" data-level="" data-path="course-intro.html"><a href="course-intro.html#prelude"><i class="fa fa-check"></i>Prelude</a></li>
 <li class="chapter" data-level="" data-path="course-intro.html"><a href="course-intro.html#todays-topics"><i class="fa fa-check"></i>Today’s Topics</a></li>
@@ -219,11 +219,12 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="scientific-norms-and-counter-norms.html"><a href="scientific-norms-and-counter-norms.html"><i class="fa fa-check"></i>Scientific norms and counter-norms</a>
 <ul>
 <li class="chapter" data-level="" data-path="scientific-norms-and-counter-norms.html"><a href="scientific-norms-and-counter-norms.html#roadmap-1"><i class="fa fa-check"></i>Roadmap</a></li>
-<li class="chapter" data-level="" data-path="scientific-norms-and-counter-norms.html"><a href="scientific-norms-and-counter-norms.html#discuss-merton1973-vf"><i class="fa fa-check"></i>Discuss <span class="citation">(Merton 1973)</span></a>
+<li class="chapter" data-level="" data-path="scientific-norms-and-counter-norms.html"><a href="scientific-norms-and-counter-norms.html#merton_discussion"><i class="fa fa-check"></i>Discuss <span class="citation">(Merton 1973)</span></a>
 <ul>
 <li class="chapter" data-level="" data-path="scientific-norms-and-counter-norms.html"><a href="scientific-norms-and-counter-norms.html#the-ethos-of-science"><i class="fa fa-check"></i>The ethos of science</a></li>
+<li class="chapter" data-level="" data-path="scientific-norms-and-counter-norms.html"><a href="scientific-norms-and-counter-norms.html#mnemonic-c-u-d-os"><i class="fa fa-check"></i>Mnemonic: C-U-D-OS</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="scientific-norms-and-counter-norms.html"><a href="scientific-norms-and-counter-norms.html#discuss-mitroff1974-pp"><i class="fa fa-check"></i>Discuss <span class="citation">(Mitroff 1974)</span></a></li>
+<li class="chapter" data-level="" data-path="scientific-norms-and-counter-norms.html"><a href="scientific-norms-and-counter-norms.html#mitroff_discussion"><i class="fa fa-check"></i>Discuss <span class="citation">(Mitroff 1974)</span></a></li>
 <li class="chapter" data-level="" data-path="scientific-norms-and-counter-norms.html"><a href="scientific-norms-and-counter-norms.html#next-time-2"><i class="fa fa-check"></i>Next time…</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="adherence-to-norms-and-counter-norms.html"><a href="adherence-to-norms-and-counter-norms.html"><i class="fa fa-check"></i>Adherence to norms and counter-norms</a>
@@ -260,6 +261,7 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="survey_01_results.html"><a href="survey_01_results.html#clean-data"><i class="fa fa-check"></i>Clean data</a></li>
 <li class="chapter" data-level="" data-path="survey_01_results.html"><a href="survey_01_results.html#visualize-data"><i class="fa fa-check"></i>Visualize data</a>
 <ul>
+<li class="chapter" data-level="0.0.1" data-path="survey_01_results.html"><a href="survey_01_results.html#what-participants-were-asked"><i class="fa fa-check"></i><b>0.0.1</b> What participants were asked</a></li>
 <li class="chapter" data-level="" data-path="survey_01_results.html"><a href="survey_01_results.html#unique-respondents"><i class="fa fa-check"></i>Unique respondents</a></li>
 <li class="chapter" data-level="" data-path="survey_01_results.html"><a href="survey_01_results.html#rating-distribution"><i class="fa fa-check"></i>Rating distribution</a></li>
 </ul></li>
@@ -335,17 +337,17 @@ We thank these authors for publishing the survey questions in their article so t
 <span id="cb8-6"><a href="survey_01_results.html#cb8-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 <p>Examine the data set as a whole.</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="survey_01_results.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(survey_01)</span></code></pre></div>
-<pre><code>## spc_tbl_ [8 × 10] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
-##  $ Timestamp                                                                                                                                              : chr [1:8] &quot;10/21/2022 16:07:25&quot; &quot;1/10/2023 11:48:53&quot; &quot;1/12/2023 11:43:32&quot; &quot;1/12/2023 11:43:54&quot; ...
-##  $ Scientists are generally motivated by the desire for knowledge and discovery, and not by the possibility of personal gain.                             : num [1:8] 3 4 3 3 3 4 3 3
-##  $ Scientists make an attempt to consider all new evidence, hypotheses, theories, and innovations, even those that challenge or contradict their own work.: num [1:8] 2 2 3 4 3 4 2 2
-##  $ Scientists generally assess new knowledge and its applications based on the reputation and past productivity of the individual or research group.      : num [1:8] 4 3 4 3 4 4 3 4
-##  $ Scientists openly share new findings with all colleagues.                                                                                              : num [1:8] 1 3 2 2 3 3 2 2
-##  $ Scientists generally invest their careers in promoting their own most important findings, theories, or innovations.                                    : num [1:8] 5 5 5 5 4 5 3 3
-##  $ Scientists compete with others in the same field for funding and recognition of their achievements.                                                    : num [1:8] 2 5 4 2 5 4 4 4
-##  $ Scientists generally evaluate research only on its merit (i.e., according to accepted standards of the field).                                         : num [1:8] 4 4 3 4 3 2 3 4
-##  $ Scientists emphasize the protection of their newest findings to ensure priority in publishing, patenting, or applications.                             : num [1:8] 2 4 4 1 5 3 4 4
-##  $ If you wish to comment about the questions in this survey, you may do so here. You are not required to comment.                                        : chr [1:8] &quot;Test&quot; NA NA NA ...
+<pre><code>## spc_tbl_ [12 × 10] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
+##  $ Timestamp                                                                                                                                              : chr [1:12] &quot;10/21/2022 16:07:25&quot; &quot;1/10/2023 11:48:53&quot; &quot;1/12/2023 11:43:32&quot; &quot;1/12/2023 11:43:54&quot; ...
+##  $ Scientists are generally motivated by the desire for knowledge and discovery, and not by the possibility of personal gain.                             : num [1:12] 3 4 3 3 3 4 3 3 5 3 ...
+##  $ Scientists make an attempt to consider all new evidence, hypotheses, theories, and innovations, even those that challenge or contradict their own work.: num [1:12] 2 2 3 4 3 4 2 2 5 3 ...
+##  $ Scientists generally assess new knowledge and its applications based on the reputation and past productivity of the individual or research group.      : num [1:12] 4 3 4 3 4 4 3 4 4 4 ...
+##  $ Scientists openly share new findings with all colleagues.                                                                                              : num [1:12] 1 3 2 2 3 3 2 2 4 4 ...
+##  $ Scientists generally invest their careers in promoting their own most important findings, theories, or innovations.                                    : num [1:12] 5 5 5 5 4 5 3 3 4 4 ...
+##  $ Scientists compete with others in the same field for funding and recognition of their achievements.                                                    : num [1:12] 2 5 4 2 5 4 4 4 3 5 ...
+##  $ Scientists generally evaluate research only on its merit (i.e., according to accepted standards of the field).                                         : num [1:12] 4 4 3 4 3 2 3 4 2 3 ...
+##  $ Scientists emphasize the protection of their newest findings to ensure priority in publishing, patenting, or applications.                             : num [1:12] 2 4 4 1 5 3 4 4 4 5 ...
+##  $ If you wish to comment about the questions in this survey, you may do so here. You are not required to comment.                                        : chr [1:12] &quot;Test&quot; NA NA NA ...
 ##  - attr(*, &quot;spec&quot;)=
 ##   .. cols(
 ##   ..   Timestamp = col_character(),
@@ -394,7 +396,108 @@ Let’s rename the variables using the single words.</p>
 <span id="cb13-12"><a href="survey_01_results.html#cb13-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Comments&quot;</span></span>
 <span id="cb13-13"><a href="survey_01_results.html#cb13-13" aria-hidden="true" tabindex="-1"></a>  )</span>
 <span id="cb13-14"><a href="survey_01_results.html#cb13-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-15"><a href="survey_01_results.html#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(survey_01) <span class="ot">&lt;-</span> new_names</span></code></pre></div>
+<span id="cb13-15"><a href="survey_01_results.html#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Make new data frame with long and short names for reference</span></span>
+<span id="cb13-16"><a href="survey_01_results.html#cb13-16" aria-hidden="true" tabindex="-1"></a>survey_qs <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">q_long =</span> <span class="fu">names</span>(survey_01), <span class="at">q_short =</span> new_names)</span>
+<span id="cb13-17"><a href="survey_01_results.html#cb13-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-18"><a href="survey_01_results.html#cb13-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Swap out old (long) names for new (short) names</span></span>
+<span id="cb13-19"><a href="survey_01_results.html#cb13-19" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(survey_01) <span class="ot">&lt;-</span> new_names</span>
+<span id="cb13-20"><a href="survey_01_results.html#cb13-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-21"><a href="survey_01_results.html#cb13-21" aria-hidden="true" tabindex="-1"></a>survey_qs <span class="sc">%&gt;%</span></span>
+<span id="cb13-22"><a href="survey_01_results.html#cb13-22" aria-hidden="true" tabindex="-1"></a>  kableExtra<span class="sc">::</span><span class="fu">kable</span>(., <span class="at">format=</span><span class="st">&#39;html&#39;</span>)</span></code></pre></div>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+q_long
+</th>
+<th style="text-align:left;">
+q_short
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Timestamp
+</td>
+<td style="text-align:left;">
+Timestamp
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists are generally motivated by the desire for knowledge and discovery, and not by the possibility of personal gain.
+</td>
+<td style="text-align:left;">
+Disinterestedness
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists make an attempt to consider all new evidence, hypotheses, theories, and innovations, even those that challenge or contradict their own work.
+</td>
+<td style="text-align:left;">
+Organized Skepticism
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists generally assess new knowledge and its applications based on the reputation and past productivity of the individual or research group.
+</td>
+<td style="text-align:left;">
+Particularism
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists openly share new findings with all colleagues.
+</td>
+<td style="text-align:left;">
+Communality
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists generally invest their careers in promoting their own most important findings, theories, or innovations.
+</td>
+<td style="text-align:left;">
+Organized Dogmatism
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists compete with others in the same field for funding and recognition of their achievements.
+</td>
+<td style="text-align:left;">
+Self-interestedness
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists generally evaluate research only on its merit (i.e., according to accepted standards of the field).
+</td>
+<td style="text-align:left;">
+Universalism
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists emphasize the protection of their newest findings to ensure priority in publishing, patenting, or applications.
+</td>
+<td style="text-align:left;">
+Solitariness
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+If you wish to comment about the questions in this survey, you may do so here. You are not required to comment.
+</td>
+<td style="text-align:left;">
+Comments
+</td>
+</tr>
+</tbody>
+</table>
 <p>These data are ‘wide’, meaning that there are multiple variables for each respondent.
 The data will be easier to visualize and analyze if we make the data ‘longer’.</p>
 <div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="survey_01_results.html#cb14-1" aria-hidden="true" tabindex="-1"></a>survey_01_long <span class="ot">&lt;-</span> survey_01 <span class="sc">%&gt;%</span></span>
@@ -421,19 +524,124 @@ We should delete those responses since they are nonsensical–I just hit random 
 </div>
 <div id="visualize-data" class="section level2 unnumbered hasAnchor">
 <h2>Visualize data<a href="survey_01_results.html#visualize-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="what-participants-were-asked" class="section level3 hasAnchor" number="0.0.1">
+<h3><span class="header-section-number">0.0.1</span> What participants were asked<a href="survey_01_results.html#what-participants-were-asked" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<blockquote>
+<p>Perceptions of scientific practices</p>
+<p>The following statements reflect different values about how the scientific research community should function, according to studies of scientists’ work. Use the scale below to indicate the extent to which you personally feel it ACTUALLY REPRESENTS the behavior of most scientists.</p>
+<p>Source: Kardash, C. M. &amp; Edwards, O. V. (2012). Thinking and behaving like scientists: Perceptions of undergraduate science interns and their faculty mentors. Instructional Science, 40(6), 875–899. <a href="https://doi.org/10.1007/s11251-011-9195-0" class="uri">https://doi.org/10.1007/s11251-011-9195-0</a>.</p>
+</blockquote>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="survey_01_results.html#cb17-1" aria-hidden="true" tabindex="-1"></a>survey_qs <span class="sc">%&gt;%</span></span>
+<span id="cb17-2"><a href="survey_01_results.html#cb17-2" aria-hidden="true" tabindex="-1"></a>  kableExtra<span class="sc">::</span><span class="fu">kable</span>(., <span class="at">format=</span><span class="st">&#39;html&#39;</span>)</span></code></pre></div>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+q_long
+</th>
+<th style="text-align:left;">
+q_short
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Timestamp
+</td>
+<td style="text-align:left;">
+Timestamp
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists are generally motivated by the desire for knowledge and discovery, and not by the possibility of personal gain.
+</td>
+<td style="text-align:left;">
+Disinterestedness
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists make an attempt to consider all new evidence, hypotheses, theories, and innovations, even those that challenge or contradict their own work.
+</td>
+<td style="text-align:left;">
+Organized Skepticism
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists generally assess new knowledge and its applications based on the reputation and past productivity of the individual or research group.
+</td>
+<td style="text-align:left;">
+Particularism
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists openly share new findings with all colleagues.
+</td>
+<td style="text-align:left;">
+Communality
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists generally invest their careers in promoting their own most important findings, theories, or innovations.
+</td>
+<td style="text-align:left;">
+Organized Dogmatism
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists compete with others in the same field for funding and recognition of their achievements.
+</td>
+<td style="text-align:left;">
+Self-interestedness
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists generally evaluate research only on its merit (i.e., according to accepted standards of the field).
+</td>
+<td style="text-align:left;">
+Universalism
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scientists emphasize the protection of their newest findings to ensure priority in publishing, patenting, or applications.
+</td>
+<td style="text-align:left;">
+Solitariness
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+If you wish to comment about the questions in this survey, you may do so here. You are not required to comment.
+</td>
+<td style="text-align:left;">
+Comments
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 <div id="unique-respondents" class="section level3 unnumbered hasAnchor">
 <h3>Unique respondents<a href="survey_01_results.html#unique-respondents" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>There appear to be <span class="math inline">\(n=\)</span> 8 respondents as of 2023-01-16 11:50:15</p>
+<p>There appear to be <span class="math inline">\(n=\)</span> 12 respondents as of 2023-01-17 08:24:53</p>
 </div>
 <div id="rating-distribution" class="section level3 unnumbered hasAnchor">
 <h3>Rating distribution<a href="survey_01_results.html#rating-distribution" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Remember, the rating scale was from 1: “not at all” to 5: “a great deal”.</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="survey_01_results.html#cb17-1" aria-hidden="true" tabindex="-1"></a>survey_01_long <span class="sc">%&gt;%</span> </span>
-<span id="cb17-2"><a href="survey_01_results.html#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
-<span id="cb17-3"><a href="survey_01_results.html#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(norm_counternorm, rating, <span class="at">fill =</span> type) <span class="sc">+</span> </span>
-<span id="cb17-4"><a href="survey_01_results.html#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_violin</span>() <span class="sc">+</span></span>
-<span id="cb17-5"><a href="survey_01_results.html#cb17-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>()</span></code></pre></div>
-<p><img src="_main_files/figure-html/unnamed-chunk-19-1.png" width="75%" style="display: block; margin: auto;" /></p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="survey_01_results.html#cb18-1" aria-hidden="true" tabindex="-1"></a>survey_01_long <span class="sc">%&gt;%</span> </span>
+<span id="cb18-2"><a href="survey_01_results.html#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
+<span id="cb18-3"><a href="survey_01_results.html#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(norm_counternorm, rating, <span class="at">fill =</span> type) <span class="sc">+</span> </span>
+<span id="cb18-4"><a href="survey_01_results.html#cb18-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_violin</span>() <span class="sc">+</span></span>
+<span id="cb18-5"><a href="survey_01_results.html#cb18-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">width =</span> .<span class="dv">07</span>, <span class="at">height =</span> .<span class="dv">07</span>), <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb18-6"><a href="survey_01_results.html#cb18-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>()</span></code></pre></div>
+<p><img src="_main_files/figure-html/unnamed-chunk-20-1.png" width="75%" style="display: block; margin: auto;" /></p>
 
 </div>
 </div>
