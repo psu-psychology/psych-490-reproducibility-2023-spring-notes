@@ -170,7 +170,7 @@ There appear to be $n=$ `r length(unique(survey_01_long$Timestamp))` respondents
 
 Remember, the rating scale was from 1: "not at all" to 5: "a great deal".
 
-```{r}
+```{r fig-survey-01-responses, out.width="75%"}
 survey_01_long %>% 
   ggplot() + 
   aes(norm_counternorm, rating, fill = type) + 
