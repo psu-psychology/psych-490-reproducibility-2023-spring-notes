@@ -134,8 +134,8 @@ survey_01_long <- survey_01_long %>%
       "Communality",
       "Universalism"
     ),
-    "N",
-    "CN"
+    "Norm",
+    "Counternorm"
   ))
 ```
 
@@ -149,7 +149,7 @@ survey_01_long_clean <- survey_01_long %>%
 
 ## Visualize data {-}
 
-### What participants were asked
+### What participants were asked {-}
 
 >Perceptions of scientific practices
 >
@@ -164,7 +164,7 @@ survey_qs %>%
 
 ### Unique respondents {-}
 
-There appear to be $n=$ `r length(unique(survey_01_long$Timestamp))` respondents as of `r Sys.time()`
+There appear to be $n=$ `r length(unique(survey_01_long$Timestamp))` respondents as of `r Sys.time()`.
 
 ### Rating distribution {-}
 
@@ -176,5 +176,17 @@ survey_01_long %>%
   aes(norm_counternorm, rating, fill = type) + 
   geom_violin() +
   geom_point(position = position_jitter(width = .07, height = .07), alpha = 0.5) +
-  coord_flip()
+  coord_flip() +
+  ggtitle("Ratings of scientists' adherence to norms and counternorms") +
+  theme(legend.position = "bottom") +
+  theme(legend.title = element_blank())
 ```
+
+```{r fig-survey-01-norm-counter, out.width="100%"}
+survey_01_long %>% 
+  ggplot() + 
+  aes(type, rating, fill = type) + 
+  geom_violin() +
+  geom_point(position = position_jitter(width = .07, height = .07), alpha = 0.5)
+```
+

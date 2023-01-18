@@ -17,4 +17,13 @@ fig:img-merton
 fig:fig-ian-mitroff
 fig:fig-carolanne-kardash
 fig:fig-kardash-2012
-what-participants-were-asked
+fig:fig-bruce-macfarlane
+fig:fig-ming-cheng
+fig:fig-macfarlane-fig-1
+fig:fig-macfarlane-fig-2
+fig:fig-macfarlane-fig-3
+fig:fig-macfarlane-fig-4
+fig:fig-macfarlane-fig-5
+fig:fig-macfarlane-fig-6
+fig:fig-macfarlane-fig-7
+fig:fig-macfarlane-fig-8

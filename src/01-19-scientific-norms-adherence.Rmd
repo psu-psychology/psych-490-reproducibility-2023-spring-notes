@@ -18,7 +18,7 @@
 
 Kardash, C. M. & Edwards, O. V. (2012). Thinking and behaving like scientists: Perceptions of undergraduate science interns and their faculty mentors. *Instructional Science*, 40(6), 875–899. https://doi.org/10.1007/s11251-011-9195-0
 
-```{r fig-carolanne-kardash, fig.cap="CarolAnne M. Kardash: Source https://www.dignitymemorial.com/obituaries/las-vegas-nv/carolanne-kardash-10908219"}
+```{r fig-carolanne-kardash, fig.cap="CarolAnne M. Kardash: Source https://www.dignitymemorial.com/obituaries/las-vegas-nv/carolanne-kardash-10908219", out.width="25%"}
 knitr::include_graphics("https://d5nffgciuchtn.cloudfront.net/as/assets-mem-com/cmi/9/1/2/8/10908219/20220830_190523971_0_orig.jpg/-/carolanne-kardash-las-vegas-nv-obituary.jpg?crop=%2862.83333333333333%2C95.45833333333333%2C293.625%2C373.375%29&cropxunits=348&cropyunits=464&maxheight=650")
 ```
 
@@ -56,17 +56,89 @@ knitr::include_graphics("https://media.springernature.com/full/springer-static/i
 
 [Link to Table 1](https://link.springer.com/article/10.1007/s11251-011-9195-0/tables/1)
 
+::: {.infobox}
+
+This study could be replicated in some form as a final project.
+
+:::
+
 ## How do our [results](survey_01_results.html) compare? {-}
 
+::: {.infobox}
+
+A student could extend this analysis or do additional analyses as a final project.
+
+:::
+
 ## Discuss [[@Macfarlane2008-tc]](https://doi.org/10.1007/s10805-008-9055-y) {-}
+
+Macfarlane, B. & Cheng, M. (2008). Communism, universalism and disinterestedness: Re-examining contemporary support among academics for Merton’s scientific norms. Journal of Academic Ethics, 6(1), 67–78. https://doi.org/10.1007/s10805-008-9055-y
+
+```{r fig-bruce-macfarlane, fig.cap="Bruce Macfarlane: https://hk.linkedin.com/in/bruce-macfarlane-244582a1", out.width="25%"}
+knitr::include_graphics("https://media.licdn.com/dms/image/C4E03AQGz5jbzDjWqpA/profile-displayphoto-shrink_800_800/0/1517042608202?e=2147483647&v=beta&t=9Ha8xvdrU3lFRj8J21PO1Qjyzdt3MPbjxfh1H-usIDU")
+```
+
+```{r fig-ming-cheng, fig.cap="Ming Cheng: https://scholar.google.com/citations?user=4o9OsswAAAAJ&hl=en", out.width="25%"}
+knitr::include_graphics("https://scholar.googleusercontent.com/citations?view_op=view_photo&user=4o9OsswAAAAJ&citpid=3")
+```
+
+> **Abstract**
+>
+> This paper re-examines the relevance of three academic norms to contemporary academic life – communism, universalism and disinterestedness – based on the work of Robert Merton. The results of a web-based survey elicited responses to a series of value statements and were analysed using the weighted average method and through cross-tabulation. Results indicate strong support for communism as an academic norm defined in relation to sharing research results and teaching materials as opposed to protecting intellectual copyright and withholding access. There is more limited support for universalism based on the belief that academic knowledge should transcend national, political, or religious boundaries. Disinterestedness, defined in terms of personal detachment from truth claims, is the least popular contemporary academic norm. Here, the impact of a performative culture is linked to the need for a large number of academics to align their research interests with funding opportunities. The paper concludes by considering the claims of an alternate set of contemporary academic norms including capitalism, particularism and interestedness.
+
+
+
+```{r fig-macfarlane-fig-1, fig.cap="Fig 1: https://link.springer.com/article/10.1007/s10805-008-9055-y/figures/1"}
+knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10805-008-9055-y/MediaObjects/10805_2008_9055_Fig1_HTML.gif?as=webp")
+```
+
+```{r fig-macfarlane-fig-2, fig.cap="Fig 2: https://link.springer.com/article/10.1007/s10805-008-9055-y/figures/2"}
+knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10805-008-9055-y/MediaObjects/10805_2008_9055_Fig2_HTML.gif?as=webp")
+```
+
+```{r fig-macfarlane-fig-3, fig.cap="Fig 3: https://link.springer.com/article/10.1007/s10805-008-9055-y/figures/3"}
+knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10805-008-9055-y/MediaObjects/10805_2008_9055_Fig3_HTML.gif?as=webp")
+```
+
+```{r fig-macfarlane-fig-4, fig.cap="Fig 4: https://link.springer.com/article/10.1007/s10805-008-9055-y/figures/4"}
+knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10805-008-9055-y/MediaObjects/10805_2008_9055_Fig4_HTML.gif?as=webp")
+```
+
+```{r fig-macfarlane-fig-5, fig.cap="Fig 5: https://link.springer.com/article/10.1007/s10805-008-9055-y/figures/5"}
+knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10805-008-9055-y/MediaObjects/10805_2008_9055_Fig5_HTML.gif?as=webp")
+```
+
+```{r fig-macfarlane-fig-6, fig.cap="Fig 6: https://link.springer.com/article/10.1007/s10805-008-9055-y/figures/6"}
+knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10805-008-9055-y/MediaObjects/10805_2008_9055_Fig6_HTML.gif?as=webp")
+```
+
+```{r fig-macfarlane-fig-7, fig.cap="Fig 7: https://link.springer.com/article/10.1007/s10805-008-9055-y/figures/7"}
+knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10805-008-9055-y/MediaObjects/10805_2008_9055_Fig7_HTML.gif?as=webp")
+```
+
+```{r fig-macfarlane-fig-8, fig.cap="Fig 8: https://link.springer.com/article/10.1007/s10805-008-9055-y/figures/8"}
+knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10805-008-9055-y/MediaObjects/10805_2008_9055_Fig8_HTML.gif?as=webp")
+```
+
+> **Conclusion**
+>
+> The results of the survey do not necessarily represent a ‘shift’ in values as Merton’s norms were not based on empirical data. While this research sample was broadly representative of academic staff by gender, this does not necessarily imply that it is representative of the academic profession in all respects. However, contemporary performative pressures on academic life may be having an impact in shaping, or perhaps re-shaping, some Mertonian norms. This is particularly apparent in respect to the norm of disinterestedness where large numbers of academics pragmatically align their research interests with funding opportunities. This finding may be related to a more competitive market-based university environment apparent in the UK and elsewhere internationally where it has been argued that the canons of scientific inquiry have been compromised by commercial pressures (Bok 2003). Despite these pressures, the norm of communism, in particular, still attracts strong popular espoused support which crosses disciplinary fields. The balance of evidence from this survey, though, suggests that market-based and commercial pressures might be beginning to subvert the Mertonian ideal. However, respondents’ support of universalism and disinterestedness varies with their subjects. In general, respondents from applied sciences showed stronger support for these two norms than respondents from the other subject fields.
+> 
+> -- [[@Macfarlane2008-tc]](https://doi.org/10.1007/s10805-008-9055-y)
+
+::: {.infobox}
+
+This paper would be slightly harder to reproduce as a final project, but something similar is possible.
+
+:::
 
 ## Looking ahead... {-}
 
 - [Assignment]{.green_assigned}
     - [Exercise 01: Norms and counter-norms write-up](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_norms_counternorms.html#ex_norms_counternorms)
-    - Due next Thursday, January 26.
+    - [Due next Thursday, January 26]{.orange_due}.
 - Replication crisis (or not)
-- Read
-    - [@Ritchie2020-fm], Chapter 2.
-    - [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
-    - (Optional) [@Oreskes2017], Chapter 7, pp. 228-244.
+    - Read
+        - [@Ritchie2020-fm], Chapter 2.
+        - [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+        - (Optional) [@Oreskes2017], Chapter 7, pp. 228-244.
