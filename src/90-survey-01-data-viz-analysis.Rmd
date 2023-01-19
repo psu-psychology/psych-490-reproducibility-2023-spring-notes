@@ -190,3 +190,13 @@ survey_01_long %>%
   geom_point(position = position_jitter(width = .07, height = .07), alpha = 0.5)
 ```
 
+```{r fig-survey-01-cum-sum}
+survey_01 %>%
+  dplyr::mutate(., n_cum = seq_along(Timestamp)) %>%
+  dplyr::mutate(., Timestamp = lubridate::mdy_hms(survey_01$Timestamp)) %>%
+  ggplot() + 
+  aes(Timestamp, n_cum) +
+  geom_point() +
+  geom_line()
+```
+

@@ -13,6 +13,29 @@
 - Survey [results](survey_01_results.html)
 - [Assignment]{.green_assigned}
     - [Exercise 01: Norms and counter-norms write-up](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_norms_counternorms.html#ex_norms_counternorms)
+    
+::: {.infobox}
+
+**How to read a paper**
+
+- What type of paper is it? Empirical, theoretical, review, opinion, other?
+- Read the *abstract* carefully for answers to the following questions:
+    - a. *Who* is the target audience?
+    - b. *Why* did the author(s) do this work? *What question* were they trying to answer or *what view* were they trying to argue for?
+    - c. *What* is the take-home message or main finding(s)?
+    - d. For empirical papers, *Who* were the participants? *What* were their characteristics? *What* was measured? *When or how often* were the measurements taken?
+- Read the *Methods* section
+- Look at the figures in the *Results* section
+    - Do the figures "tell the story" of the paper?
+- Imagine how you would complete the following synthesis: "This paper asks X by measuring Y in Z. It found Q, which suggests R. The paper is flawed because of S."
+- Read the *Introduction* and/or the *Discussion* if you need or want to know more.
+
+**Other tips**
+
+- Highlight/flag unfamiliar terms or acronyms, but don't stop reading to look them up until later.
+- Keep a reference manager program; grab papers and sift through them later.
+
+:::
 
 ## Discuss [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0) {-}
 
