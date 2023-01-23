@@ -1,15 +1,211 @@
 # A replication crisis {-}
 
-## Last time {-}
+## Roadmap {-}
 
-## Today's topics {-}
+- Announcements
+    - [Assignment]{.green_assigned}
+        - [Exercise 01: Norms and counter-norms write-up](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_norms_counternorms.html#ex_norms_counternorms)
+- Last time...
+    - Scientific norms and counter-norms
+    - Readings
+        - [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0).
+        - [[@Macfarlane2008-tc]](https://doi.org/10.1007/s10805-008-9055-y).
+        - Skim
+            - [[@Anderson2010-rl]](Anderson2010-rl).
+            - [[@Kim2018-tr]](https://doi.org/10.1177/0971721817744438).
+    - Survey [results](survey_01_results.html)
+- Today's topics
+    - A replication crisis...or not
+    - Read
+        - [@Ritchie2020-fm], Chapter 2. [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145003948).
+        - [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+        - (Optional) [@Oreskes2017], Chapter 7, pp. 228-244
+        
+## Replication crisis...or not {-}
 
-- A replication crisis...or not
-- Read {-}
-    - [@Ritchie2020-fm], Chapter 2.
-    - [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
-    - (Optional) [@Oreskes2017], Chapter 7, pp. 228-244.
-    
-## Next time {-}
-    
-    
+### What proportion of findings in the published scientific literature (in the fields you care about) are *actually true*? {-}
+
+- 100%
+- 90%
+- 70%
+- 50%
+- 30%
+
+#### How do we define what "*actually true*" means? {-}
+
+### Is there a reproducibility crisis in science? {-}
+
+```{r, out.width="600px", fig.cap="[[@baker_1500_2016]](http://doi.org/10.1038/533452a)"}
+knitr::include_graphics("http://www.nature.com/polopoly_fs/7.36716.1469695923!/image/reproducibility-graphic-online1.jpeg_gen/derivatives/landscape_630/reproducibility-graphic-online1.jpeg")
+```
+
+### Have you failed to reproduce an analysis from your lab or someone else's? {-}
+
+```{r, fig.cap="[[@baker_1500_2016]](http://doi.org/10.1038/533452a)"}
+knitr::include_graphics("http://www.nature.com/polopoly_fs/7.36718.1464174471!/image/reproducibility-graphic-online3.jpg_gen/derivatives/landscape_630/reproducibility-graphic-online3.jpg")
+```
+
+### What factors contribute to irreproducible research? {-}
+
+```{r, fig.cap="[[@baker_1500_2016]](http://doi.org/10.1038/533452a)"}
+knitr::include_graphics("http://www.nature.com/polopoly_fs/7.36719.1464174488!/image/reproducibility-graphic-online4.jpg_gen/derivatives/landscape_630/reproducibility-graphic-online4.jpg")
+```
+
+::: {.infobox}
+
+These questions could form the basis of a final project where a student or students re-run the survey with a different sample.
+
+:::
+
+### What do the terms mean?
+
+> Replication refers to testing the reliability of a prior finding with different data. Robustness refers to testing the reliability of a prior finding using the same data and a different analysis strategy. **Reproducibility** refers to testing the reliability of a prior finding using the same data and the same analysis strategy (Natl. Acad. Sci. Eng. Med. 2019). Each of the three notions plays an important role in assessing credibility.
+>
+> -- [[@Nosek2022-hv]](https://doi.org/10.1146/annurev-psych-020821-114157)
+
+> In principle, all reported evidence should be reproducible. If someone applies the same analysis to the same data, the same result should occur. Reproducibility tests can fail for two reasons. A **process reproducibility failure** occurs when the original analysis cannot be repeated because of the unavailability of data, code, information needed to recreate the code, or necessary software or tools. An **outcome reproducibility failure** occurs when the reanalysis obtains a different result than the one reported originally. This can occur because of an error in either the original or the reproduction study.
+>
+> -- [[@Nosek2022-hv]](https://doi.org/10.1146/annurev-psych-020821-114157)
+
+### Different types of reproducibility? [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
+
+#### *Methods* reproducibility
+
+- Enough details about materials & methods recorded (& reported)
+- Same results with same materials & methods
+
+[[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
+
+```{r fig-hit-by-bus-cartoon, fig.cap="If you got hit by a bus, could your colleagues replicate and build on your work?"}
+knitr::include_graphics("http://lh6.ggpht.com/_KVa1Tk_k1BU/TTjL-RSY_eI/AAAAAAAABtg/VQIfae1_wtQ/hit_thumb%5B3%5D.jpg?imgmax=800")
+```
+
+#### *Results* reproducibility {-}
+
+- Same results from independent study
+
+[[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
+
+#### *Inferential* reproducibility {-}
+
+- Same inferences from one or more studies or reanalyses
+
+[[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
+
+## Reproducibility in psychological science
+
+### [[@Artner2021-qg]](http://dx.doi.org/10.1037/met0000365)
+
+> We investigated the reproducibility of the major statistical conclusions drawn in 46 articles published in 2012 in three APA journals. After having identified 232 key statistical claims, we tried to reproduce, for each claim, the test statistic, its degrees of freedom, and the corresponding p value, starting from the raw data that were provided by the authors and closely following the Method section in the article. Out of the 232 claims, we were able to successfully reproduce 163 (70%), 18 of which only by deviating from the article’s analytical description. Thirteen (7%) of the 185 claims deemed significant by the authors are no longer so. The reproduction successes were often the result of cumbersome and time-consuming trial-and-error work, suggesting that APA style reporting in conjunction with raw data makes numerical verification at least hard, if not impossible. 
+>
+> -- [[@Artner2021-qg]](http://dx.doi.org/10.1037/met0000365)
+
+### [[@collaboration_estimating_2015]](https://doi.org/10.1126/science.aac4716)
+
+Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science*, *349*(6251), aac4716–aac4716. https://doi.org/10.1126/science.aac4716
+
+### [[@Camerer2018-tr]](https://www.nature.com/articles/s41562-018-0399-z)
+
+Camerer, C. F., Dreber, A., Holzmeister, F., Ho, T.-H., Huber, J., Johannesson, M., Kirchler, M., Nave, G., Nosek, B. A., Pfeiffer, T., Altmejd, A., Buttrick, N., Chan, T., Chen, Y., Forsell, E., Gampa, A., Heikensten, E., Hummer, L., Imai, T., … Wu, H. (2018). Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015. *Nature Human Behaviour*, *1*. https://doi.org/10.1038/s41562-018-0399-z
+
+### [[@Whitt2022-uf]](https://doi.org/10.1007/978-3-031-04968-2_4)
+
+Whitt, C. M., Miranda, J. F. & Tullett, A. M. (2022). History of Replication Failures in Psychology. In W. O’Donohue, A. Masuda & S. Lilienfeld (Eds.), *Avoiding Questionable Research Practices in Applied Psychology* (pp. 73–97). Springer International Publishing. https://doi.org/10.1007/978-3-031-04968-2_4
+
+## Reproducibility in pre-clinical cancer biology {-}
+
+- Reading: [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+
+### Background {-}
+
+- [C. Glenn Begley](https://en.wikipedia.org/wiki/C._Glenn_Begley)
+- [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+
+> The scientific community assumes that the claims in a preclinical study can be taken at face value — that although there might be some errors in detail, the main message of the paper can be relied on and the data will, for the most part, stand the test of time. Unfortunately, this is not always the case.
+
+> Over the past decade, before pursuing a particular line of research, scientists (including C.G.B.) in the haematology and oncology department at the biotechnology firm Amgen in Thousand Oaks, California, tried to confirm published findings related to that work. Fifty-three papers were deemed 'landmark' studies (see 'Reproducibility of research findings'). It was acknowledged from the outset that some of the data might not hold up, because papers were deliberately selected that described something completely new, such as fresh approaches to targeting cancers or alternative clinical uses for existing therapeutics. Nevertheless, scientific findings were confirmed in only 6 (11%) cases. Even knowing the limitations of preclinical research, this was a shocking result.
+
+| Journal Impact Factor | $n$ articles | Mean number of citations for non-reproduced articles | Mean number of citations of reproduced articles |
+|-----------------------|--------------|------------------------------------------------------|-------------------------------------------------|
+| >20 | 21 | 248 [3, 800] | 231 [82-519] |
+| 5-19 | 32 | 168 [6, 1,909] | 13 [3, 24] |
+
+Table 1 from [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+
+### Findings {-}
+
+- Findings of 6/53 published papers (11%) could be reproduced
+- Original authors often could not reproduce their own work
+- Earlier paper [[@Prinz2011-vo]](http://dx.doi.org/10.1038/nrd3439-c1) had also found low rate of reproducibility. Paper titled "Believe it or not: How much can we rely on published data on potential drug targets?"
+- [Figure 1](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrd3439-c1/MediaObjects/41573_2011_Article_BFnrd3439c1_Fig1_HTML.jpg?as=webp) from [[@Prinz2011-vo]](http://dx.doi.org/10.1038/nrd3439-c1)
+
+> We received input from 23 scientists (heads of laboratories) and collected data from 67 projects, most of them (47) from the field of oncology. This analysis revealed that only in ∼20–25% of the projects were the relevant published data completely in line with our in-house findings
+>
+> - [[@Prinz2011-vo]](http://dx.doi.org/10.1038/nrd3439-c1)
+
+- Published papers (that can't be reproduced) are cited hundreds or thousands of times
+- Cost of irreproducible research estimated in billions of dollars [[@Freedman2015-ki]](http://dx.doi.org/10.1371/journal.pbio.1002165).
+
+> An analysis of past studies indicates that the cumulative (total) prevalence of irreproducible preclinical research exceeds 50%, resulting in approximately US$28,000,000,000 (US$28B)/year spent on preclinical research that is not reproducible—in the United States alone.
+>
+> - [[@Freedman2015-ki]](http://dx.doi.org/10.1371/journal.pbio.1002165).
+
+- [Figure 2](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pbio.1002165/1/pbio.1002165.g002.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20230110%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230110T171557Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=b9227f9379c2e55197326ea311fb9b554436f88d9053a72ed433af479ac607bb4f79bfc7f8a3b51da4fee702750475c77cafa2dcb4650e1431a488551f46d3cc46c8a7c3b97b71c4f82ef8e4c0642c51dc9437869802c1686ccb7da2e8acd1f346e4765619355a5daafd8894d2d5fa807012254093d8c6bd01fbf238eb9ea456afac5c77d23a8821af0b0a455023d4143927c8c57e6fc3c2c307808b234d1710993dd7cb379b1c5a595941c2c5fd8c5ef6103dbf5cffeaf85460155432df55ec529d54be79c3f75cd6855017a4582aa7498e7bc994c4646fc8376035c62b9f22e64d3d89eaa7128a777406a197dc5def01bfd0443b3ff6e9aeb1bb0ec10a460c) from [@Freedman2015-ki]
+
+Information about U.S. Research & Development (R&D) Expenditures from the [Congressional Research Service](https://sgp.fas.org/crs/misc/R44307.pdf).
+- Note that business accounts for 2-3x+ the Government's share of R&D expenditures.
+
+### Questions to ponder {-}
+
+- Why do Begley & Ellis focus on a journal's impact factor?
+- Why do Begley & Ellis focus on citations to reproduced vs. non-reproduced articles?
+- Why should non-scientists care?
+- Why should scientists in other fields (not cancer biology) care?
+
+### Learn more {-}
+
+#### Talk by Begley [[@CrossFit2019-xq]](https://www.youtube.com/watch?v=YJADzllTM9w) {-}
+
+<!-- Dr. Glenn Begley: Perverse Incentives Promote Scientific Laziness, Exaggeration, and Desperation -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YJADzllTM9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+</br>
+
+> “What I'm alleging is that the reviewers, the editors of the so-called top-tier journals, grant review committees, promotion committees, and the scientific community repeatedly tolerate poor-quality science.”
+> 
+> -- C. Glenn Begley
+
+:::: {.infobox}
+
+Watching the talk by Begley is not required. But you might get inspired and decide to focus your final project around the topic.
+
+::::
+
+#### [[@Nosek2022-hv]](https://doi.org/10.1146/annurev-psych-020821-114157)
+
+Nosek, B. A., Hardwicke, T. E., Moshontz, H., Allard, A., Corker, K. S., Dreber, A., Fidler, F., Hilgard, J., Kline Struhl, M., Nuijten, M. B., Rohrer, J. M., Romero, F., Scheel, A. M., Scherer, L. D., Schönbrodt, F. D. & Vazire, S. (2022). Replicability, robustness, and reproducibility in psychological science. *Annual Review of Psychology*, *73*(2022), 719–748. https://doi.org/10.1146/annurev-psych-020821-114157
+
+> Replication—an important, uncommon, and misunderstood practice—is gaining appreciation in psychology. Achieving replicability is important for making research progress. If findings are not replicable, then prediction and theory development are stifled. If findings are replicable, then interrogation of their meaning and validity can advance knowledge. Assessing replicability can be productive for generating and testing hypotheses by actively confronting current understandings to identify weaknesses and spur innovation. For psychology, the 2010s might be characterized as a decade of active confrontation. Systematic and multi-site replication projects assessed current understandings and observed surprising failures to replicate many published findings. Replication efforts highlighted sociocultural challenges such as disincentives to conduct replications and a tendency to frame replication as a personal attack rather than a healthy scientific practice, and they raised awareness that replication contributes to self-correction. Nevertheless, innovation in doing and understanding replication and its cousins, reproducibility and robustness, has positioned psychology to improve research practices and accelerate progress.
+
+#### [[@Peng2021-fe]](http://dx.doi.org/10.1146/annurev-publhealth-012420-105110)
+
+Peng, R. D. & Hicks, S. C. (2021). Reproducible research: A retrospective. *Annual Review of Public Health*, *42*, 79–93. https://doi.org/10.1146/annurev-publhealth-012420-105110
+
+> Advances in computing technology have spurred two extraordinary phenomena in science: large-scale and high-throughput data collection coupled with the creation and implementation of complex statistical algorithms for data analysis. These two phenomena have brought about tremendous advances in scientific discovery but have raised two serious concerns. The complexity of modern data analyses raises questions about the reproducibility of the analyses, meaning the ability of independent analysts to recreate the results claimed by the original authors using the original data and analysis techniques. Reproducibility is typically thwarted by a lack of availability of the original data and computer code. A more general concern is the replicability of scientific findings, which concerns the frequency with which scientific claims are confirmed by completely independent investigations. Although reproducibility and replicability are related, they focus on different aspects of scientific progress. In this review, we discuss the origins of reproducible research, characterize the current status of reproducibility in public health research, and connect reproducibility to current concerns about the replicability of scientific findings. Finally, we describe a path forward for improving both the reproducibility and replicability of public health research in the future.
+>
+>
+
+::: {.infobox}
+
+Reading and writing a commentary on either of these articles might be a good final project.
+
+:::
+
+## Looking ahead {-}
+
+- A replication failure: The "Lady Macbeth Effect"
+- Read
+    - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)
+    - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792)
+- [Due]{.orange_due} 
+    - [Exercise 01: Norms and counter-norms write-up](#ex_norms_counternorms)
