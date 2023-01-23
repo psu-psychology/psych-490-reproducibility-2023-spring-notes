@@ -57,7 +57,7 @@ These questions could form the basis of a final project where a student or stude
 
 :::
 
-### What do the terms mean?
+### What do the terms mean? {-}
 
 > Replication refers to testing the reliability of a prior finding with different data. Robustness refers to testing the reliability of a prior finding using the same data and a different analysis strategy. **Reproducibility** refers to testing the reliability of a prior finding using the same data and the same analysis strategy (Natl. Acad. Sci. Eng. Med. 2019). Each of the three notions plays an important role in assessing credibility.
 >
@@ -69,7 +69,7 @@ These questions could form the basis of a final project where a student or stude
 
 ### Different types of reproducibility? [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
 
-#### *Methods* reproducibility
+#### *Methods* reproducibility {-}
 
 - Enough details about materials & methods recorded (& reported)
 - Same results with same materials & methods
@@ -92,7 +92,7 @@ knitr::include_graphics("http://lh6.ggpht.com/_KVa1Tk_k1BU/TTjL-RSY_eI/AAAAAAAAB
 
 [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
 
-## Reproducibility in psychological science
+## Reproducibility in psychological science {-}
 
 ### [[@Artner2021-qg]](http://dx.doi.org/10.1037/met0000365)
 
@@ -104,9 +104,13 @@ knitr::include_graphics("http://lh6.ggpht.com/_KVa1Tk_k1BU/TTjL-RSY_eI/AAAAAAAAB
 
 Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science*, *349*(6251), aac4716–aac4716. https://doi.org/10.1126/science.aac4716
 
+- Read and discuss on Tuesday, March 21, 2023
+
 ### [[@Camerer2018-tr]](https://www.nature.com/articles/s41562-018-0399-z)
 
 Camerer, C. F., Dreber, A., Holzmeister, F., Ho, T.-H., Huber, J., Johannesson, M., Kirchler, M., Nave, G., Nosek, B. A., Pfeiffer, T., Altmejd, A., Buttrick, N., Chan, T., Chen, Y., Forsell, E., Gampa, A., Heikensten, E., Hummer, L., Imai, T., … Wu, H. (2018). Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015. *Nature Human Behaviour*, *1*. https://doi.org/10.1038/s41562-018-0399-z
+
+- Read and discuss on Tuesday, March 21, 2023
 
 ### [[@Whitt2022-uf]](https://doi.org/10.1007/978-3-031-04968-2_4)
 
@@ -115,6 +119,7 @@ Whitt, C. M., Miranda, J. F. & Tullett, A. M. (2022). History of Replication Fai
 ## Reproducibility in pre-clinical cancer biology {-}
 
 - Reading: [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+- Discuss replication in cancer biology on Thursday, February 2, 2023.
 
 ### Background {-}
 

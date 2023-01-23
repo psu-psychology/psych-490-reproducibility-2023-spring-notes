@@ -31,10 +31,7 @@ fig:unnamed-chunk-10
 fig:unnamed-chunk-11
 fig:unnamed-chunk-12
 fig:fig-hit-by-bus-cartoon
-what-do-the-terms-mean
 different-types-of-reproducibility-goodman_what_2016
-methods-reproducibility
-reproducibility-in-psychological-science
 artner2021-qg
 collaboration_estimating_2015
 camerer2018-tr
