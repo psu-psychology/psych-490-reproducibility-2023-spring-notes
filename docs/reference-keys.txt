@@ -31,6 +31,3 @@ fig:unnamed-chunk-10
 fig:unnamed-chunk-11
 fig:unnamed-chunk-12
 fig:fig-hit-by-bus-cartoon
-different-types-of-reproducibility---goodman_what_2016
-nosek2022-hv
-peng2021-fe

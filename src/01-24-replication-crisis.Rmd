@@ -33,23 +33,24 @@
 
 #### How do we define what "*actually true*" means? {-}
 
-### Is there a reproducibility crisis in science? {-}
+### How widespread is the problem? {-}
 
-```{r, out.width="600px", fig.cap="[[@baker_1500_2016]](http://doi.org/10.1038/533452a)"}
+```{r, out.width = "100%", fig.cap="[[@baker_1500_2016]](http://doi.org/10.1038/533452a)"}
 knitr::include_graphics("http://www.nature.com/polopoly_fs/7.36716.1469695923!/image/reproducibility-graphic-online1.jpeg_gen/derivatives/landscape_630/reproducibility-graphic-online1.jpeg")
 ```
+<!-- ### Is there a reproducibility crisis in science? {-} -->
 
-### Have you failed to reproduce an analysis from your lab or someone else's? {-}
 
-```{r, fig.cap="[[@baker_1500_2016]](http://doi.org/10.1038/533452a)"}
+```{r, out.width = "100%", fig.cap="[[@baker_1500_2016]](http://doi.org/10.1038/533452a)"}
 knitr::include_graphics("http://www.nature.com/polopoly_fs/7.36718.1464174471!/image/reproducibility-graphic-online3.jpg_gen/derivatives/landscape_630/reproducibility-graphic-online3.jpg")
 ```
+<!-- ### Have you failed to reproduce an analysis from your lab or someone else's? {-} -->
 
-### What factors contribute to irreproducible research? {-}
 
-```{r, fig.cap="[[@baker_1500_2016]](http://doi.org/10.1038/533452a)"}
+```{r, out.width = "100%", fig.cap="[[@baker_1500_2016]](http://doi.org/10.1038/533452a)"}
 knitr::include_graphics("http://www.nature.com/polopoly_fs/7.36719.1464174488!/image/reproducibility-graphic-online4.jpg_gen/derivatives/landscape_630/reproducibility-graphic-online4.jpg")
 ```
+<!-- ### What factors contribute to irreproducible research? {-} -->
 
 ::: {.infobox}
 
@@ -67,7 +68,7 @@ These questions could form the basis of a final project where a student or stude
 >
 > -- [[@Nosek2022-hv]](https://doi.org/10.1146/annurev-psych-020821-114157)
 
-### Different types of reproducibility? {-} [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
+### Different types of reproducibility? [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027) {-} 
 
 #### *Methods* reproducibility {-}
 
@@ -76,7 +77,7 @@ These questions could form the basis of a final project where a student or stude
 
 [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
 
-```{r fig-hit-by-bus-cartoon, fig.cap="If you got hit by a bus, could your colleagues replicate and build on your work?"}
+```{r fig-hit-by-bus-cartoon, out.width="80%", fig.cap="If you got hit by a bus, could your colleagues replicate and build on your work? What's your project's 'bus number'?"}
 knitr::include_graphics("http://lh6.ggpht.com/_KVa1Tk_k1BU/TTjL-RSY_eI/AAAAAAAABtg/VQIfae1_wtQ/hit_thumb%5B3%5D.jpg?imgmax=800")
 ```
 
@@ -174,9 +175,8 @@ Table 1 from [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
 >
 > - [[@Freedman2015-ki]](http://dx.doi.org/10.1371/journal.pbio.1002165).
 
-- [Figure 2](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pbio.1002165/1/pbio.1002165.g002.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20230110%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230110T171557Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=b9227f9379c2e55197326ea311fb9b554436f88d9053a72ed433af479ac607bb4f79bfc7f8a3b51da4fee702750475c77cafa2dcb4650e1431a488551f46d3cc46c8a7c3b97b71c4f82ef8e4c0642c51dc9437869802c1686ccb7da2e8acd1f346e4765619355a5daafd8894d2d5fa807012254093d8c6bd01fbf238eb9ea456afac5c77d23a8821af0b0a455023d4143927c8c57e6fc3c2c307808b234d1710993dd7cb379b1c5a595941c2c5fd8c5ef6103dbf5cffeaf85460155432df55ec529d54be79c3f75cd6855017a4582aa7498e7bc994c4646fc8376035c62b9f22e64d3d89eaa7128a777406a197dc5def01bfd0443b3ff6e9aeb1bb0ec10a460c) from [@Freedman2015-ki]
-
-Information about U.S. Research & Development (R&D) Expenditures from the [Congressional Research Service](https://sgp.fas.org/crs/misc/R44307.pdf).
+- [Figure 2](https://journals.plos.org/plosbiology/article/figure?id=10.1371/journal.pbio.1002165.g002) from [[@Freedman2015-ki]](http://dx.doi.org/10.1371/journal.pbio.1002165)
+- Information about U.S. Research & Development (R&D) expenditures from the [Congressional Research Service](https://sgp.fas.org/crs/misc/R44307.pdf).
 - Note that business accounts for 2-3x+ the Government's share of R&D expenditures.
 
 ### Questions to ponder {-}
@@ -205,13 +205,13 @@ Watching the talk by Begley is not required. But you might get inspired and deci
 
 ::::
 
-#### [[@Nosek2022-hv]](https://doi.org/10.1146/annurev-psych-020821-114157)
+#### [[@Nosek2022-hv]](https://doi.org/10.1146/annurev-psych-020821-114157) {-} 
 
 Nosek, B. A., Hardwicke, T. E., Moshontz, H., Allard, A., Corker, K. S., Dreber, A., Fidler, F., Hilgard, J., Kline Struhl, M., Nuijten, M. B., Rohrer, J. M., Romero, F., Scheel, A. M., Scherer, L. D., Schönbrodt, F. D. & Vazire, S. (2022). Replicability, robustness, and reproducibility in psychological science. *Annual Review of Psychology*, *73*(2022), 719–748. https://doi.org/10.1146/annurev-psych-020821-114157
 
 > Replication—an important, uncommon, and misunderstood practice—is gaining appreciation in psychology. Achieving replicability is important for making research progress. If findings are not replicable, then prediction and theory development are stifled. If findings are replicable, then interrogation of their meaning and validity can advance knowledge. Assessing replicability can be productive for generating and testing hypotheses by actively confronting current understandings to identify weaknesses and spur innovation. For psychology, the 2010s might be characterized as a decade of active confrontation. Systematic and multi-site replication projects assessed current understandings and observed surprising failures to replicate many published findings. Replication efforts highlighted sociocultural challenges such as disincentives to conduct replications and a tendency to frame replication as a personal attack rather than a healthy scientific practice, and they raised awareness that replication contributes to self-correction. Nevertheless, innovation in doing and understanding replication and its cousins, reproducibility and robustness, has positioned psychology to improve research practices and accelerate progress.
 
-#### [[@Peng2021-fe]](http://dx.doi.org/10.1146/annurev-publhealth-012420-105110)
+#### [[@Peng2021-fe]](http://dx.doi.org/10.1146/annurev-publhealth-012420-105110) {-} 
 
 Peng, R. D. & Hicks, S. C. (2021). Reproducible research: A retrospective. *Annual Review of Public Health*, *42*, 79–93. https://doi.org/10.1146/annurev-publhealth-012420-105110
 
