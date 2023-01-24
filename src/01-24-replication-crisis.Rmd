@@ -67,7 +67,7 @@ These questions could form the basis of a final project where a student or stude
 >
 > -- [[@Nosek2022-hv]](https://doi.org/10.1146/annurev-psych-020821-114157)
 
-### Different types of reproducibility? [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
+### Different types of reproducibility? {-} [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
 
 #### *Methods* reproducibility {-}
 
@@ -94,27 +94,46 @@ knitr::include_graphics("http://lh6.ggpht.com/_KVa1Tk_k1BU/TTjL-RSY_eI/AAAAAAAAB
 
 ## Reproducibility in psychological science {-}
 
-### [[@Artner2021-qg]](http://dx.doi.org/10.1037/met0000365)
+### Replication failure: The "Lady Macbeth Effect"  {-}
+
+- Read and discuss this Thursday, January 26, 2023
+
+### Replication failure: Priming effect  {-}
+
+- Read and discuss next Tuesday, January 31, 2023 
+
+### [[@Artner2021-qg]](http://dx.doi.org/10.1037/met0000365)  {-}
 
 > We investigated the reproducibility of the major statistical conclusions drawn in 46 articles published in 2012 in three APA journals. After having identified 232 key statistical claims, we tried to reproduce, for each claim, the test statistic, its degrees of freedom, and the corresponding p value, starting from the raw data that were provided by the authors and closely following the Method section in the article. Out of the 232 claims, we were able to successfully reproduce 163 (70%), 18 of which only by deviating from the article’s analytical description. Thirteen (7%) of the 185 claims deemed significant by the authors are no longer so. The reproduction successes were often the result of cumbersome and time-consuming trial-and-error work, suggesting that APA style reporting in conjunction with raw data makes numerical verification at least hard, if not impossible. 
 >
 > -- [[@Artner2021-qg]](http://dx.doi.org/10.1037/met0000365)
 
-### [[@collaboration_estimating_2015]](https://doi.org/10.1126/science.aac4716)
+### [[@collaboration_estimating_2015]](https://doi.org/10.1126/science.aac4716)  {-}
 
 Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science*, *349*(6251), aac4716–aac4716. https://doi.org/10.1126/science.aac4716
 
 - Read and discuss on Tuesday, March 21, 2023
 
-### [[@Camerer2018-tr]](https://www.nature.com/articles/s41562-018-0399-z)
+### [[@Camerer2018-tr]](https://www.nature.com/articles/s41562-018-0399-z)  {-}
 
 Camerer, C. F., Dreber, A., Holzmeister, F., Ho, T.-H., Huber, J., Johannesson, M., Kirchler, M., Nave, G., Nosek, B. A., Pfeiffer, T., Altmejd, A., Buttrick, N., Chan, T., Chen, Y., Forsell, E., Gampa, A., Heikensten, E., Hummer, L., Imai, T., … Wu, H. (2018). Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015. *Nature Human Behaviour*, *1*. https://doi.org/10.1038/s41562-018-0399-z
 
 - Read and discuss on Tuesday, March 21, 2023
 
-### [[@Whitt2022-uf]](https://doi.org/10.1007/978-3-031-04968-2_4)
+### [[@Whitt2022-uf]](https://doi.org/10.1007/978-3-031-04968-2_4)  {-}
 
 Whitt, C. M., Miranda, J. F. & Tullett, A. M. (2022). History of Replication Failures in Psychology. In W. O’Donohue, A. Masuda & S. Lilienfeld (Eds.), *Avoiding Questionable Research Practices in Applied Psychology* (pp. 73–97). Springer International Publishing. https://doi.org/10.1007/978-3-031-04968-2_4
+
+### Is psychology harder than physics? {-}
+
+<div class="centered">
+<img src="include/img/psych-harder-1.jpg" width=800px/>
+</div>
+
+<div class="centered">
+<img src="include/img/psych-harder-2.jpg" width=800px/>
+</div>
+
 
 ## Reproducibility in pre-clinical cancer biology {-}
 
