@@ -107,10 +107,8 @@ survey_qs <- tibble(q_long = names(survey_01), q_short = new_names)
 # Swap out old (long) names for new (short) names
 names(survey_01) <- new_names
 
-survey_qs %>%
-  kableExtra::kable(., format='html')
-```
 
+```
 
 These data are 'wide', meaning that there are multiple variables for each respondent.
 The data will be easier to visualize and analyze if we make the data 'longer'.
@@ -149,7 +147,7 @@ survey_01_long_clean <- survey_01_long %>%
 
 ## Visualize data {-}
 
-### What participants were asked {-}
+### What participants were asked {- #questions-asked}
 
 >Perceptions of scientific practices
 >

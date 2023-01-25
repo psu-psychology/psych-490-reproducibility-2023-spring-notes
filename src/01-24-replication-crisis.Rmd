@@ -11,7 +11,7 @@
         - [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0).
         - [[@Macfarlane2008-tc]](https://doi.org/10.1007/s10805-008-9055-y).
         - Skim
-            - [[@Anderson2010-rl]](Anderson2010-rl).
+            - [[@Anderson2010-rl]](http://dx.doi.org/10.1353/jhe.0.0095).
             - [[@Kim2018-tr]](https://doi.org/10.1177/0971721817744438).
     - Survey [results](survey_01_results.html)
 - Today's topics

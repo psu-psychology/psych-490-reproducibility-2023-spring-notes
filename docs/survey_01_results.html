@@ -307,7 +307,7 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="survey_01_results.html"><a href="survey_01_results.html#clean-data"><i class="fa fa-check"></i>Clean data</a></li>
 <li class="chapter" data-level="" data-path="survey_01_results.html"><a href="survey_01_results.html#visualize-data"><i class="fa fa-check"></i>Visualize data</a>
 <ul>
-<li class="chapter" data-level="" data-path="survey_01_results.html"><a href="survey_01_results.html#what-participants-were-asked"><i class="fa fa-check"></i>What participants were asked</a></li>
+<li class="chapter" data-level="" data-path="survey_01_results.html"><a href="survey_01_results.html#questions-asked"><i class="fa fa-check"></i>What participants were asked</a></li>
 <li class="chapter" data-level="" data-path="survey_01_results.html"><a href="survey_01_results.html#unique-respondents"><i class="fa fa-check"></i>Unique respondents</a></li>
 <li class="chapter" data-level="" data-path="survey_01_results.html"><a href="survey_01_results.html#rating-distribution"><i class="fa fa-check"></i>Rating distribution</a></li>
 </ul></li>
@@ -446,104 +446,7 @@ Let’s rename the variables using the single words.</p>
 <span id="cb13-16"><a href="survey_01_results.html#cb13-16" aria-hidden="true" tabindex="-1"></a>survey_qs <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">q_long =</span> <span class="fu">names</span>(survey_01), <span class="at">q_short =</span> new_names)</span>
 <span id="cb13-17"><a href="survey_01_results.html#cb13-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-18"><a href="survey_01_results.html#cb13-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Swap out old (long) names for new (short) names</span></span>
-<span id="cb13-19"><a href="survey_01_results.html#cb13-19" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(survey_01) <span class="ot">&lt;-</span> new_names</span>
-<span id="cb13-20"><a href="survey_01_results.html#cb13-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-21"><a href="survey_01_results.html#cb13-21" aria-hidden="true" tabindex="-1"></a>survey_qs <span class="sc">%&gt;%</span></span>
-<span id="cb13-22"><a href="survey_01_results.html#cb13-22" aria-hidden="true" tabindex="-1"></a>  kableExtra<span class="sc">::</span><span class="fu">kable</span>(., <span class="at">format=</span><span class="st">&#39;html&#39;</span>)</span></code></pre></div>
-<table>
-<thead>
-<tr>
-<th style="text-align:left;">
-q_long
-</th>
-<th style="text-align:left;">
-q_short
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Timestamp
-</td>
-<td style="text-align:left;">
-Timestamp
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Scientists are generally motivated by the desire for knowledge and discovery, and not by the possibility of personal gain.
-</td>
-<td style="text-align:left;">
-Disinterestedness
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Scientists make an attempt to consider all new evidence, hypotheses, theories, and innovations, even those that challenge or contradict their own work.
-</td>
-<td style="text-align:left;">
-Organized Skepticism
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Scientists generally assess new knowledge and its applications based on the reputation and past productivity of the individual or research group.
-</td>
-<td style="text-align:left;">
-Particularism
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Scientists openly share new findings with all colleagues.
-</td>
-<td style="text-align:left;">
-Communality
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Scientists generally invest their careers in promoting their own most important findings, theories, or innovations.
-</td>
-<td style="text-align:left;">
-Organized Dogmatism
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Scientists compete with others in the same field for funding and recognition of their achievements.
-</td>
-<td style="text-align:left;">
-Self-interestedness
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Scientists generally evaluate research only on its merit (i.e., according to accepted standards of the field).
-</td>
-<td style="text-align:left;">
-Universalism
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Scientists emphasize the protection of their newest findings to ensure priority in publishing, patenting, or applications.
-</td>
-<td style="text-align:left;">
-Solitariness
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-If you wish to comment about the questions in this survey, you may do so here. You are not required to comment.
-</td>
-<td style="text-align:left;">
-Comments
-</td>
-</tr>
-</tbody>
-</table>
+<span id="cb13-19"><a href="survey_01_results.html#cb13-19" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(survey_01) <span class="ot">&lt;-</span> new_names</span></code></pre></div>
 <p>These data are ‘wide’, meaning that there are multiple variables for each respondent.
 The data will be easier to visualize and analyze if we make the data ‘longer’.</p>
 <div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="survey_01_results.html#cb14-1" aria-hidden="true" tabindex="-1"></a>survey_01_long <span class="ot">&lt;-</span> survey_01 <span class="sc">%&gt;%</span></span>
@@ -570,8 +473,8 @@ We should delete those responses since they are nonsensical–I just hit random 
 </div>
 <div id="visualize-data" class="section level2 unnumbered hasAnchor">
 <h2>Visualize data<a href="survey_01_results.html#visualize-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="what-participants-were-asked" class="section level3 unnumbered hasAnchor">
-<h3>What participants were asked<a href="survey_01_results.html#what-participants-were-asked" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="questions-asked" class="section level3 unnumbered hasAnchor">
+<h3>What participants were asked<a href="survey_01_results.html#questions-asked" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <blockquote>
 <p>Perceptions of scientific practices</p>
 <p>The following statements reflect different values about how the scientific research community should function, according to studies of scientists’ work. Use the scale below to indicate the extent to which you personally feel it ACTUALLY REPRESENTS the behavior of most scientists.</p>
@@ -676,7 +579,7 @@ Comments
 </div>
 <div id="unique-respondents" class="section level3 unnumbered hasAnchor">
 <h3>Unique respondents<a href="survey_01_results.html#unique-respondents" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>There appear to be <span class="math inline">\(n=\)</span> 21 respondents as of 2023-01-25 09:28:04.</p>
+<p>There appear to be <span class="math inline">\(n=\)</span> 21 respondents as of 2023-01-25 13:30:53.</p>
 </div>
 <div id="rating-distribution" class="section level3 unnumbered hasAnchor">
 <h3>Rating distribution<a href="survey_01_results.html#rating-distribution" class="anchor-section" aria-label="Anchor link to header"></a></h3>
