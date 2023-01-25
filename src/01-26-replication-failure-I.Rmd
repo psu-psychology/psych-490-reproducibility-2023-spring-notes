@@ -1,12 +1,181 @@
 # A replication failure: The "Lady Macbeth Effect" {-}
 
-## Last time {-}
+## Roadmap {-}
 
-## Today's topics {-}
+- Announcements
+    - [Assignment]{.green_assigned}
+        - [Exercise 01: Norms and counter-norms write-up](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_norms_counternorms.html#ex_norms_counternorms) **due today**
+- Last time
+- Today's topic
+    - A replication failure: The "Lady Macbeth Effect"
+    - Read
+        - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)
+        - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792)
+        
 
-- A replication failure: The "Lady Macbeth Effect" {-}
-- Read {-}
-    - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)
-    - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792)
-- [Due]{.orange_due} 
-    - [Exercise 01: Norms and counter-norms write-up](#ex_norms_counternorms)
+## [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726) {-}
+
+Zhong, C.-B. & Liljenquist, K. (2006). Washing away your sins: Threatened morality and physical cleansing. *Science*, *313*(5792), 1451–1452. https://doi.org/10.1126/science.1130726
+
+### How to read a paper {-}
+
+- Type of paper: **empirical**|theoretical|review|opinion|other
+
+> Physical cleansing has been a focal element in religious ceremonies for thousands of years. The prevalence of this practice suggests a psychological association between bodily purity and moral purity. In three studies, we explored what we call the “Macbeth effect”—that is, a threat to one's moral purity induces the need to cleanse oneself. This effect revealed itself through an increased mental accessibility of cleansing-related concepts, a greater desire for cleansing products, and a greater likelihood of taking antiseptic wipes. Furthermore, we showed that physical cleansing alleviates the upsetting consequences of unethical behavior and reduces threats to one's moral self-image. Daily hygiene routines such as washing hands, as simple and benign as they might seem, can deliver a powerful antidote to threatened morality, enabling people to truly wash away their sins.
+
+### From abstract {-}
+
+- Who is audience?
+- What question was explored?
+    - "Macbeth effect"
+    - Threats to moral purity
+    - Need to cleanse
+        - Increased mental accessibility of cleansing-related products
+        - Greater desire for cleansing products
+        - Greater likelihood of taking antiseptic wipes
+- Who were participants?
+- What were the participants' characteristics?
+- What measurements were taken? How often?
+  
+### From methods section {-}
+
+- Not in main text
+- Look in [Supplemental material](https://www.science.org/doi/suppl/10.1126/science.1130726/suppl_file/zhong.som.pdf)
+
+#### Study 1 {-}
+
+>Participants. Sixty undergraduate students at Northwestern University participated in this study.
+>
+>Design and Procedure. Participants were randomly assigned to the cells of a 2-level single factor (Recall: ethical vs. unethical), between-participants design. They were led to separate breakout rooms upon arrival and were told that the researcher was interested in studying the differences in memories associated with ethical or unethical behaviors. In the ethical condition, participants were asked to describe in detail an ethical thing that they had done in the past and to describe any feelings or emotions they experienced. In the unethical condition, they were asked to describe an unethical deed and any emotions they experienced. This manipulation was adapted from a recall task in previous research (1).
+>
+>After the recall, participants engaged in a seemingly unrelated word completion task, in which they filled in blank spaces within word fragments to convert them into meaningful words. There were six word fragments, three of them (i.e., W _ _ H, SH _ _ ER, and S _ _ P) could be completed as either cleansing-related (i.e., wash, shower, and soap) or unrelated words (e.g., wish, shaker, and step). We summed the number of cleansing-related word fragments participants completed to form a composite measure of mental accessibility to cleansing-related concepts and submitted this measure to a one-way ANOVA. This measure and analysis have been used in many previous studies on mental accessibility (2, 3).
+
+#### Study 2 {-}
+
+> Participants. Twenty-seven undergraduate students at Northwestern University participated in this study.
+>
+> Design and Procedure. Participants were randomly assigned to the cells of a 2-level single factor (Prime: ethical versus unethical), between-participants design. They were led to individual breakout rooms upon arrival and engaged in multiple seemingly unrelated tasks. Instead of using the behavior recall task as in Study 1, we used an implicit manipulation for the ethical vs. unethical prime. In this manipulation, participants hand copied a short story written in the first person. They were told that the researcher was interested in studying the association between handwriting and personality. Participants in the ethical prime condition hand-copied the following story about an honest office worker:
+>
+>*Two years ago, when I was a junior partner at a prestigious law firm, I was coming up for promotion against another junior partner, Chris. For several months, Chris had been working on a major case for the city that would make or break his career at the firm. However, he could not locate a key zoning document, without which, it was unlikely that he would have sufficient evidence to successfully argue his case. Late one evening, as I was rummaging through a corner filing cabinet, I happened to come across the zoning document that Chris was in desperate need of. I pulled it from the cabinet and placed it without a note on Chris' desk, knowing that he would be so relieved when he arrived to work the next morning.*
+>
+>Those in the unethical prime condition hand-copied the same story except that this time the office worker in the story decided to hide the critical document and sabotage the career of his or her competitor (the last sentence was replaced with, "I pulled it from the cabinet and walked over to the office shredder, knowing that my promotion would now be secured").
+>
+>After completing the hand-copying task, participants engaged in a marketing task and rated the desirability of various products on a seven-point scale (1 = completely undesirable, 7 = completely desirable). Some of the products were cleansing products, including Dove shower soap, Crest toothpaste, Windex cleaner, Lysol disinfectant, and Tide detergent; other products included Post-it Notes, Nantucket Nectars juice, Energizer batteries, Sony CD cases, and Snickers bars. The desirability rating served as the dependent measure because participants who have a need for bodily cleansing should express greater desire towards cleansing related products. None of the participants suspected the link between the manipulation and the product rating task.
+
+#### Study 3 {-}
+
+> Participants. Thirty-two undergraduate students at Northwestern University participated in this study.
+>
+> Design and Procedure. Participants were randomly assigned to the cells of a 2-level single factor (Recall: ethical vs. unethical), between-participants design. They were led to individual breakout rooms upon arrival and engaged in the same memory recall task (i.e., the ethical vs. unethical recall) as in Study 1. They were then approached individually by the experimenter during the break and asked whether they would like to have an antiseptic cleansing wipe or an American pencil as a free gift (both items were visible in the experimenter's hands). They were told that those materials were left over from a previous study and the experimenter would like to give them away as free gifts. Their choice between the pencil and wipe served as the dependent variable.
+>
+>The gifts were tested to make sure that they were equally desirable on an independent sample with 15 undergraduate students. These participants went through a similar but non-moral recall task (unrelated to ethics or cleanliness) and were then asked to choose between the wipes and pencils. Results confirmed equal desirability: 53% took the wipe and 47% took the pencil.
+
+#### Study 4 {-}
+
+> Participants. Forty-five undergraduate students at Northwestern University participated in this study.
+>
+> Design and Procedure. Participants were randomly assigned to the cells of a 2-level single factor (Intervention: cleansed vs. not-cleansed), between-participants design. They were led to separate breakout rooms upon arrival and told that they were going to engage in a computer task and a paper task. Participants were first asked to describe an unethical deed from their past via a computer program – the same task as in Study 1. They were then randomly assigned to one of two conditions. In the cleansed condition, participants were told that the Research Protection Board had recommended that we provide participants with hand-wipes after using public computers, and they were given an antiseptic cleansing wipe to use at that point. Those in the not-cleansed condition, however, were simply told that they had finished the computer task and could move on to the paper-based task.
+> After the cleansing manipulation, participants in both conditions were given a paper-and-pencil task in which they assessed their current emotional state, including disgust, happiness, amusement, guilt, embarrassment, regret, calm, shame, confidence, excitement, distress, and anger.
+Finally, right before the end of the experiment, participants were solicited to volunteer to participate in a research study. They were told that a graduate student was looking for volunteers to help with one of her dissertation studies. The participation would be unpaid because the graduate student had no financial support yet desperately needed more data to complete her dissertation. Presumably, after participants recalled an unethical behavior from their past, they would be motivated to offer help to compensate for their wrongdoings. In contrast, participants who had cleansed their hands before being solicited for help would be less motivated to volunteer because the sanitation wipes had already washed away their moral stains and restored a suitable moral self.
+
+- There are details about some additional analyses on Study 4 we do not excerpt here.
+
+### From main text {-}
+
+>  We first determined whether a threat to moral purity increases the mental accessibility of cleansing-related words. We asked participants to recall in detail either an ethical or unethical deed from their past and to describe any feelings or emotions they experienced. Then they engaged in a word completion task in which they converted word fragments into meaningful words. Of the six word fragments, three (W _ _ H, SH __ ER, and S __ P) could be completed as cleansing-related words (wash, shower, and soap) or as unrelated words (e.g., wish, shaker, and step). Participants who recalled an unethical deed generated more cleansing- related words than those who recalled an ethical deed [F(1,58) = 4.26, P = 0.04], suggesting that unethical behavior enhances the accessibility of cleansing-related concepts (Table 1).
+
+---
+
+```{r table-zhong-etal-2006, out.width="80%", fig.cap="Table 1 from [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)"}
+knitr::include_graphics("include/img/zhong-etal-2006-table-1.png")
+```
+
+[Erratum](https://www.science.org/doi/10.1126/science.aaa2510)
+
+> In the Report Washing away your sins: threatened morality and physical cleansing, the SEM values for Study 1 were entered incorrectly in Table 1. For the effect of ethical recall, the value should be 0.188, not 1.88, and for the effect of unethical recall, the value should be 0.177, not 1.77. The authors gratefully acknowledge A. Brouwer, S.A. Koppes, L. Wolters, L.D.J. Kuijper, and C. Zonneveld for pointing out this error.
+
+---
+
+> Study 2 investigated whether an implicit threat to moral purity produces a psychological desire for cleansing, through expressed preferences for cleansing products. Participants were told that we were investi- gating the relationship between handwriting and personality and were asked to hand-copy a short story written in the first person. The story described either an ethical, selfless deed (helping a co-worker) or an unethical act (sabotaging a co-worker) (9). Participants then rated the desirability of various products from 1 (completely undesirable) to 7 (completely desirable). Cleansing products included Dove shower soap, Crest toothpaste, Windex cleaner, Lysol disinfectant, and Tide detergent; other products included Post-it Notes, Nantucket Nectars juice, Energizer batteries, Sony CD cases, and Snickers bars. As expected, copying the unethical story increased the desirability of cleansing products as compared to copying the ethical story [F(1,25) = 6.99, P = 0.01], with no differ- ences between conditions for the noncleans- ing products [F(1,25) = 0.02, P = 0.89] (Fig. 1).
+
+```{r zhong-etal-2006-fig1, out.width="80%", fig.cap="Figure 1 from [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)"}
+knitr::include_graphics("include/img/zhong-etal-2006-fig-1.png")
+```
+
+> We sought to replicate the results of Study 2 using behavioral measures, so our next study examined the likelihood oftaking an antiseptic cleansing wipe after recalling an ethical or unethical deed. Participants engaged in the same recall task as in Study 1 and were then offered a free gift and given a choice between an antiseptic wipe and a pencil (verified in a control condition to be equally attractive offerings). Those who recalled an unethical deed were more likely to take the antiseptic wipe (67%) than were those who recalled an ethical deed (33%) ($\chi^2$ = 4.57, p = 0.03) (Table 1).
+
+> In Study 4, participants described an unethical deed from their past (the same recall task as in Study 1). Afterwards, they either cleansed their hands with an antiseptic wipe or not. Then they completed a survey regarding their current emotional state (9). After completing the survey, participants were asked if they would volunteer without pay for another research study to help out a desperate graduate stu- dent. Presumably, participants who had cleansed their hands before being solicited for help would be less motivated to volunteer
+because the sanitation wipes had already washed away their moral stains and restored a suitable moral self.
+>
+> As predicted, physical cleansing significantly reduced volunteerism: 74% of those in the not-cleansed condition offered help, whereas only 41% of participants who had a chance to cleanse their hands offered to help ($\chi^2$=5.02, P = 0.025). Thus, the direct compensatory behavior (i.e., volunteering) dropped by almost 50% when participants had a chance to physically cleanse after recalling an unethical behavior.
+
+## [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792) {-}
+
+Earp, B. D., Everett, J. A. C., Madva, E. N. & Hamlin, J. K. (2014). Out, Damned Spot: Can the “Macbeth Effect” Be Replicated? *Basic and Applied Social Psychology*, *36*(1), 91–98. https://doi.org/10.1080/01973533.2013.856792
+
+[PSU Libraries link](https://www-tandfonline-com.ezaccess.libraries.psu.edu/doi/full/10.1080/01973533.2013.856792)
+
+> Zhong and Liljenquist (2006) reported evidence of a “Macbeth Effect” in social psychology: a threat to people's moral purity leads them to seek, literally, to cleanse themselves. In an attempt to build upon these findings, we conducted a series of direct replications of Study 2 from Z&L's seminal report. We used Z&L's original materials and methods, investigated samples that were more representative of the general population, investigated samples from different countries and cultures, and substantially increased the power of our statistical tests. Despite multiple good-faith efforts, however, we were unable to detect a “Macbeth Effect” in any of our experiments. We discuss these findings in the context of recent concerns about replicability in the field of experimental social psychology.
+
+### From abstract {-}
+
+- Type of paper: empirical|theoretical|review|opinion|**empirical (partial replication)** 
+- What question was explored?
+- Who were participants?
+- What were the participants' characteristics?
+- What measurements were taken? How often?
+
+### From Study 1 method {-}
+
+> Participants in this study were 153 undergraduate students enrolled at a university in the United Kingdom. Participants were invited to take part via e-mail messages sent to departmental mailing lists and received a chocolate bar in exchange for their time.
+
+> In Part 1, participants were randomly assigned to one of two priming conditions: ethical or unethical. In Part 2, participants rated a number of consumer products for their desirability on a scale of 1 to 7. In an attempt to prevent participants’ drawing any connections between Parts 1 and 2, they were told that Parts 1 and 2 were two separate experiments. Just as in Study 2 from Zhong and Liljenquist's (2006) original report, participants were told they were taking part in an investigation into handwriting and personality and were asked to hand-copy a short story written in the first person. In the “unethical” condition, the paragraph described an unethical deed from the first-person perspective, as follows:
+>
+> *Two years ago, when I was a junior partner at a prestigious law firm, I was coming up for promotion against another junior partner, Chris. For several months, Chris had been working on a major case for the city that would make or break his career at the firm. However, he could not locate a key zoning document, without which, it was unlikely that he would have sufficient evidence to successfully argue his case. Late one evening, as I was rummaging through a corner filing cabinet, I happened to come across the zoning document that Chris was in desperate need of. I pulled it from the cabinet and walked over to the office shredder, knowing that my promotion would now be secured.*
+>
+> In the “ethical” condition, the paragraph was exactly the same, except that the last sentence read: *I pulled it from the cabinet and placed it without a note on Chris’ desk, knowing that he would be so relieved when he arrived to work the next morning.*
+>
+> Participants were then told that they were taking part in research looking at consumer marketing and were asked to rate the desirability of various products from 1 (completely undesirable) to 7 (completely desirable) and to say how much they would be willing to pay (£) for each product. The 10 items used were the exact same original items from Zhong and Liljenquist's study, in their original order, with four items adapted slightly for a British sample by replacing unfamiliar American brands with equivalent British brands. The items and their order were specifically as follows: Post-it notes, Dove shower soap, Colgate toothpaste [Crest toothpaste in the original], pressed fruit juice 2 [Nanucket Nectars juice in the original], Energizer batteries, Sony CD cases, Windex glass cleaner, Dettoll disinfectant [Lysol countertop disinfectant in the original], Snickers candy bar, and Surf laundry detergent [Tide laundry detergent in the original].
+> Upon completion of the consumer products survey, participants were given a chocolate bar to compensate for their time and were thanked for their participation.
+
+### From Study 1 results {-}
+
+>Independent samples t tests revealed no significant difference of condition on desirability of consumer product, t (151) = .03, p = .97, 95% CI [–0.29, 0.30], with no significant difference in the mean desirability of the cleansing items between the moral condition (M = 3.09) and immoral condition (M = 3.08). Similarly, there was no significant difference in how much participants were willing to pay for the consumer products, t (151) = − .28, p = .78, 95% CI [–0.36, 0.27], with comparable means in both the ethical condition (M = 2.19) and the unethical condition (M = 2.24). Looking at individual items, there were no significant effects of condition on the desirability of—or willingness to pay for—any individual cleansing item.
+
+### From Study 2 method {-}
+
+> Participants. One hundred fifty-six American participants (83 female, M age = 33), using the Mechanical Turk (MTurk) online interface, participated in exchange for $.30. MTurk is a website that facilitates payment for the completion of tasks posted by researchers. Participant samples recruited through this service have been shown to be more representative of the general population than are student samples, and are known to yield reliable data (Buhrmester, Kwang, & Gosling, 2011). Eight participants were excluded from analyses for failure to complete the questionnaires.
+
+> Materials and procedure. As in Study 1, participants were randomly assigned to one of two priming conditions: ethical or unethical. All participants subsequently rated a number of consumer products for their desirability on a scale of 1 to 7, and noted how much they would be willing to pay ($) for each. To adapt the original priming materials from Zhong and Liljenquist for use in an online medium, the passages about helping/sabotaging a coworker were presented on participants’ computer screens with all of their punctuation removed. Participants were asked to retype the passage (rather than rewrite it, by hand, as in the original studies), inserting simple punctuation marks such as full stops (periods), commas, and capitalization where appropriate; participants could not advance to the next screen without performing this task, and all participants completed the priming task successfully. Although this design adjustment involved a slight departure from the rewriting task used in Zhong and Liljenquist's original Study 2, we reasoned that our online-friendly prime might actually be more effective than the original. This is because to determine which punctuation marks were needed, participants would presumably have to process the meaning of the passage, whereas to hand-copy a passage exactly as it is written one could work by simple rote.
+>
+> After participants completed this punctuation priming task, they were shown a screen in which they were told that they were now taking part in research looking at consumer marketing. They were asked to rate the desirability of various products from 1 (completely undesirable) to 7 (completely desirable) and to say how much they would be willing to pay ($) for each product. The 10 items presented were the original items from Zhong and Liljenquist's study, with no adjustments made to brand names, and were presented in their original order: Post-it notes, Dove shower soap, Crest toothpaste, Nanucket Nectars juice, Energizer batteries, Sony CD cases, Windex glass cleaner, Lysol countertop disinfectant, Snickers candy bar, and Tide laundry detergent.
+>
+> After completing the consumer products rating task, participants were shown a screen that thanked them for their efforts and were then directed to a link for claiming their small monetary reward.
+
+### From Study 2 results {-}
+
+> Independent samples t tests revealed no significant difference of condition on desirability of the cleansing items, t(146) = − .79, p = .43, 95% CI [–0.62, 0.27] with comparable means in both the ethical (M = 4.23) and unethical (M = 4.41) conditions. Similarly, there was no significant difference in how much participants were willing to pay for the cleansing items, t(146) = .17, p = .87, 95% CI [–0.50, 0.59], with comparable means for both the ethical (M = 3.50) and unethical conditions (M = 3.46).
+>
+> Analyses were conducted on all individual cleansing items, and revealed no effect of condition on any individual item, with one exception: Consistent with predictions, a significant difference between conditions was found for how much participants were willing to pay for toothpaste, F (1, 146) = 4.76, p = .03, 95% CI [2.36, 3.03], with participants willing to pay more for the toothpaste in the unethical condition (M = 2.69) than in the ethical condition (M = 2.42).
+
+### From Study 3 method {-}
+
+> Participants. Two hundred eighty-six Indian participants (92 female, M age = 31) using the MTurk online interface participated in exchange for $.30. Seventeen participants were excluded from analyses for failure to complete the questionnaires.
+
+> Materials and procedure. The procedure was identical to that used in Study 2. Just as in Study 1, however, consumer product brand names had to be adjusted to accommodate a non-U.S. sample. In this case, brand names were replaced with generic descriptions of each product. Accordingly, participants were asked to rate their preferences concerning: sticky notes, shower soap, toothpaste, pressed fruit juice, batteries, CD cases, glass cleaner, countertop disinfectant, a candy bar, and laundry detergent.
+
+### From Study 3 results {-}
+
+> Independent samples t tests revealed no significant difference of condition on either desirability, t(260) = − 1.83, p = .07, 95% CI [–0.42, 0.02] or how much participants were willing to pay, t(260) = − .29, p = .78, 95% CI [–1.37, 1.02]. The marginal effect found for desirability of cleansing items (p = .07, see earlier) was actually in the opposite direction to what Zhong and Liljenquist found in their original research: Indian participants in the unethical priming condition desired cleansing items (marginally) less (M = 5.25) than participants in the ethical priming condition (M = 5.46). There was no effect of condition on any individual item.
+
+## Side-by-side comparisons {-}
+
+|    | Zhong et al. Study 2 | Earp et al. Study 1 | Earp et al. Study 2 | Earp et al. Study 3 |
+|----|------------------|---------------------|---------------------|---------------------|
+| $n$ | 27  | 153  | 156  | 286  |
+| Country | US | UK | US | India |
+| Age group | Undergraduate students | Undergraduate students | Adults | Adults |
+| Setting | in-person | in-person | online | online |
+| Desirability of cleaning product: Ethical story | 3.75^[estimated from Figure \@ref(fig:zhong-etal-2006-fig1)] | 3.09 | 4.23 | not reported |
+| Desirability of cleaning product: Unethical story | 4.9^[estimated from Figure \@ref(fig:zhong-etal-2006-fig1)] | 3.08 | 4.41 | not reported |
+| Paper citations | 1504^[As of 2023-01-25 via https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Washing+Away+Your+Sins%3A+Threatened+Morality+and+Physical+Cleansing+Zhong&btnG=] | 100^[as of 2023-01-25 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Out%2C+Damned+Spot%3A+Can+the+“Macbeth+Effect”+Be+Replicated%3F&btnG=] | | 
