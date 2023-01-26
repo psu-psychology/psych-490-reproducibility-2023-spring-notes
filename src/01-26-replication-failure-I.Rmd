@@ -6,13 +6,15 @@
     - [Assignment]{.green_assigned}
         - [Exercise 01: Norms and counter-norms write-up](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_norms_counternorms.html#ex_norms_counternorms) **due today**
 - Last time
+    - **Replication crisis (or not)**
+        - [@Ritchie2020-fm], Chapter 2. [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145003948).
+        - [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+        - (Optional) [@Oreskes2017], Chapter 7, pp. 228-244.
 - Today's topic
-    - A replication failure: The "Lady Macbeth Effect"
-    - Read
-        - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)
-        - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792)
+    - **A replication failure: The "Lady Macbeth Effect"**
+        - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259808). [Supplemental material PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259809)
+        - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259807)
         
-
 ## [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726) {-}
 
 Zhong, C.-B. & Liljenquist, K. (2006). Washing away your sins: Threatened morality and physical cleansing. *Science*, *313*(5792), 1451–1452. https://doi.org/10.1126/science.1130726
@@ -75,8 +77,10 @@ Zhong, C.-B. & Liljenquist, K. (2006). Washing away your sins: Threatened morali
 > Participants. Forty-five undergraduate students at Northwestern University participated in this study.
 >
 > Design and Procedure. Participants were randomly assigned to the cells of a 2-level single factor (Intervention: cleansed vs. not-cleansed), between-participants design. They were led to separate breakout rooms upon arrival and told that they were going to engage in a computer task and a paper task. Participants were first asked to describe an unethical deed from their past via a computer program – the same task as in Study 1. They were then randomly assigned to one of two conditions. In the cleansed condition, participants were told that the Research Protection Board had recommended that we provide participants with hand-wipes after using public computers, and they were given an antiseptic cleansing wipe to use at that point. Those in the not-cleansed condition, however, were simply told that they had finished the computer task and could move on to the paper-based task.
+>
 > After the cleansing manipulation, participants in both conditions were given a paper-and-pencil task in which they assessed their current emotional state, including disgust, happiness, amusement, guilt, embarrassment, regret, calm, shame, confidence, excitement, distress, and anger.
-Finally, right before the end of the experiment, participants were solicited to volunteer to participate in a research study. They were told that a graduate student was looking for volunteers to help with one of her dissertation studies. The participation would be unpaid because the graduate student had no financial support yet desperately needed more data to complete her dissertation. Presumably, after participants recalled an unethical behavior from their past, they would be motivated to offer help to compensate for their wrongdoings. In contrast, participants who had cleansed their hands before being solicited for help would be less motivated to volunteer because the sanitation wipes had already washed away their moral stains and restored a suitable moral self.
+>
+>Finally, right before the end of the experiment, participants were solicited to volunteer to participate in a research study. They were told that a graduate student was looking for volunteers to help with one of her dissertation studies. The participation would be unpaid because the graduate student had no financial support yet desperately needed more data to complete her dissertation. Presumably, after participants recalled an unethical behavior from their past, they would be motivated to offer help to compensate for their wrongdoings. In contrast, participants who had cleansed their hands before being solicited for help would be less motivated to volunteer because the sanitation wipes had already washed away their moral stains and restored a suitable moral self.
 
 - There are details about some additional analyses on Study 4 we do not excerpt here.
 
@@ -179,3 +183,26 @@ Earp, B. D., Everett, J. A. C., Madva, E. N. & Hamlin, J. K. (2014). Out, Damned
 | Desirability of cleaning product: Ethical story | 3.75^[estimated from Figure \@ref(fig:zhong-etal-2006-fig1)] | 3.09 | 4.23 | not reported |
 | Desirability of cleaning product: Unethical story | 4.9^[estimated from Figure \@ref(fig:zhong-etal-2006-fig1)] | 3.08 | 4.41 | not reported |
 | Paper citations | 1504^[As of 2023-01-25 via https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Washing+Away+Your+Sins%3A+Threatened+Morality+and+Physical+Cleansing+Zhong&btnG=] | 100^[as of 2023-01-25 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Out%2C+Damned+Spot%3A+Can+the+“Macbeth+Effect”+Be+Replicated%3F&btnG=] | | 
+
+### Suggestions
+
+- Neither study shared the data.
+- The study with a figure (Zhong et al.) did not show individual participants, just a mean value.
+- Earp et al. did not report standard errors of the mean (SEM) or standard deviations.
+- Zhong et al. sample sizes in Experiment 2 were very small.
+- Notable that Zhong et al. facilitated the replication effort by Earp et al.
+- Were Zhong et al. studies 1, 3, and 4 replicated by someone else?
+
+::: {.infobox}
+
+It might be interesting to write up a case study that focuses on the history of a finding and its replications.
+
+:::
+
+## Next time...
+
+- Replication failure: Priming effect
+- Read
+    - [[@Bargh1996-yv]](http://dx.doi.org/10.1037//0022-3514.71.2.230)
+    - [[@Doyen2012-ib]](http://dx.doi.org/10.1371/journal.pone.0029081)
+

@@ -1,0 +1,21 @@
+# Replication in cancer biology {-}
+
+## Roadmap {-}
+
+- Last time
+    - **A replication failure: The priming effect**
+        - [[@Bargh1996-yv]](http://dx.doi.org/10.1037//0022-3514.71.2.230)
+        - [[@Doyen2012-ib]](http://dx.doi.org/10.1371/journal.pone.0029081)
+- Today's topic
+    - **Replication in cancer biology**
+        - [[@Errington2021-sy]](http://dx.doi.org/10.7554/eLife.71601)
+        - [[@Errington2021-dp]](https://doi.org/10.7554/eLife.67995)
+
+## Next time... {-}
+
+- **The 4 (5?) Rs**
+- Read
+    - [[@Nosek2022-hv]](https://doi.org/10.1146/annurev-psych-020821-114157)
+    - [[@goodman_what_2016]](https://doi.org/10.1126/scitranslmed.aaf5027)
+- Skim
+    - [[@Fidler2021-xn]](https://plato.stanford.edu/archives/sum2021/entries/scientific-reproducibility/)
