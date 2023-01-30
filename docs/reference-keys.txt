@@ -33,5 +33,9 @@ fig:unnamed-chunk-12
 fig:fig-hit-by-bus-cartoon
 fig:table-zhong-etal-2006
 fig:zhong-etal-2006-fig1
-suggestions
-next-time-3
+fig:barg-2006-fig1
+fig:bargh-2006-fig2
+fig:doyen-etal-2012-fig-01
+fig:doyen-etal-2012-fig-02
+fig:doyen-etal-2012-fig-03
+replication-notes
