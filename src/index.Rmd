@@ -5,7 +5,9 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [include/bib/book.bib, include/bib/packages.bib, 'include/bib/psych-490.bib']
-biblio-style: "apa-like"
+csl: include/bib/apa.csl
+#biblio-style: "apa-like"
+
 # url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |

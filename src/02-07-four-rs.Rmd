@@ -1,0 +1,15 @@
+# The 4 R's  {-}
+
+## Today's topics
+
+- The 4 (5?) R's
+    - [@Nosek2022-hv](https://doi.org/10.1146/annurev-psych-020821-114157)
+    - [@goodman_what_2016](https://doi.org/10.1126/scitranslmed.aaf5027)
+    - Skim
+        - [@Fidler2021-xn](https://plato.stanford.edu/archives/sum2021/entries/scientific-reproducibility/)
+        
+## [@goodman_what_2016](https://doi.org/10.1126/scitranslmed.aaf5027) {-}
+
+## [@Nosek2022-hv](https://doi.org/10.1146/annurev-psych-020821-114157) {-}
+
+## Next time {-}
