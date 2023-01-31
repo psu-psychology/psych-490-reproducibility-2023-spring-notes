@@ -157,12 +157,12 @@ knitr::include_graphics("https://storage.googleapis.com/plos-corpus-prod/10.1371
 
 > Third, most of the participants primed with the scrambled sentences task were aware of the social category they had been primed with. This result shows that one must be cautious when using the scrambled sentences task as a priming method. One must take into account that our participants were performing the experiment as part of a psychology course, which could have led to higher suspicion towards the scrambled sentences task resulting in a higher degree of awareness of the primes. Additionally, those participants who actually exhibited a slower walking speed reported in good proportion being aware of that particular behavior. Whether automatic behavioral priming can occur without awareness thus remains unclear. As a matter of fact, participants' awareness of the prime and of the primed behavior could have led them to exert better conscious control over the latter and therefore impair its expression.
 
-#### Replication notes
+#### Replication notes {-}
 
 - Neither study shared data
 - Plots could have shown individual participants' data
 - Videos of procedures would have been helpful
-- Both papers showed evidence of "digging" deeper. Examples?
+- Both papers showed evidence of "digging" deeper
 
 ## Next time... {-}
 
