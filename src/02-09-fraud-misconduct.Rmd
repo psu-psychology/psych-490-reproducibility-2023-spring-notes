@@ -1,0 +1,62 @@
+# Fraud & misconduct  {-}
+
+## Roadmap {-}
+
+- Fraud & misconduct
+    - [@Ritchie2020-fm], Chapter 3.
+    - [[@Bhattacharjee2013-rw]](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)
+    - (Skim) [[@Levelt2012-ap]](https://pure.mpg.de/rest/items/item_1569964/component/file_1569966/content)
+    - (Skim) [[@Carpenter2012-ot]](https://www.science.org/content/article/harvard-psychology-researcher-committed-fraud-us-investigation-concludes)
+- Final project discussion
+
+## Stapels {-}
+
+```{r, fig.cap="Diedrik Stapels from [@Bhattacharjee2013-rw](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)"}
+knitr::include_graphics("https://static01.nyt.com/images/2013/04/28/magazine/28stapel1/28stapel1-jumbo-v5.jpg?quality=75&auto=webp")
+```
+
+>Stapel did not deny that his deceit was driven by ambition. But it was more complicated than that, he told me. He insisted that he loved social psychology but had been frustrated by the messiness of experimental data, which rarely led to clear conclusions. His lifelong obsession with elegance and order, he said, led him to concoct sexy results that journals found attractive. “It was a quest for aesthetics, for beauty — instead of the truth,” he said. He described his behavior as an addiction that drove him to carry out acts of increasingly daring fraud, like a junkie seeking a bigger and better high.
+>
+>-- [@Bhattacharjee2013-rw](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)
+
+---
+
+>In his early years of research — when he supposedly collected real experimental data — Stapel wrote papers laying out complicated and messy relationships between multiple variables. He soon realized that journal editors preferred simplicity. “They are actually telling you: ‘Leave out this stuff. Make it simpler,’ ” Stapel told me. Before long, he was striving to write elegant articles.
+>
+>On a Sunday morning, as we drove to a village near Maastricht to see his parents, Stapel reflected on why his behavior had sparked such outrage in the Netherlands. “People think of scientists as monks in a monastery looking out for the truth,” he said. “People have lost faith in the church, but they haven’t lost faith in science. My behavior shows that science is not holy.”
+>
+What the public didn’t realize, he said, was that academic science, too, was becoming a business. “There are scarce resources, you need grants, you need money, there is competition,” he said. “Normal people go to the edge to get that money. Science is of course about discovery, about digging to discover the truth. But it is also communication, persuasion, marketing. I am a salesman. I am on the road. People are on the road with their talk. With the same talk. It’s like a circus.” He named two psychologists he admired — John Cacioppo and Daniel Gilbert — neither of whom has been accused of fraud. “They give a talk in Berlin, two days later they give the same talk in Amsterdam, then they go to London. They are traveling salesmen selling their story.”
+>
+>-- [@Bhattacharjee2013-rw](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)
+
+---
+
+>The adjective “sloppy” seems charitable. Several psychologists I spoke to admitted that each of these more common practices was as deliberate as any of Stapel’s wholesale fabrications. Each was a choice made by the scientist every time he or she came to a fork in the road of experimental research — one way pointing to the truth, however dull and unsatisfying, and the other beckoning the researcher toward a rosier and more notable result that could be patently false or only partly true. What may be most troubling about the research culture the committees describe in their report are the plentiful opportunities and incentives for fraud. “The cookie jar was on the table without a lid” is how Stapel put it to me once. Those who suspect a colleague of fraud may be inclined to keep mum because of the potential costs of whistle-blowing.
+>
+>-- [@Bhattacharjee2013-rw](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)
+
+---
+
+>Fraud like Stapel’s — brazen and careless in hindsight — might represent a lesser threat to the integrity of science than the massaging of data and selective reporting of experiments. The young professor who backed the two student whistle-blowers told me that tweaking results — like stopping data collection once the results confirm a hypothesis — is a common practice. “I could certainly see that if you do it in more subtle ways, it’s more difficult to detect,” Ap Dijksterhuis, one of the Netherlands’ best known psychologists, told me. He added that the field was making a sustained effort to remedy the problems that have been brought to light by Stapel’s fraud.
+>
+>-- [@Bhattacharjee2013-rw](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)
+
+## Hauser {-}
+
+> Former Harvard University psychologist Marc Hauser fabricated and falsified data and made false statements about experimental methods in six federally funded studies, according to a report released yesterday by the U.S. Department of Health and Human Services's Office of Research Integrity (ORI). Hauser, who resigned from his Harvard faculty position in 2011 after an internal investigation found him responsible for research misconduct, wrote in a statement that although he has "fundamental differences" with some of the new report's findings, "I acknowledge that I made mistakes." He did not admit deliberate misconduct, however, and implied that his mistake was that he "tried to do too much" and "let important details get away from my control."
+>
+>-- [@Carpenter2012-ot](https://www.science.org/content/article/harvard-psychology-researcher-committed-fraud-us-investigation-concludes)
+
+- Note: link to report in article: http://www.ofr.gov/OFRUpload/OFRData/2012-21992_PI.pdf is broken.
+- I went to <https://ori.hhs.gov> and searched for "Hauser". I found this <https://ori.hhs.gov/sites/default/files/september_vol20_no4.pdf>.
+
+## Next time {-}
+
+- Retraction and scientific integrity
+    - Read
+        - [[@Brainerd2018-iy]](https://doi.org/10.1126/science.aav8384)
+    - Explore
+        - <https://retractionwatch.com/>
+        - <https://ori.hhs.gov/>
+    - Discuss [assignment]{.green_assigned}
+        - [Exercise 02: P-hack your way to scientific glory](#ex_p_hacking)
