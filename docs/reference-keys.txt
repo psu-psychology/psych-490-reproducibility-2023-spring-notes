@@ -52,4 +52,5 @@ fig:unnamed-chunk-24
 fig:unnamed-chunk-25
 fig:unnamed-chunk-26
 fig:unnamed-chunk-27
-brainerd2018-iy
+exploring-the-database
+next-time-8
