@@ -55,4 +55,3 @@ fig:unnamed-chunk-27
 fig:unnamed-chunk-28
 fig:unnamed-chunk-30
 exploring-the-database
-next-time-8

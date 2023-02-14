@@ -73,7 +73,7 @@ Fanelli, D., Costas, R. & Larivière, V. (2015). Misconduct Policies, Academic C
 
 <http://retractiondatabase.org/RetractionSearch.aspx?>
 
-::: {.rmdnote}
+::: {.infobox}
 
 Students could consider updating the story of a retracted paper as a final project. What happened to the author(s)?
 
@@ -101,7 +101,7 @@ Students could consider updating the story of a retracted paper as a final proje
 >
 > <https://ori.hhs.gov/blog/ori-awards-three-research-integrity-grants>
 
-## Next time...
+## Next time...  {-}
 
 - Questionable research practices
   - Read
