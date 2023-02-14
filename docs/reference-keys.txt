@@ -1,10 +1,10 @@
-fig:unnamed-chunk-39
-fig:unnamed-chunk-40
-fig:unnamed-chunk-41
 fig:unnamed-chunk-42
 fig:unnamed-chunk-43
 fig:unnamed-chunk-44
 fig:unnamed-chunk-45
+fig:unnamed-chunk-46
+fig:unnamed-chunk-47
+fig:unnamed-chunk-48
 fig:unnamed-chunk-5
 fig:unnamed-chunk-6
 fig:unnamed-chunk-7
@@ -52,5 +52,7 @@ fig:unnamed-chunk-24
 fig:unnamed-chunk-25
 fig:unnamed-chunk-26
 fig:unnamed-chunk-27
+fig:unnamed-chunk-28
+fig:unnamed-chunk-30
 exploring-the-database
 next-time-8
