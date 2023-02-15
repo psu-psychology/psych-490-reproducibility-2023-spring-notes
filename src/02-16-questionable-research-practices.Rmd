@@ -7,11 +7,16 @@
   - [@John2012-tk](http://dx.doi.org/10.1177/0956797611430953)
 - Watch
   - [@Ngiam2020-ln](https://www.youtube.com/watch?v=bf3GqyBRgzY)
+- Remember
+  - [Exercise 02: P-hack your way to scientific glory](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_p_hacking.html)
+    - [Due next Tuesday, February 21, 2023]{.orange_due}.
+
     
 ## Central questions {-}
     
+- What are researcher 'degrees of freedom'?
+- Why should we care about them?
 - What are questionable research practices?
-
 - Why should we care about them?
 
 ## Background {-}
@@ -38,7 +43,7 @@ knitr::include_graphics("https://i.stack.imgur.com/Kq0OH.jpg")
   - Minimize false negatives (Type II errors)
 - Practices
   - Set small *p*-value to reject null hypothesis if using null hypothesis significance testing (NHST)
-  - Control alpha $\alpha$.
+      - Control alpha $\alpha$.
   - Control beta $\beta$ or statistical 'power' $1-\beta$.
     
 ### Researcher 'degrees of freedom' {-}
@@ -61,10 +66,6 @@ knitr::include_graphics("https://i.stack.imgur.com/Kq0OH.jpg")
 > In a perusal of roughly 30 Psychological Science articles, we discovered considerable inconsistency in, and hence considerable ambiguity about, this decision. Most (but not all) researchers excluded some responses for being too fast, but what constituted “too fast” varied enormously: the fastest 2.5%, or faster than 2 standard deviations from the mean, or faster than 100 or 150 or 200 or 300 ms. Similarly, what constituted “too slow” varied enormously: the slowest 2.5% or 10%, or 2 or 2.5 or 3 standard deviations slower than the mean, or 1.5 standard deviations slower from that condition’s mean, or slower than 1,000 or 1,200 or 1,500 or 2,000 or 3,000 or 5,000 ms. None of these decisions is necessarily incorrect, but that fact makes any of them justifiable and hence potential fodder for self-serving justifications.
 >
 >-- [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632)
-  
-```{r}
-knitr::include_url("https://journals.sagepub.com/doi/10.1177/0956797611417632")
-```
 
 ## [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632) {-}
 
@@ -79,7 +80,7 @@ knitr::include_url("https://journals.sagepub.com/doi/10.1177/0956797611417632")
 <!-- When I'm 64 -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HCTunqv1Xt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-#### Simulations
+#### Simulations {-}
 
 >These simulations assessed the impact of four common degrees of freedom: flexibility in (a) choosing among dependent variables, (b) choosing sample size, (c) using covariates, and (d) reporting subsets of experimental conditions. We also investigated various combinations of these degrees of freedom.
 >
@@ -139,7 +140,7 @@ knitr::include_graphics("include/img/simmons-2011-fig-02.png")
 
 #### Illustration {-}
 
-```{r, fig.cap="Table 3 from [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632)", out.width="80%"}
+```{r, fig.cap="Table 3 from [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632)", out.width="100%"}
 knitr::include_graphics("include/img/simmons-2011-table-03.png")
 ```
 
@@ -202,7 +203,7 @@ knitr::include_url("http://pss.sagepub.com/content/by/supplemental-data", height
 
 ## Next time... {-}
 
-- Discuss: [Exercise 02: P-hack your way to scientific glory](#ex_p_hacking).
+- Discuss: [Exercise 02: P-hack your way to scientific glory](https://psu-github.io/psych-490-reproducibility-2023/ex_p_hacking), [due next time]{.orange_due}.
 - Bias
     - [@Ritchie2020-fm], Chapter 4
  

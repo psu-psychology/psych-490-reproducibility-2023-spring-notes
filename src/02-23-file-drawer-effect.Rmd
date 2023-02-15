@@ -1,0 +1,16 @@
+# File drawer effect  {-}
+
+## Roadmap {-}
+
+- Discussion about the file drawer effect
+  - [@Rosenthal1979-zi](https://doi.org/10.1037/0033-2909.86.3.638)
+  - [@Franco2014-yu](http://dx.doi.org/10.1126/science.1255484)
+- Work session on final project [proposals](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/final_project.html), [due Thursday, March 2]{.orange_due}.
+
+## Next time... {-}
+
+- Negligence
+- Read
+    - [@Ritchie2020-fm], Chapter 5
+    - [@Nuijten2015-ul](https://doi.org/10.3758/s13428-015-0664-2)
+    - [@Szucs2017-fc](http://dx.doi.org/10.1371/journal.pbio.2000797)

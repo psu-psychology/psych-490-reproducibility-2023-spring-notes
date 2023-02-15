@@ -26,6 +26,8 @@ These lecture notes are for your use as a student in PSYCH 490.002.
 knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'include/bib/packages.bib')
+
+syllabus_url_root <- "https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/"
 ```
 
 ```{r set-up, include = FALSE}

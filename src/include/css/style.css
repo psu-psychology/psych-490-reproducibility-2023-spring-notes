@@ -16,3 +16,11 @@ pre code {
 .csl-entry {
   text-indent: 5%;
 }
+
+.green_assigned {
+  color: green;
+}
+
+.orange_due {
+  color: orange;
+}

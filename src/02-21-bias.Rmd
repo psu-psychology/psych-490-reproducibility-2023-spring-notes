@@ -1,12 +1,13 @@
 # Bias  {-}
 
-## Read {-}
+## Roadmap {-}
 
-- [@Ritchie2020-fm], Chapter 4
-
-## Exercise {-}
-
-- P-hack your way to scientific glory
+- Discuss
+    - [@Ritchie2020-fm], Chapter 4
+- Discuss results from
+    - [Exercise 02: P-hack your way to scientific glory](https://psu-github.io/psych-490-reproducibility-2023/ex_p_hacking).
+- [Due today]{.orange_due}
+    - [Exercise 02: P-hack your way to scientific glory](https://psu-github.io/psych-490-reproducibility-2023/ex_p_hacking)
 
 ## Kinds of bias {-}
 
@@ -16,3 +17,6 @@
 1. How many different analyses did you try?
 1. Who changed their analysis after finding a significant result?
 1. Did anyone try another analysis and *keep* the non-significant result?
+
+## Next time...
+
