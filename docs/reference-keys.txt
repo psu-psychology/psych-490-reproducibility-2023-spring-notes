@@ -1,10 +1,10 @@
-fig:unnamed-chunk-48
 fig:unnamed-chunk-49
 fig:unnamed-chunk-50
 fig:unnamed-chunk-51
 fig:unnamed-chunk-52
 fig:unnamed-chunk-53
 fig:unnamed-chunk-54
+fig:unnamed-chunk-55
 fig:unnamed-chunk-5
 fig:unnamed-chunk-6
 fig:unnamed-chunk-7
@@ -62,3 +62,4 @@ fig:unnamed-chunk-35
 fig:unnamed-chunk-36
 exploring-the-database
 simulations
+reproducibility-note

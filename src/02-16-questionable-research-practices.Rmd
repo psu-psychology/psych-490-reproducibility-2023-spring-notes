@@ -176,6 +176,24 @@ knitr::include_graphics("include/img/john-2012-fig-01.png")
 knitr::include_graphics("include/img/john-2012-fig-01.png")
 ```
 
+### Reproducibility note
+
+>Supplemental Material
+>Additional supporting information may be found at http://pss.sagepub.com/content/by/supplemental-data
+>
+>-- [@John2012-tk](http://dx.doi.org/10.1177/0956797611430953)
+
+- Visiting this URL (<http://pss.sagepub.com/content/by/supplemental-data>) takes one to the following:
+
+```{r}
+knitr::include_url("http://pss.sagepub.com/content/by/supplemental-data", height = 600)
+```
+
+- I went to the journal page and searched for the article title.
+- Since the article is behind a paywall, I wasn't able to access the supplemental materials that way.
+- After authenticating to the PSU library, I was able to find a PDF of the [supplementary material](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=146306047). It and the [original paper](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=146306050) are on Canvas as of 2023-02-15.
+- I was unable to find the specific survey questions or the data.
+
 ## Next time... {-}
 
 - Discuss: [Exercise 02: P-hack your way to scientific glory](#ex_p_hacking).
