@@ -24,7 +24,7 @@
 - Negative: What's actually not-true or false, a false fact
 - What does our evidence say?
 
-```{r, fig.cap="False positives vs. false negatives", out.width="75%", }
+```{r, fig.cap="False positives vs. false negatives", out.width="80%", }
 knitr::include_graphics("https://i.stack.imgur.com/Kq0OH.jpg")
 ```
 
@@ -89,19 +89,19 @@ knitr::include_url("https://journals.sagepub.com/doi/10.1177/0956797611417632")
 
 ### Findings {-}
 
-```{r, fig.cap="Table 1 from [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632)", out.width="75%"}
+```{r, fig.cap="Table 1 from [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632)", out.width="80%"}
 knitr::include_graphics("include/img/simonsohn-2011-table-01.png")
 ```
 
 - Researcher choices inflate false positive rate above 5% ($p<.05$).
 
-```{r, out.width="75%", fig.cap="Figure 1 from [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632)"}
+```{r, out.width="80%", fig.cap="Figure 1 from [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632)"}
 knitr::include_graphics("include/img/simmons-2011-fig-01.png")
 ```
 
 - Collecting more data after analyzing a small initial sample inflates the false positive rate.
 
-```{r, out.width="75%", fig.cap="Figure 2 from [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632)"}
+```{r, out.width="80%", fig.cap="Figure 2 from [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632)"}
 knitr::include_graphics("include/img/simmons-2011-fig-02.png")
 ```
 
@@ -139,7 +139,7 @@ knitr::include_graphics("include/img/simmons-2011-fig-02.png")
 
 #### Illustration {-}
 
-```{r, fig.cap="Table 3 from [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632)", out.width="75%"}
+```{r, fig.cap="Table 3 from [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632)", out.width="80%"}
 knitr::include_graphics("include/img/simmons-2011-table-03.png")
 ```
 
@@ -160,7 +160,7 @@ knitr::include_graphics("include/img/simmons-2011-table-03.png")
 
 ### Results {-}
 
-```{r, fig.cap="Table 1 from [@John2012-tk](http://dx.doi.org/10.1177/0956797611430953)"}
+```{r, fig.cap="Table 1 from [@John2012-tk](http://dx.doi.org/10.1177/0956797611430953)", out.width="80%"}
 knitr::include_graphics("include/img/john-2012-table-01.png")
 ```
 
@@ -168,11 +168,11 @@ knitr::include_graphics("include/img/john-2012-table-01.png")
 >
 >-- [@John2012-tk](http://dx.doi.org/10.1177/0956797611430953)
 
-```{r, fig.cap="Figure 1 from [@John2012-tk](http://dx.doi.org/10.1177/0956797611430953)"}
+```{r, fig.cap="Figure 1 from [@John2012-tk](http://dx.doi.org/10.1177/0956797611430953)", out.width="80%"}
 knitr::include_graphics("include/img/john-2012-fig-01.png")
 ```
 
-```{r, fig.cap="Figure 2 from [@John2012-tk](http://dx.doi.org/10.1177/0956797611430953)"}
+```{r, fig.cap="Figure 2 from [@John2012-tk](http://dx.doi.org/10.1177/0956797611430953)", out.width="80%"}
 knitr::include_graphics("include/img/john-2012-fig-01.png")
 ```
 
