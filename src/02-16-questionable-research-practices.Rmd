@@ -176,7 +176,13 @@ knitr::include_graphics("include/img/john-2012-fig-01.png")
 knitr::include_graphics("include/img/john-2012-fig-01.png")
 ```
 
-### Reproducibility note
+## Reproducibility notes
+
+### [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632)
+
+- [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632) does not appear to have shared data or any supplementary materials along with the article.
+
+### [@John2012-tk](http://dx.doi.org/10.1177/0956797611430953)
 
 >Supplemental Material
 >Additional supporting information may be found at http://pss.sagepub.com/content/by/supplemental-data

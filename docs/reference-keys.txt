@@ -62,4 +62,6 @@ fig:unnamed-chunk-35
 fig:unnamed-chunk-36
 exploring-the-database
 simulations
-reproducibility-note
+reproducibility-notes
+simmons_false-positive_2011-1
+john2012-tk-1
