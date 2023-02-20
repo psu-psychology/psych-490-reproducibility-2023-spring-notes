@@ -14,7 +14,8 @@ pre code {
 }
 
 .csl-entry {
-  text-indent: 5%;
+  margin-left: 1em;
+   text-indent: -1em;
 }
 
 .green_assigned {

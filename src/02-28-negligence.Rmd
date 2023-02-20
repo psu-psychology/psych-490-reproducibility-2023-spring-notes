@@ -14,7 +14,6 @@
 ## Next time... {-}
 
 - Hype
-- Read
     - [@Ritchie2020-fm], Chapter 6
     - [@Carney2010-gq](http://dx.doi.org/10.1177/0956797610383437)
     - (Optional) [@Ranehill2015-dj](http://dx.doi.org/10.1177/0956797614553946)

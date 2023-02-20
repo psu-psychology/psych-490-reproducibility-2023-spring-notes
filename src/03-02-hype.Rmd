@@ -4,14 +4,14 @@
 
 - Discuss
     - [@Ritchie2020-fm], Chapter 6
-    - [@Carney2010-gq]](http://dx.doi.org/10.1177/0956797610383437)
+    - [@Carney2010-gq](http://dx.doi.org/10.1177/0956797610383437)
     - (Optional) [@Ranehill2015-dj](http://dx.doi.org/10.1177/0956797614553946)
 - Watch/discuss
     - [@Cuddy2012-zx](https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are)
 - Reminder 
     - [Assignment]{.green_assigned} [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_apes.html), [due Tuesday, March 14]{.orange_due} 
 - [Due]{.orange_due}
-    - Final project [proposals](https://[proposals](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/final_project.html).
+    - Final project [proposals](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/final_project.html).
 
 ::: {.infobox}
 
@@ -30,4 +30,4 @@ Reading the Times' story would make a great final project topic, however.
     - [@munafo_manifesto_2017](https://doi.org/10.1038/s41562-016-0021)
     - [[@Begley2013-vm]](http://dx.doi.org/10.1038/497433a)
 - [Due]{.orange_due}
-    -  [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size]((paste0(syllabus_url_root, 'ex_apes.html')) write-up
+    -  [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_apes.html) write-up

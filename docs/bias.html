@@ -23,7 +23,7 @@
 <meta name="author" content="Rick O. Gilmore, Ph.D." />
 
 
-<meta name="date" content="2023-02-15" />
+<meta name="date" content="2023-02-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -392,8 +392,15 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="" data-path="bias.html"><a href="bias.html#roadmap-11"><i class="fa fa-check"></i>Roadmap</a></li>
 <li class="chapter" data-level="" data-path="bias.html"><a href="bias.html#kinds-of-bias"><i class="fa fa-check"></i>Kinds of bias</a></li>
-<li class="chapter" data-level="" data-path="bias.html"><a href="bias.html#discuss-p-hacking-exercise"><i class="fa fa-check"></i>Discuss p-hacking exercise</a></li>
-<li class="chapter" data-level="0.1" data-path="bias.html"><a href="bias.html#next-time-10"><i class="fa fa-check"></i><b>0.1</b> Next time…</a></li>
+<li class="chapter" data-level="" data-path="bias.html"><a href="bias.html#discuss-p-hacking-exercise"><i class="fa fa-check"></i>Discuss p-hacking exercise</a>
+<ul>
+<li class="chapter" data-level="" data-path="bias.html"><a href="bias.html#preparation"><i class="fa fa-check"></i>Preparation</a></li>
+<li class="chapter" data-level="" data-path="bias.html"><a href="bias.html#data-entry"><i class="fa fa-check"></i>Data entry</a></li>
+<li class="chapter" data-level="" data-path="bias.html"><a href="bias.html#data-gathering"><i class="fa fa-check"></i>Data gathering</a></li>
+<li class="chapter" data-level="" data-path="bias.html"><a href="bias.html#questions-to-explore"><i class="fa fa-check"></i>Questions to explore</a></li>
+<li class="chapter" data-level="" data-path="bias.html"><a href="bias.html#visualize"><i class="fa fa-check"></i>Visualize</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="bias.html"><a href="bias.html#next-time-10"><i class="fa fa-check"></i>Next time…</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="file-drawer-effect.html"><a href="file-drawer-effect.html"><i class="fa fa-check"></i>File drawer effect</a>
 <ul>
@@ -467,6 +474,17 @@ div.csl-indent {
 </div>
 <div id="kinds-of-bias" class="section level2 unnumbered hasAnchor">
 <h2>Kinds of bias<a href="bias.html#kinds-of-bias" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Analysts’ assumptions</li>
+<li>Publication bias toward positive (vs. negative/null) results
+<ul>
+<li>File-drawer effect</li>
+</ul></li>
+<li>Preference for simple results (c.f., Stapel)</li>
+<li>overfitting</li>
+<li>conflicts of interest</li>
+<li><em>p</em>-hacking</li>
+</ul>
 </div>
 <div id="discuss-p-hacking-exercise" class="section level2 unnumbered hasAnchor">
 <h2>Discuss p-hacking exercise<a href="bias.html#discuss-p-hacking-exercise" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -474,18 +492,121 @@ div.csl-indent {
 <li>Who got a “significant” result?</li>
 <li>How many different analyses did you try?</li>
 <li>Who changed their analysis after finding a significant result?</li>
-<li>Did anyone try another analysis and <em>keep</em> the non-significant result?</li>
+<li>Did anyone try another analysis–after you got a significant result–and <em>keep</em> the non-significant result?</li>
 </ol>
+<div id="preparation" class="section level3 unnumbered hasAnchor">
+<h3>Preparation<a href="bias.html#preparation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>It often saves typing to load a set of commands into memory. In R, groups of useful commands are called ‘packages’. We can load a set of useful packages into memory by issuing the following command.</p>
+<p>If you are interested in a career related to data science, <a href="https://www.tidyverse.org"><code>tidyverse</code></a> is a very powerful set of tools you will want to know more about.</p>
 </div>
-<div id="next-time-10" class="section level2 hasAnchor" number="0.1">
-<h2><span class="header-section-number">0.1</span> Next time…<a href="bias.html#next-time-10" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="data-entry" class="section level3 unnumbered hasAnchor">
+<h3>Data entry<a href="bias.html#data-entry" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Via a Google Sheet: <a href="https://docs.google.com/spreadsheets/d/1fnSwFrUcKvgqq_agDLe4t2DHXHtHoOlmLdtLVRSemrI/edit?usp=sharing" class="uri">https://docs.google.com/spreadsheets/d/1fnSwFrUcKvgqq_agDLe4t2DHXHtHoOlmLdtLVRSemrI/edit?usp=sharing</a></p>
+<div class="rmdnote">
+<p>Gilmore added data validation (Format/Data Validation) to the columns. Why?</p>
+</div>
+<div class="rmdnote">
+<p>These data are “long”.
+Each row is a unique observation.
+Long data are often easier to work with.
+But not always.</p>
+</div>
+</div>
+<div id="data-gathering" class="section level3 unnumbered hasAnchor">
+<h3>Data gathering<a href="bias.html#data-gathering" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>First, I authenticate (sign-in) to Google using my Gmail account. If I haven’t logged in using this script recently, it will ask me to log-in again.</p>
+<p>Then I download the Google Sheet to a directory/folder called <code>csv/</code> using the file name <code>p-hacking.csv</code>.</p>
+<pre><code>## File downloaded:</code></pre>
+<pre><code>## • &#39;PSYCH 490.002 2023 P-hacking&#39;
+##   &lt;id: 1fnSwFrUcKvgqq_agDLe4t2DHXHtHoOlmLdtLVRSemrI&gt;</code></pre>
+<pre><code>## Saved locally as:</code></pre>
+<pre><code>## • &#39;]8;;file:///Users/rick/rrr/psych-490-reproducibility-2023-spring-notes/src/csv/p-hacking.csvcsv/p-hacking.csv]8;;&#39;</code></pre>
+<div class="rmdnote">
+<p>What does CSV mean?</p>
+<p>Why are CSV files often used in data analysis?</p>
+</div>
+<p>Next, I read the CSV file using the <code>read_csv()</code> function.</p>
+<p>Functions in R take inputs and deliver outputs. The inputs are <code>file</code> and <code>show_col_types</code>.</p>
+<p>The output is an object called <code>p_hacking</code>. It is a table of data that I can refer to with that name.</p>
+<p>I like to use the ‘structure’ function or <code>str()</code> to see what the data look like.</p>
+<div class="rmdnote">
+<p>Data is a plural noun. So, (when we don’t forget this) we say ‘The data are…’ not ‘The data is…’.</p>
+</div>
+<pre><code>## spc_tbl_ [3 × 15] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
+##  $ student           : num [1:3] 0 0 0
+##  $ analysis          : num [1:3] 1 2 3
+##  $ party             : chr [1:3] &quot;democrats&quot; &quot;democrats&quot; &quot;democrats&quot;
+##  $ prediction        : chr [1:3] &quot;worse&quot; &quot;worse&quot; &quot;worse&quot;
+##  $ power_president   : logi [1:3] FALSE FALSE FALSE
+##  $ power_governors   : logi [1:3] FALSE FALSE FALSE
+##  $ power_senators    : logi [1:3] TRUE TRUE TRUE
+##  $ power_reps        : logi [1:3] TRUE TRUE TRUE
+##  $ econ_employment   : logi [1:3] TRUE TRUE TRUE
+##  $ econ_inflation    : logi [1:3] FALSE FALSE FALSE
+##  $ econ_gdp          : logi [1:3] FALSE FALSE FALSE
+##  $ econ_stocks       : logi [1:3] TRUE TRUE TRUE
+##  $ factor_in_power   : logi [1:3] FALSE TRUE FALSE
+##  $ exclude_recessions: logi [1:3] FALSE FALSE TRUE
+##  $ p_value           : num [1:3] 0.05 0.19 0.02
+##  - attr(*, &quot;spec&quot;)=
+##   .. cols(
+##   ..   student = col_double(),
+##   ..   analysis = col_double(),
+##   ..   party = col_character(),
+##   ..   prediction = col_character(),
+##   ..   power_president = col_logical(),
+##   ..   power_governors = col_logical(),
+##   ..   power_senators = col_logical(),
+##   ..   power_reps = col_logical(),
+##   ..   econ_employment = col_logical(),
+##   ..   econ_inflation = col_logical(),
+##   ..   econ_gdp = col_logical(),
+##   ..   econ_stocks = col_logical(),
+##   ..   factor_in_power = col_logical(),
+##   ..   exclude_recessions = col_logical(),
+##   ..   p_value = col_double()
+##   .. )
+##  - attr(*, &quot;problems&quot;)=&lt;externalptr&gt;</code></pre>
+</div>
+<div id="questions-to-explore" class="section level3 unnumbered hasAnchor">
+<h3>Questions to explore<a href="bias.html#questions-to-explore" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Most data analysts find that the process of exploring data is iterative.</p>
+<p>We start with a question. That leads to another question. That leads to yet another question.</p>
+<p>It is also sometimes cyclical. To answer a question requires that we modify the form of our data file.</p>
+<p>I like to start with thinking about “data pictures.” If X was true, what would the data look like?</p>
+<hr />
+<p>The following code we may or may not use. I put it here so it’s easier for all of us if we need to make use of it.</p>
+</div>
+<div id="visualize" class="section level3 unnumbered hasAnchor">
+<h3>Visualize<a href="bias.html#visualize" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+<p><img src="include/img/hist-p-vals-1.png" width="50%" style="display: block; margin: auto;" /></p>
+<p><img src="include/img/p-vals-by-analysis-1.png" width="50%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<div id="next-time-10" class="section level2 unnumbered hasAnchor">
+<h2>Next time…<a href="bias.html#next-time-10" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>File drawer effect
+<ul>
+<li><a href="https://doi.org/10.1037/0033-2909.86.3.638"><span class="citation">Rosenthal (<a href="#ref-Rosenthal1979-zi" role="doc-biblioref">1979</a>)</span></a></li>
+<li><a href="http://dx.doi.org/10.1126/science.1255484"><span class="citation">Franco, Malhotra, &amp; Simonovits (<a href="#ref-Franco2014-yu" role="doc-biblioref">2014</a>)</span></a></li>
+</ul></li>
+<li>Work session on final project <a href="https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/final_project.html">proposals</a>, <span class="orange_due">due Thursday, March 2</span>.</li>
+</ul>
 
 </div>
 </div>
 <h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-Franco2014-yu" class="csl-entry">
+Franco, A., Malhotra, N., &amp; Simonovits, G. (2014). Social science. Publication bias in the social sciences: Unlocking the file drawer. <em>Science</em>, <em>345</em>(6203), 1502–1505. <a href="https://doi.org/10.1126/science.1255484">https://doi.org/10.1126/science.1255484</a>
+</div>
 <div id="ref-Ritchie2020-fm" class="csl-entry">
 Ritchie, S. (2020). <em>Science fictions: Exposing fraud, bias, negligence and hype in science</em> (1st ed.). Penguin Random House. Retrieved from <a href="https://www.amazon.com/Science-Fictions/dp/1847925669">https://www.amazon.com/Science-Fictions/dp/1847925669</a>
+</div>
+<div id="ref-Rosenthal1979-zi" class="csl-entry">
+Rosenthal, R. (1979). The file drawer problem and tolerance for null results. <em>Psychological Bulletin</em>, <em>86</em>(3), 638–641. <a href="https://doi.org/10.1037/0033-2909.86.3.638">https://doi.org/10.1037/0033-2909.86.3.638</a>
 </div>
 </div>
             </section>

@@ -11,12 +11,151 @@
 
 ## Kinds of bias {-}
 
+- Analysts' assumptions
+- Publication bias toward positive (vs. negative/null) results
+    - File-drawer effect
+- Preference for simple results (c.f., Stapel)
+- overfitting
+- conflicts of interest
+- *p*-hacking
+
 ## Discuss p-hacking exercise {-}
 
 1. Who got a "significant" result?
 1. How many different analyses did you try?
 1. Who changed their analysis after finding a significant result?
-1. Did anyone try another analysis and *keep* the non-significant result?
+1. Did anyone try another analysis--after you got a significant result--and *keep* the non-significant result?
 
-## Next time...
+### Preparation {-}
 
+It often saves typing to load a set of commands into memory. In R, groups of useful commands are called 'packages'. We can load a set of useful packages into memory by issuing the following command.
+
+```{r}
+library(tidyverse)
+```
+
+If you are interested in a career related to data science, [`tidyverse`](https://www.tidyverse.org) is a very powerful set of tools you will want to know more about.
+
+### Data entry {-}
+
+Via a Google Sheet: <https://docs.google.com/spreadsheets/d/1fnSwFrUcKvgqq_agDLe4t2DHXHtHoOlmLdtLVRSemrI/edit?usp=sharing>
+
+::: {.rmdnote}
+
+Gilmore added data validation (Format/Data Validation) to the columns. Why?
+
+:::
+
+::: {.rmdnote}
+
+These data are "long".
+Each row is a unique observation.
+Long data are often easier to work with.
+But not always.
+
+:::
+
+### Data gathering {-}
+
+First, I authenticate (sign-in) to Google using my Gmail account. If I haven't logged in using this script recently, it will ask me to log-in again.
+
+```{r}
+googledrive::drive_auth("rick.o.gilmore@gmail.com")
+```
+
+Then I download the Google Sheet to a directory/folder called `csv/` using the file name `p-hacking.csv`.
+
+
+```{r}
+googledrive::drive_download(file = "PSYCH 490.002 2023 P-hacking", path = "csv/p-hacking.csv", type = 'csv', overwrite = TRUE)
+```
+
+::: {.rmdnote}
+
+What does CSV mean?
+
+Why are CSV files often used in data analysis?
+
+:::
+
+```{r}
+p_hacking <- read_csv(file = "csv/p-hacking.csv", show_col_types = FALSE)
+```
+
+Next, I read the CSV file using the `read_csv()` function.
+
+Functions in R take inputs and deliver outputs. The inputs are `file` and `show_col_types`.
+
+The output is an object called `p_hacking`. It is a table of data that I can refer to with that name.
+
+I like to use the 'structure' function or `str()` to see what the data look like.
+
+::: {.rmdnote}
+
+Data is a plural noun. So, (when we don't forget this) we say 'The data are...' not 'The data is...'.
+
+:::
+
+```{r}
+str(p_hacking)
+```
+
+### Questions to explore {-}
+
+Most data analysts find that the process of exploring data is iterative.
+
+We start with a question. That leads to another question. That leads to yet another question.
+
+It is also sometimes cyclical. To answer a question requires that we modify the form of our data file.
+
+I like to start with thinking about "data pictures." If X was true, what would the data look like?
+
+---
+
+The following code we may or may not use. I put it here so it's easier for all of us if we need to make use of it.
+
+```{r make-power-long, eval=FALSE}
+power_df <- p_hacking |>
+  pivot_longer(cols = contains('power_'), 
+                      names_to = "political_positions", 
+                      values_to = "pol_pos_selected") |>
+  distinct() |>
+  mutate(political_positions = stringr::str_remove(string = political_positions,
+                                                             pattern = "power_"))
+  
+```
+
+```{r make-econ-long, eval=FALSE}
+econ_df <- p_hacking |>
+  pivot_longer(cols = contains('econ_'), 
+                      names_to = "econ_measures", 
+                      values_to = "econ_meas_selected") |>
+  distinct() |>
+  mutate(econ_measures = stringr::str_remove(string = econ_measures,
+                                                             pattern = "econ_"))
+  
+```
+
+### Visualize {-}
+
+```{r hist-p-vals}
+p_hacking |>
+  ggplot() +
+  aes(x = p_value) +
+  geom_histogram()
+```
+
+```{r p-vals-by-analysis}
+p_hacking |>
+  ggplot() +
+  aes(x = analysis, y = p_value) +
+  geom_point() +
+  geom_line()
+```
+
+## Next time... {-}
+
+- File drawer effect
+    - [@Rosenthal1979-zi](https://doi.org/10.1037/0033-2909.86.3.638)
+    - [@Franco2014-yu](http://dx.doi.org/10.1126/science.1255484)
+- Work session on final project [proposals](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/final_project.html), [due Thursday, March 2]{.orange_due}.
