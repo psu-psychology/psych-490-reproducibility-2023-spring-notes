@@ -147,8 +147,9 @@ econ_df <- p_hacking |>
 ```{r hist-p-vals}
 p_hacking |>
   ggplot() +
-  aes(x = p_value) +
-  geom_histogram()
+  aes(x = p_value, fill = party) +
+  geom_histogram() +
+  facet_grid(~ prediction)
 ```
 
 ```{r p-vals-by-analysis}
