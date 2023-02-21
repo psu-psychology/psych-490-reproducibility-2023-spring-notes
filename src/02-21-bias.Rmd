@@ -11,9 +11,9 @@ knitr::include_url("https://stanforddaily.com/2023/02/17/internal-review-found-f
 - Discuss
     - [@Ritchie2020-fm], Chapter 4
 - Discuss results from
-    - [Exercise 02: P-hack your way to scientific glory](https://psu-github.io/psych-490-reproducibility-2023/ex_p_hacking).
+    - [Exercise 02: P-hack your way to scientific glory](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_p_hacking).
 - [Due today]{.orange_due}
-    - [Exercise 02: P-hack your way to scientific glory](https://psu-github.io/psych-490-reproducibility-2023/ex_p_hacking)
+    - [Exercise 02: P-hack your way to scientific glory](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_p_hacking)
 
 ## Kinds of bias {-}
 

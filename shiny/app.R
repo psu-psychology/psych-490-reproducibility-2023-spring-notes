@@ -85,10 +85,10 @@ server <- function(input, output) {
   sample_b <-
     reactive(rnorm(
       n = input$sample_size_b,
-      mean = input$effect_size,
+      mean = input$mean_b + input$effect_size,
       sd = input$sd_b
     ))
-  #alpha <- reactive(input$alpha)
+  alpha <- reactive(input$alpha)
 
   output$histPlot <- renderPlot({
     myhist(sample_a(),

@@ -13,7 +13,7 @@ freqpoly <- function(x1, x2, binwidth = 0.1, xlim = c(-3, 3)) {
   )
   
   ggplot(df, aes(x, colour = g)) +
-    geom_freqpoly(binwidth = binwidth, size = 1) +
+    geom_freqpoly(binwidth = binwidth, linewidth = 1) +
     coord_cartesian(xlim = xlim)
 }
 
@@ -24,7 +24,7 @@ myhist <- function(x1, x2, binwidth = 0.5, xlim = c(-3, 3)) {
   )
   
   p <- ggplot(df, aes(x, fill = g)) +
-    geom_histogram(binwidth = binwidth, size = 1) +
+    geom_histogram(binwidth = binwidth, linewidth = 1) +
     coord_cartesian(xlim = xlim) +
     theme(legend.position = "none") +
     geom_vline(xintercept = mean(x1)) +
@@ -42,7 +42,7 @@ myhist_bpmarg <- function(x1, x2, binwidth = 0.5, xlim = c(-3, 3)) {
   )
   
   p <- ggplot(df, aes(x, fill = g)) +
-    geom_histogram(binwidth = binwidth, size = 1) +
+    geom_histogram(binwidth = binwidth, linewidth = 1) +
     coord_cartesian(xlim = xlim)
   
   ggMarginal(p, type="boxplot")
