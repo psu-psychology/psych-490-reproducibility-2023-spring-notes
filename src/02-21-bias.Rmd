@@ -1,5 +1,11 @@
 # Bias  {-}
 
+---
+
+```{r, fig.cap="[@Baker_2023-cy](https://stanforddaily.com/2023/02/17/internal-review-found-falsified-data-in-stanford-presidents-alzheimers-research-colleagues-allege/)"}
+knitr::include_url("https://stanforddaily.com/2023/02/17/internal-review-found-falsified-data-in-stanford-presidents-alzheimers-research-colleagues-allege/", height = "600px")
+```
+
 ## Roadmap {-}
 
 - Discuss
@@ -11,12 +17,12 @@
 
 ## Kinds of bias {-}
 
-- Analysts' assumptions
-- Publication bias toward positive (vs. negative/null) results
+- Analysts' prior assumptions
+- Researcher, reviewer, and publication bias toward positive (vs. negative/null) results
     - File-drawer effect
 - Preference for simple results (c.f., Stapel)
-- overfitting
-- conflicts of interest
+- Overfitting
+- Conflicts of interest
 - *p*-hacking
 
 ## Discuss p-hacking exercise {-}

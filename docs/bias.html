@@ -23,7 +23,7 @@
 <meta name="author" content="Rick O. Gilmore, Ph.D." />
 
 
-<meta name="date" content="2023-02-20" />
+<meta name="date" content="2023-02-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -455,6 +455,14 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="bias" class="section level1 unnumbered hasAnchor">
 <h1>Bias<a href="bias.html#bias" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<hr />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-37"></span>
+<iframe src="https://stanforddaily.com/2023/02/17/internal-review-found-falsified-data-in-stanford-presidents-alzheimers-research-colleagues-allege/" width="50%" height="600px" data-external="1">
+</iframe>
+<p class="caption">
+Figure 63: <a href="https://stanforddaily.com/2023/02/17/internal-review-found-falsified-data-in-stanford-presidents-alzheimers-research-colleagues-allege/"><span class="citation">T. Baker (<a href="#ref-Baker_2023-cy" role="doc-biblioref">2023</a>)</span></a>
+</p>
+</div>
 <div id="roadmap-11" class="section level2 unnumbered hasAnchor">
 <h2>Roadmap<a href="bias.html#roadmap-11" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
@@ -475,14 +483,14 @@ div.csl-indent {
 <div id="kinds-of-bias" class="section level2 unnumbered hasAnchor">
 <h2>Kinds of bias<a href="bias.html#kinds-of-bias" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li>Analysts’ assumptions</li>
-<li>Publication bias toward positive (vs. negative/null) results
+<li>Analysts’ prior assumptions</li>
+<li>Researcher, reviewer, and publication bias toward positive (vs. negative/null) results
 <ul>
 <li>File-drawer effect</li>
 </ul></li>
 <li>Preference for simple results (c.f., Stapel)</li>
-<li>overfitting</li>
-<li>conflicts of interest</li>
+<li>Overfitting</li>
+<li>Conflicts of interest</li>
 <li><em>p</em>-hacking</li>
 </ul>
 </div>
@@ -517,8 +525,7 @@ But not always.</p>
 <p>First, I authenticate (sign-in) to Google using my Gmail account. If I haven’t logged in using this script recently, it will ask me to log-in again.</p>
 <p>Then I download the Google Sheet to a directory/folder called <code>csv/</code> using the file name <code>p-hacking.csv</code>.</p>
 <pre><code>## File downloaded:</code></pre>
-<pre><code>## • &#39;PSYCH 490.002 2023 P-hacking&#39;
-##   &lt;id: 1fnSwFrUcKvgqq_agDLe4t2DHXHtHoOlmLdtLVRSemrI&gt;</code></pre>
+<pre><code>## • &#39;PSYCH 490.002 2023 P-hacking&#39; &lt;id: 1fnSwFrUcKvgqq_agDLe4t2DHXHtHoOlmLdtLVRSemrI&gt;</code></pre>
 <pre><code>## Saved locally as:</code></pre>
 <pre><code>## • &#39;]8;;file:///Users/rick/rrr/psych-490-reproducibility-2023-spring-notes/src/csv/p-hacking.csvcsv/p-hacking.csv]8;;&#39;</code></pre>
 <div class="rmdnote">
@@ -532,7 +539,7 @@ But not always.</p>
 <div class="rmdnote">
 <p>Data is a plural noun. So, (when we don’t forget this) we say ‘The data are…’ not ‘The data is…’.</p>
 </div>
-<pre><code>## spc_tbl_ [3 × 15] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
+<pre><code>## spc_tbl_ [3 × 16] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
 ##  $ student           : num [1:3] 0 0 0
 ##  $ analysis          : num [1:3] 1 2 3
 ##  $ party             : chr [1:3] &quot;democrats&quot; &quot;democrats&quot; &quot;democrats&quot;
@@ -547,7 +554,8 @@ But not always.</p>
 ##  $ econ_stocks       : logi [1:3] TRUE TRUE TRUE
 ##  $ factor_in_power   : logi [1:3] FALSE TRUE FALSE
 ##  $ exclude_recessions: logi [1:3] FALSE FALSE TRUE
-##  $ p_value           : num [1:3] 0.05 0.19 0.02
+##  $ p_value           : num [1:3] 0.06 0.19 0.02
+##  $ publishable       : chr [1:3] &quot;no&quot; &quot;no&quot; &quot;yes&quot;
 ##  - attr(*, &quot;spec&quot;)=
 ##   .. cols(
 ##   ..   student = col_double(),
@@ -564,7 +572,8 @@ But not always.</p>
 ##   ..   econ_stocks = col_logical(),
 ##   ..   factor_in_power = col_logical(),
 ##   ..   exclude_recessions = col_logical(),
-##   ..   p_value = col_double()
+##   ..   p_value = col_double(),
+##   ..   publishable = col_character()
 ##   .. )
 ##  - attr(*, &quot;problems&quot;)=&lt;externalptr&gt;</code></pre>
 </div>
@@ -599,6 +608,9 @@ But not always.</p>
 </div>
 <h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-Baker_2023-cy" class="csl-entry">
+Baker, T. (2023, February 17). Review found <span>“falsified data”</span> in stanford president’s research, colleagues allege. <a href="https://stanforddaily.com/2023/02/17/internal-review-found-falsified-data-in-stanford-presidents-alzheimers-research-colleagues-allege/" class="uri">https://stanforddaily.com/2023/02/17/internal-review-found-falsified-data-in-stanford-presidents-alzheimers-research-colleagues-allege/</a>. Retrieved from <a href="https://stanforddaily.com/2023/02/17/internal-review-found-falsified-data-in-stanford-presidents-alzheimers-research-colleagues-allege/">https://stanforddaily.com/2023/02/17/internal-review-found-falsified-data-in-stanford-presidents-alzheimers-research-colleagues-allege/</a>
+</div>
 <div id="ref-Franco2014-yu" class="csl-entry">
 Franco, A., Malhotra, N., &amp; Simonovits, G. (2014). Social science. Publication bias in the social sciences: Unlocking the file drawer. <em>Science</em>, <em>345</em>(6203), 1502–1505. <a href="https://doi.org/10.1126/science.1255484">https://doi.org/10.1126/science.1255484</a>
 </div>

@@ -23,10 +23,16 @@ myhist <- function(x1, x2, binwidth = 0.5, xlim = c(-3, 3)) {
     g = c(rep("a", length(x1)), rep("b", length(x2)))
   )
   
-  ggplot(df, aes(x, fill = g)) +
+  p <- ggplot(df, aes(x, fill = g)) +
     geom_histogram(binwidth = binwidth, size = 1) +
     coord_cartesian(xlim = xlim) +
-    theme(legend.position = "none")  
+    theme(legend.position = "none") +
+    geom_vline(xintercept = mean(x1)) +
+    geom_vline(xintercept = mean(x2))
+    
+  # p + annotate("text", x = -3, y = 25, label = paste0(greeks("mu"), "A: ", format(mean(x1), 3, 2))) +
+  #   annotate("text", x = 3, y = 25, label = paste0(greeks("mu"), "B: ", format(mean(x2), 3, 2)))
+  p
 }
 
 myhist_bpmarg <- function(x1, x2, binwidth = 0.5, xlim = c(-3, 3)) {
@@ -42,14 +48,16 @@ myhist_bpmarg <- function(x1, x2, binwidth = 0.5, xlim = c(-3, 3)) {
   ggMarginal(p, type="boxplot")
 }
 
-t_test <- function(x1, x2) {
-  test <- t.test(x1, x2)
+t_test <- function(x1, x2, alpha = 0.05) {
+  test <- t.test(x2, x1, conf.level = 1 - alpha)
   
   # use sprintf() to format t.test() results compactly
   sprintf(
-    "t[%3.3f]: %2.3f\np value: %0.3f\nDiff means: %2.3f\nCI: [%0.2f, %0.2f]",
+    "t[%3.3f]: %2.3f\np value: %0.3f\nmean A: %2.3f\nmean B: %2.3f\nB-A: %2.3f\nCI: [%0.2f, %0.2f]",
     test$parameter, test$statistic,
-    test$p.value, 
+    test$p.value,
+    mean(x1),
+    mean(x2),
     test$estimate[1]-test$estimate[2],
     test$conf.int[1], test$conf.int[2]
   )

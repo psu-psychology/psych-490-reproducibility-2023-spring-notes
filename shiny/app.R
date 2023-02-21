@@ -16,8 +16,8 @@ ui <- fluidPage(
   
   fluidRow(
     column(
-      2,
-      "Distribution A",
+      1,
+      "A",
       numericInput("sample_size_a", "n", value = 75, min = 1),
       numericInput("mean_a", greeks("mu"), value = 0, step = 0.1),
       numericInput(
@@ -29,10 +29,13 @@ ui <- fluidPage(
       )
     ),
     column(
-      2,
-      "Distribution B",
+      1,
+      "B",
       numericInput("sample_size_b", "n", value = 75, min = 1),
-      numericInput("mean_b", greeks("mu"), value = 0, step = 0.1),
+      numericInput("mean_b",
+                   greeks("mu"),
+                   value = 0,
+                   step = 0.1),
       numericInput(
         "sd_b",
         greeks("sigma"),
@@ -43,22 +46,24 @@ ui <- fluidPage(
     ),
     column(
       2,
-      "Effect size & alpha",
+      "Criterion & Effect Size",
+      numericInput(
+        "alpha",
+        label = paste0("criterion (", greeks("alpha"), ")"),
+        value = 0.05,
+        step = .001
+      ),
       numericInput(
         "effect_size",
-        label = "d",
+        label = "effect size (d)",
         value = 0.5,
         step = 0.1
       ),
-      numericInput(
-        "alpha",
-        label = greeks("alpha"),
-        value = 0.05,
-        step = .01
-      )
+      actionButton("regenerateData", "Regenerate")
     ),
-    column(3, label = "t test", verbatimTextOutput("ttest")),
-    column(3, label = "Power", verbatimTextOutput("power"))
+    column(1),
+    column(3, "t test", verbatimTextOutput("ttest")),
+    column(3, "Power", verbatimTextOutput("power"))
   ),
   fluidRow(column(12, label = "Histogram", plotOutput("histPlot")),)
   
@@ -83,7 +88,8 @@ server <- function(input, output) {
       mean = input$effect_size,
       sd = input$sd_b
     ))
-  
+  #alpha <- reactive(input$alpha)
+
   output$histPlot <- renderPlot({
     myhist(sample_a(),
            sample_b(),
@@ -98,6 +104,8 @@ server <- function(input, output) {
   n_a <- reactive(length(sample_a))
   n_b <- reactive(length(sample_b))
   d <- reactive(input$effect_size)
+  mu_a <- reactive(mean(sample_a()))
+  mu_b <- reactive(mean(sample_b()))
   
   output$power <- renderText({
     t_test_power(length(sample_a()), length(sample_b()), d())
