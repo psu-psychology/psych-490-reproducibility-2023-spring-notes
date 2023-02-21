@@ -51,11 +51,15 @@ myhist_bpmarg <- function(x1, x2, binwidth = 0.5, xlim = c(-3, 3)) {
 t_test <- function(x1, x2, alpha = 0.05) {
   test <- t.test(x2, x1, conf.level = 1 - alpha)
   
+  sig_test <- (alpha >= test$p.value)
+  
   # use sprintf() to format t.test() results compactly
   sprintf(
-    "t[%3.3f]: %2.3f\np value: %0.3f\nmean A: %2.3f\nmean B: %2.3f\nB-A: %2.3f\nCI: [%0.2f, %0.2f]",
+    "t[%3.3f]: %2.3f\np-value: %0.3f\nalpha: %0.3f\nSig?: %s\nmean A: %2.3f\nmean B: %2.3f\nB-A: %2.3f\nCI: [%0.2f, %0.2f]",
     test$parameter, test$statistic,
     test$p.value,
+    alpha,
+    as.character(sig_test),
     mean(x1),
     mean(x2),
     test$estimate[1]-test$estimate[2],
