@@ -53,15 +53,19 @@ discussed.
 >
 >-- [@Rosenthal1979-zi](https://doi.org/10.1037/0033-2909.86.3.638)
 
-::: {.infonote}
+>The extreme view of this problem, the "file drawer problem," is that the journals are filled with the 5% of the studies that show Type I errors, while the file drawers back at the lab are filled with the 95% of the studies that show nonsignificant (e.g., p > .05) results.
+>
+>-- [@Rosenthal1979-zi](https://doi.org/10.1037/0033-2909.86.3.638)
+
+::: {.infobox}
 
 Rosenthal's illustration relies on the *standard normal deviate* or $Z$, which is the value on a standard normal distribution (with mean $\mu=0$ and standard deviation $\sigma=1$) that one would need to observe for a given *p* value.
 
-```{r, fig.cap="Illustration of $Z$ discussed in [@Rosenthal1979-zi](https://doi.org/10.1037/0033-2909.86.3.638)", out.width="100%"}
+```{r, fig.cap="Illustration of $Z$ discussed in [@Rosenthal1979-zi](https://doi.org/10.1037/0033-2909.86.3.638)", out.width="100%", echo=TRUE}
 n <- 1000
 p_val <- 0.05
 df <- tibble::tibble(x = rnorm(n, mean = 0, sd = 1))
-qt_05 <- -qt(p_val, n)
+qt_05 <- qt(p_val, n, lower.tail = FALSE)
 ggplot(df) +
   aes(x) +
   geom_histogram(bins = 20) +
@@ -193,7 +197,7 @@ knitr::include_graphics("franco-etal-2014/bounds.pdf")
 
 - So, we can regenerate one of the figures (S1, p. 6) in the [Supplemental Material](https://www.science.org/doi/suppl/10.1126/science.1255484/suppl_file/franco.sm.pdf).
 
-::: {.infonote}
+::: {.infobox}
 
 More could be done with these data. This could be a final project for someone.
 

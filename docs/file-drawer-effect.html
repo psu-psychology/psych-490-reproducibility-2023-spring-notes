@@ -542,8 +542,21 @@ and future null results are reported and illustrated, and the implications are
 discussed.</p>
 <p>– <a href="https://doi.org/10.1037/0033-2909.86.3.638"><span class="citation">Rosenthal (<a href="#ref-Rosenthal1979-zi" role="doc-biblioref">1979</a>)</span></a></p>
 </blockquote>
-<div class="infonote">
+<blockquote>
+<p>The extreme view of this problem, the “file drawer problem,” is that the journals are filled with the 5% of the studies that show Type I errors, while the file drawers back at the lab are filled with the 95% of the studies that show nonsignificant (e.g., p &gt; .05) results.</p>
+<p>– <a href="https://doi.org/10.1037/0033-2909.86.3.638"><span class="citation">Rosenthal (<a href="#ref-Rosenthal1979-zi" role="doc-biblioref">1979</a>)</span></a></p>
+</blockquote>
+<div class="infobox">
 <p>Rosenthal’s illustration relies on the <em>standard normal deviate</em> or <span class="math inline">\(Z\)</span>, which is the value on a standard normal distribution (with mean <span class="math inline">\(\mu=0\)</span> and standard deviation <span class="math inline">\(\sigma=1\)</span>) that one would need to observe for a given <em>p</em> value.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="file-drawer-effect.html#cb7-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">1000</span></span>
+<span id="cb7-2"><a href="file-drawer-effect.html#cb7-2" aria-hidden="true" tabindex="-1"></a>p_val <span class="ot">&lt;-</span> <span class="fl">0.05</span></span>
+<span id="cb7-3"><a href="file-drawer-effect.html#cb7-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tibble</span>(<span class="at">x =</span> <span class="fu">rnorm</span>(n, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="dv">1</span>))</span>
+<span id="cb7-4"><a href="file-drawer-effect.html#cb7-4" aria-hidden="true" tabindex="-1"></a>qt_05 <span class="ot">&lt;-</span> <span class="fu">qt</span>(p_val, n, <span class="at">lower.tail =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb7-5"><a href="file-drawer-effect.html#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df) <span class="sc">+</span></span>
+<span id="cb7-6"><a href="file-drawer-effect.html#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(x) <span class="sc">+</span></span>
+<span id="cb7-7"><a href="file-drawer-effect.html#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">bins =</span> <span class="dv">20</span>) <span class="sc">+</span></span>
+<span id="cb7-8"><a href="file-drawer-effect.html#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> qt_05) <span class="sc">+</span></span>
+<span id="cb7-9"><a href="file-drawer-effect.html#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="fu">paste0</span>(<span class="st">&quot;Z=&quot;</span>, <span class="fu">format</span>(qt_05, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; for p=&quot;</span>, <span class="fu">format</span>(p_val, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; and n=&quot;</span>, n))</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-45"></span>
 <img src="include/img/unnamed-chunk-45-1.png" alt="Illustration of $Z$ discussed in [@Rosenthal1979-zi](https://doi.org/10.1037/0033-2909.86.3.638)" width="100%" />
 <p class="caption">
@@ -637,7 +650,7 @@ Figure 68: Figure generated from code in <a href="https://doi.org/10.5281/zenodo
 <ul>
 <li>So, we can regenerate one of the figures (S1, p. 6) in the <a href="https://www.science.org/doi/suppl/10.1126/science.1255484/suppl_file/franco.sm.pdf">Supplemental Material</a>.</li>
 </ul>
-<div class="infonote">
+<div class="infobox">
 <p>More could be done with these data. This could be a final project for someone.</p>
 </div>
 </div>
