@@ -23,7 +23,7 @@
 <meta name="author" content="Rick O. Gilmore, Ph.D." />
 
 
-<meta name="date" content="2023-02-22" />
+<meta name="date" content="2023-02-23" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -472,6 +472,13 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="file-drawer-effect" class="section level1 unnumbered hasAnchor">
 <h1>File drawer effect<a href="file-drawer-effect.html#file-drawer-effect" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<hr />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-43"></span>
+<img src="include/img/economist-medical-fraud-2023-02-23.png" alt="[@Economist2023-tg](https://www.economist.com/science-and-technology/2023/02/22/there-is-a-worrying-amount-of-fraud-in-medical-research)" width="80%" />
+<p class="caption">
+Figure 64: <a href="https://www.economist.com/science-and-technology/2023/02/22/there-is-a-worrying-amount-of-fraud-in-medical-research"><span class="citation">Economist (<a href="#ref-Economist2023-tg" role="doc-biblioref">2023</a>)</span></a>
+</p>
+</div>
 <div id="roadmap-12" class="section level2 unnumbered hasAnchor">
 <h2>Roadmap<a href="file-drawer-effect.html#roadmap-12" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
@@ -495,18 +502,18 @@ div.csl-indent {
 </div>
 <div id="file-drawer-effect-1" class="section level2 unnumbered hasAnchor">
 <h2>File drawer effect<a href="file-drawer-effect.html#file-drawer-effect-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-43"></span>
-<img src="https://www.craigmarker.com/wp-content/uploads/2006/12/filedrawer1-1002x675.jpg" alt="https://www.craigmarker.com/wp-content/uploads/2006/12/filedrawer1-1002x675.jpg" width="50%" />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-44"></span>
+<img src="https://www.craigmarker.com/wp-content/uploads/2006/12/filedrawer1-1002x675.jpg" alt="https://www.craigmarker.com/wp-content/uploads/2006/12/filedrawer1-1002x675.jpg" width="80%" />
 <p class="caption">
-Figure 64: <a href="https://www.craigmarker.com/wp-content/uploads/2006/12/filedrawer1-1002x675.jpg" class="uri">https://www.craigmarker.com/wp-content/uploads/2006/12/filedrawer1-1002x675.jpg</a>
+Figure 65: <a href="https://www.craigmarker.com/wp-content/uploads/2006/12/filedrawer1-1002x675.jpg" class="uri">https://www.craigmarker.com/wp-content/uploads/2006/12/filedrawer1-1002x675.jpg</a>
 </p>
 </div>
 <p>Related to the notion of ‘negative data’:</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-44"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-45"></span>
 <iframe src="https://www.youtube.com/embed/9I1qR8PTr54" width="100%" height="400px" data-external="1">
 </iframe>
 <p class="caption">
-Figure 65: <a href="https://www.youtube.com/watch?v=9I1qR8PTr54"><span class="citation">Hypothesis (<a href="#ref-Hypothesis2021-qc" role="doc-biblioref">2021</a>)</span></a>
+Figure 66: <a href="https://www.youtube.com/watch?v=9I1qR8PTr54"><span class="citation">Hypothesis (<a href="#ref-Hypothesis2021-qc" role="doc-biblioref">2021</a>)</span></a>
 </p>
 </div>
 <div id="simulating-the-file-drawer-effect" class="section level3 unnumbered hasAnchor">
@@ -557,10 +564,10 @@ discussed.</p>
 <span id="cb7-7"><a href="file-drawer-effect.html#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">bins =</span> <span class="dv">20</span>) <span class="sc">+</span></span>
 <span id="cb7-8"><a href="file-drawer-effect.html#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> qt_05) <span class="sc">+</span></span>
 <span id="cb7-9"><a href="file-drawer-effect.html#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="fu">paste0</span>(<span class="st">&quot;Z=&quot;</span>, <span class="fu">format</span>(qt_05, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; for p=&quot;</span>, <span class="fu">format</span>(p_val, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; and n=&quot;</span>, n))</span></code></pre></div>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-45"></span>
-<img src="include/img/unnamed-chunk-45-1.png" alt="Illustration of $Z$ discussed in [@Rosenthal1979-zi](https://doi.org/10.1037/0033-2909.86.3.638)" width="100%" />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-46"></span>
+<img src="include/img/unnamed-chunk-46-1.png" alt="Illustration of $Z$ discussed in [@Rosenthal1979-zi](https://doi.org/10.1037/0033-2909.86.3.638)" width="100%" />
 <p class="caption">
-Figure 66: Illustration of <span class="math inline">\(Z\)</span> discussed in <a href="https://doi.org/10.1037/0033-2909.86.3.638"><span class="citation">Rosenthal (<a href="#ref-Rosenthal1979-zi" role="doc-biblioref">1979</a>)</span></a>
+Figure 67: Illustration of <span class="math inline">\(Z\)</span> discussed in <a href="https://doi.org/10.1037/0033-2909.86.3.638"><span class="citation">Rosenthal (<a href="#ref-Rosenthal1979-zi" role="doc-biblioref">1979</a>)</span></a>
 </p>
 </div>
 </div>
@@ -590,10 +597,10 @@ the file drawer threat.</p>
 </div>
 <div id="findings-4" class="section level3 unnumbered hasAnchor">
 <h3>Findings<a href="file-drawer-effect.html#findings-4" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-46"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-47"></span>
 <img src="include/img/franco-etal-2014-table-03.png" alt="Table 3 from [@Franco2014-yu](http://dx.doi.org/10.1126/science.1255484)" width="100%" />
 <p class="caption">
-Figure 67: Table 3 from <a href="http://dx.doi.org/10.1126/science.1255484"><span class="citation">Franco et al. (<a href="#ref-Franco2014-yu" role="doc-biblioref">2014</a>)</span></a>
+Figure 68: Table 3 from <a href="http://dx.doi.org/10.1126/science.1255484"><span class="citation">Franco et al. (<a href="#ref-Franco2014-yu" role="doc-biblioref">2014</a>)</span></a>
 </p>
 </div>
 </div>
@@ -641,10 +648,10 @@ Figure 67: Table 3 from <a href="http://dx.doi.org/10.1126/science.1255484"><spa
 ## X-squared = 70.503, df = 1, p-value &lt; 2.2e-16</code></pre>
 <pre><code>## quartz_off_screen 
 ##                 2</code></pre>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-48"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-49"></span>
 <embed src="franco-etal-2014/bounds.pdf" title="Figure generated from code in https://doi.org/10.5281/zenodo.11300" width="100%" type="application/pdf" />
 <p class="caption">
-Figure 68: Figure generated from code in <a href="https://doi.org/10.5281/zenodo.11300" class="uri">https://doi.org/10.5281/zenodo.11300</a>
+Figure 69: Figure generated from code in <a href="https://doi.org/10.5281/zenodo.11300" class="uri">https://doi.org/10.5281/zenodo.11300</a>
 </p>
 </div>
 <ul>
@@ -671,6 +678,9 @@ Figure 68: Figure generated from code in <a href="https://doi.org/10.5281/zenodo
 </div>
 <h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-Economist2023-tg" class="csl-entry">
+Economist. (2023). There is a worrying amount of fraud in medical research. <em>The Economist</em>. Retrieved from <a href="https://www.economist.com/science-and-technology/2023/02/22/there-is-a-worrying-amount-of-fraud-in-medical-research">https://www.economist.com/science-and-technology/2023/02/22/there-is-a-worrying-amount-of-fraud-in-medical-research</a>
+</div>
 <div id="ref-Franco2014-yu" class="csl-entry">
 Franco, A., Malhotra, N., &amp; Simonovits, G. (2014). Social science. Publication bias in the social sciences: Unlocking the file drawer. <em>Science</em>, <em>345</em>(6203), 1502–1505. <a href="https://doi.org/10.1126/science.1255484">https://doi.org/10.1126/science.1255484</a>
 </div>
