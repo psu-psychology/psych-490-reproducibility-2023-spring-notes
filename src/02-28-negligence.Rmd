@@ -1,5 +1,13 @@
 # Negligence  {-}
 
+## In the news {-}
+
+[@Youyou2023-dh](http://dx.doi.org/10.1073/pnas.2208863120)
+
+```{r, fig.cap="[@Youyou2023-dh](http://dx.doi.org/10.1073/pnas.2208863120)", out.width="100%"}
+knitr::include_url("http://dx.doi.org/10.1073/pnas.2208863120", height="600px")
+```
+
 ## Roadmap {-}
 
 - Discuss

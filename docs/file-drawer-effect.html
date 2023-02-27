@@ -426,6 +426,7 @@ div.csl-indent {
 </ul></li>
 <li class="chapter" data-level="" data-path="negligence.html"><a href="negligence.html"><i class="fa fa-check"></i>Negligence</a>
 <ul>
+<li class="chapter" data-level="" data-path="negligence.html"><a href="negligence.html#in-the-news"><i class="fa fa-check"></i>In the news</a></li>
 <li class="chapter" data-level="" data-path="negligence.html"><a href="negligence.html#roadmap-13"><i class="fa fa-check"></i>Roadmap</a></li>
 <li class="chapter" data-level="" data-path="negligence.html"><a href="negligence.html#types-of-negligence"><i class="fa fa-check"></i>Types of negligence</a>
 <ul>
@@ -564,15 +565,15 @@ discussed.</p>
 </blockquote>
 <div class="infobox">
 <p>Rosenthal’s illustration relies on the <em>standard normal deviate</em> or <span class="math inline">\(Z\)</span>, which is the value on a standard normal distribution (with mean <span class="math inline">\(\mu=0\)</span> and standard deviation <span class="math inline">\(\sigma=1\)</span>) that one would need to observe for a given <em>p</em> value.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="file-drawer-effect.html#cb7-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">1000</span></span>
-<span id="cb7-2"><a href="file-drawer-effect.html#cb7-2" aria-hidden="true" tabindex="-1"></a>p_val <span class="ot">&lt;-</span> <span class="fl">0.05</span></span>
-<span id="cb7-3"><a href="file-drawer-effect.html#cb7-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tibble</span>(<span class="at">x =</span> <span class="fu">rnorm</span>(n, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="dv">1</span>))</span>
-<span id="cb7-4"><a href="file-drawer-effect.html#cb7-4" aria-hidden="true" tabindex="-1"></a>qt_05 <span class="ot">&lt;-</span> <span class="fu">qt</span>(p_val, n, <span class="at">lower.tail =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb7-5"><a href="file-drawer-effect.html#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df) <span class="sc">+</span></span>
-<span id="cb7-6"><a href="file-drawer-effect.html#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(x) <span class="sc">+</span></span>
-<span id="cb7-7"><a href="file-drawer-effect.html#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">bins =</span> <span class="dv">20</span>) <span class="sc">+</span></span>
-<span id="cb7-8"><a href="file-drawer-effect.html#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> qt_05) <span class="sc">+</span></span>
-<span id="cb7-9"><a href="file-drawer-effect.html#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="fu">paste0</span>(<span class="st">&quot;Z=&quot;</span>, <span class="fu">format</span>(qt_05, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; for p=&quot;</span>, <span class="fu">format</span>(p_val, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; and n=&quot;</span>, n))</span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="file-drawer-effect.html#cb8-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">1000</span></span>
+<span id="cb8-2"><a href="file-drawer-effect.html#cb8-2" aria-hidden="true" tabindex="-1"></a>p_val <span class="ot">&lt;-</span> <span class="fl">0.05</span></span>
+<span id="cb8-3"><a href="file-drawer-effect.html#cb8-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tibble</span>(<span class="at">x =</span> <span class="fu">rnorm</span>(n, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="dv">1</span>))</span>
+<span id="cb8-4"><a href="file-drawer-effect.html#cb8-4" aria-hidden="true" tabindex="-1"></a>qt_05 <span class="ot">&lt;-</span> <span class="fu">qt</span>(p_val, n, <span class="at">lower.tail =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb8-5"><a href="file-drawer-effect.html#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df) <span class="sc">+</span></span>
+<span id="cb8-6"><a href="file-drawer-effect.html#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(x) <span class="sc">+</span></span>
+<span id="cb8-7"><a href="file-drawer-effect.html#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">bins =</span> <span class="dv">20</span>) <span class="sc">+</span></span>
+<span id="cb8-8"><a href="file-drawer-effect.html#cb8-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> qt_05) <span class="sc">+</span></span>
+<span id="cb8-9"><a href="file-drawer-effect.html#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="fu">paste0</span>(<span class="st">&quot;Z=&quot;</span>, <span class="fu">format</span>(qt_05, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; for p=&quot;</span>, <span class="fu">format</span>(p_val, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; and n=&quot;</span>, n))</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-46"></span>
 <img src="include/img/unnamed-chunk-46-1.png" alt="Illustration of $Z$ discussed in [@Rosenthal1979-zi](https://doi.org/10.1037/0033-2909.86.3.638)" width="100%" />
 <p class="caption">
@@ -628,20 +629,27 @@ Figure 68: Table 3 from <a href="http://dx.doi.org/10.1126/science.1255484"><spa
 <li>Data &amp; code shared on Zenodo <a href="https://doi.org/10.5281/zenodo.11300" class="uri">https://doi.org/10.5281/zenodo.11300</a></li>
 <li>Let’s try to run it…</li>
 </ul>
-<pre><code>##  [1] &quot;id&quot;                   &quot;author1field&quot;         &quot;author2field&quot;        
-##  [4] &quot;author3field&quot;         &quot;discipline&quot;           &quot;discipline2&quot;         
-##  [7] &quot;POL&quot;                  &quot;PSY&quot;                  &quot;SOC&quot;                 
-## [10] &quot;OTHER&quot;                &quot;year&quot;                 &quot;fieldingperiod1stday&quot;
-## [13] &quot;age_months&quot;           &quot;age_day&quot;              &quot;age_year&quot;            
-## [16] &quot;timetopublish&quot;        &quot;iv_coder1&quot;            &quot;iv_coder2&quot;           
-## [19] &quot;disagreement&quot;         &quot;IV_all&quot;               &quot;IV&quot;                  
-## [22] &quot;strong&quot;               &quot;mixed&quot;                &quot;null&quot;                
-## [25] &quot;DV&quot;                   &quot;DV_all&quot;               &quot;DV_tri&quot;              
-## [28] &quot;DV_book_separate&quot;     &quot;DV_book_unpub&quot;        &quot;DV_book_nontop&quot;      
-## [31] &quot;DV_book_top&quot;          &quot;journal&quot;              &quot;journal_field&quot;       
-## [34] &quot;insample&quot;             &quot;pubyear&quot;              &quot;pub&quot;                 
-## [37] &quot;anyresults&quot;           &quot;written&quot;              &quot;max_h_current&quot;       
-## [40] &quot;max_pub_attime&quot;       &quot;why_excluded&quot;</code></pre>
+<pre><code>##  [1] &quot;id&quot;                   &quot;author1field&quot;        
+##  [3] &quot;author2field&quot;         &quot;author3field&quot;        
+##  [5] &quot;discipline&quot;           &quot;discipline2&quot;         
+##  [7] &quot;POL&quot;                  &quot;PSY&quot;                 
+##  [9] &quot;SOC&quot;                  &quot;OTHER&quot;               
+## [11] &quot;year&quot;                 &quot;fieldingperiod1stday&quot;
+## [13] &quot;age_months&quot;           &quot;age_day&quot;             
+## [15] &quot;age_year&quot;             &quot;timetopublish&quot;       
+## [17] &quot;iv_coder1&quot;            &quot;iv_coder2&quot;           
+## [19] &quot;disagreement&quot;         &quot;IV_all&quot;              
+## [21] &quot;IV&quot;                   &quot;strong&quot;              
+## [23] &quot;mixed&quot;                &quot;null&quot;                
+## [25] &quot;DV&quot;                   &quot;DV_all&quot;              
+## [27] &quot;DV_tri&quot;               &quot;DV_book_separate&quot;    
+## [29] &quot;DV_book_unpub&quot;        &quot;DV_book_nontop&quot;      
+## [31] &quot;DV_book_top&quot;          &quot;journal&quot;             
+## [33] &quot;journal_field&quot;        &quot;insample&quot;            
+## [35] &quot;pubyear&quot;              &quot;pub&quot;                 
+## [37] &quot;anyresults&quot;           &quot;written&quot;             
+## [39] &quot;max_h_current&quot;        &quot;max_pub_attime&quot;      
+## [41] &quot;why_excluded&quot;</code></pre>
 <pre><code>## 
 ##  Pearson&#39;s Chi-squared test with Yates&#39; continuity correction
 ## 
