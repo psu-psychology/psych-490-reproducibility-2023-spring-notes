@@ -144,18 +144,18 @@ econ_df <- p_hacking |>
 
 ### Visualize {-}
 
-```{r hist-p-vals}
+```{r hist-p-vals, out.width="80%"}
 p_hacking |>
   ggplot() +
   aes(x = p_value, fill = party) +
-  geom_histogram() +
+  geom_histogram(bins = 10) +
   facet_grid(~ prediction)
 ```
 
-```{r p-vals-by-analysis}
+```{r p-vals-by-analysis, out.width="80%"}
 p_hacking |>
   ggplot() +
-  aes(x = analysis, y = p_value) +
+  aes(x = analysis, y = p_value, color = as.factor(student), shape = party) +
   geom_point() +
   geom_line()
 ```

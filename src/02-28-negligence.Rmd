@@ -15,7 +15,7 @@ knitr::include_url("http://dx.doi.org/10.1073/pnas.2208863120", height="600px")
     - [@Nuijten2015-ul](https://doi.org/10.3758/s13428-015-0664-2)
     - [@Szucs2017-fc](http://dx.doi.org/10.1371/journal.pbio.2000797)
 - Discuss 
-    - [Assignment]{.green_assigned} [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-ex_apes.html), [due Tuesday, March 14]{.orange_due} 
+    - [Assignment]{.green_assigned} [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-ex_apes.html), [due Thursday, March 16]{.orange_due} 
 - Work session
     - [proposals](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/final_project.html), [due Thursday, March 2]{.orange_due}.
     
