@@ -160,6 +160,52 @@ p_hacking |>
   geom_line()
 ```
 
+::: {.rmdnote}
+
+How many different combinations of variable choices are there? 
+
+There are $n=4$ measures of political control; $n=4$ measures of economic performance; $n=2$ 'other' factors; $n=2$ prediction choices; and $n=2$ political parties to focus on.
+
+We can use the `combinat` package to help us figure this out.
+
+```{r}
+combinat::combn(c('pres', 'gov', 'senate', 'house'), 1)
+```
+
+This shows us the number of ways we can pick a single political measure from among the 4 choices. 
+We see that there are 4 ways.
+
+The next function shows us the number of ways to pick two measures.
+
+```{r}
+combinat::combn(c('pres', 'gov', 'senate', 'house'), 2)
+```
+
+There are 6 columns of two, so there must be 6 different ways to pick two measures.
+
+```{r}
+combinat::combn(c('pres', 'gov', 'senate', 'house'), 3)
+```
+
+There are 4 different ways to pick 3 measures.
+
+And there is only one way to pick 4 among 4. Make sense?
+
+If we add these up '4 + 6 + 4 + 1' = `r 4 + 6 + 4 + 1` we get the number of different choices we can make (15) about how many combinations of political power measures are possible.
+
+Since there are also 4 different choices of economic performance measures, we know that there are 15 ways to pick these. Now we can calculate how many different possible combinations of variables there are.
+
+```{r}
+n_combos <- 15*15*2*2*2
+```
+
+We multiply because each of the choices (political power, economic performance, party, better or worse is independent).
+
+So, there are $n=$ `r n_combos` of variables we could have chosen. No wonder different students got such different results!
+
+:::
+
+
 ## Next time... {-}
 
 - File drawer effect
