@@ -5,8 +5,12 @@
 [@Youyou2023-dh](http://dx.doi.org/10.1073/pnas.2208863120)
 
 ```{r, fig.cap="[@Youyou2023-dh](http://dx.doi.org/10.1073/pnas.2208863120)", out.width="100%"}
-knitr::include_url("http://dx.doi.org/10.1073/pnas.2208863120", height="600px")
+knitr::include_url("http://doi.org/10.1073/pnas.2208863120", height="600px")
 ```
+
+>Conjecture about the weak replicability in social sciences has made scholars eager to quantify the scale and scope of replication failure for a discipline. Yet small-scale manual replication methods alone are ill-suited to deal with this big data problem. Here, we conduct a discipline-wide replication census in science. Our sample (N = 14,126 papers) covers nearly all papers published in the six top-tier Psychology journals over the past 20 y. Using a validated machine learning model that estimates a paper’s likelihood of replication, we found evidence that both supports and refutes speculations drawn from a relatively small sample of manual replications. First, we find that **a single overall replication rate of Psychology poorly captures the varying degree of replicability among subfields**. Second, we find that **replication rates are strongly correlated with research methods** in all subfields. **Experiments replicate at a significantly lower rate than do non-experimental studies**. Third, we find that **authors’ cumulative publication number and citation impact are positively related to the likelihood of replication**, while other proxies of research quality and rigor, such as an author’s university prestige and a paper’s citations, are unrelated to replicability. Finally, contrary to the ideal that media attention should cover replicable research, we find that **media attention is positively related to the likelihood of replication failure**. Our assessments of the scale and scope of replicability are important next steps toward broadly resolving issues of replicability.
+>
+>-- [@Youyou2023-dh](http://dx.doi.org/10.1073/pnas.2208863120)
 
 ## Roadmap {-}
 
