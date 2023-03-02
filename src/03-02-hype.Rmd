@@ -87,6 +87,10 @@ knitr::include_graphics("include/img/carney-etal-2010-results.png")
 knitr::include_graphics("include/img/carney-etal-fig03.png")
 ```
 
+### Citation data
+
+Paper cited ~1,500 times (https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Power+posing%3A+brief+nonverbal+displays+affect+neuroendocrine+levels+and+risk+tolerance&btnG=) according to Google Scholar on 2023-03-01.
+
 ### Reproducibility notes {-}
 
 - Article was behind a paywall.
@@ -95,18 +99,15 @@ knitr::include_graphics("include/img/carney-etal-fig03.png")
 
 ### Presentation comments {-}
 
-- Better to show individual participant data points
-
----
-
-Paper cited ~1,500 times (https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Power+posing%3A+brief+nonverbal+displays+affect+neuroendocrine+levels+and+risk+tolerance&btnG=) according to Google Scholar on 2023-03-01.
-
+- Better to show individual participant data points (see below)
 
 ## [@Cuddy2012-zx](https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are)  {-}
 
 ```{r, out.width="100%", fig.cap="Amy Cuddy's TED talk: https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are"}
 knitr::include_graphics("include/img/cuddy-ted.png")
 ```
+
+### Citation data
 
 Talk viewed ~67 million times according to TED web page on 2023-03-01.
 
@@ -137,6 +138,10 @@ knitr::include_graphics("include/img/ranehill-etal-2015-results.png")
 knitr::include_graphics("include/img/ranehill-etal-2015-fig01.png")
 ```
 
+### Citation data
+
+Paper cited ~314 times (https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Assessing+the+robustness+of+power+posing%3A+no+effect+on+hormones+and+risk+tolerance+in+a+large+sample+of+men+and+women+%5BReview+of+Assessing+the+robustness+of+power+posing%3A+no+effect+on+hormones+and+risk+tolerance+in+a+large+sample+of+men+and+women%5D&btnG=) according to Google Scholar on 2023-03-01.
+
 ### Reproducibility notes {-}
 
 - Article was behind a paywall.
@@ -146,14 +151,28 @@ knitr::include_graphics("include/img/ranehill-etal-2015-fig01.png")
 - There is an [OSF site](https://osf.io/6akvt) with data and materials.
     - The OSF site includes very helpful details about the experiments.
     - The data and code were shared, but I don't have access to the statistical program used (Stata) to rerun the analysis. The data had a `.dta` file extension. This appears to be a plain text, 'tidy' data file format that could be used by another program.
-    
+
 ### Presentation comments {-}
 
-- Better to show individual participant data points
+It's better to show individual participant data points in a 'spaghetti' plot.
+That way the read can see both the group effect and how individual participants fared.
+Here's an example with made-up data.
 
----
+```{r, out.width="100%", fig.cap="Example of 'spaghetti' plot."}
+measure <- c(1, .8, 1.2, 1.1, .7, .75, 1.1, 1, 1.15, 1.05, .75, .8)
+time <- c(1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2)
+group <- c('a', 'a', 'a', 'b', 'b', 'b', 'a', 'a', 'a', 'b', 'b', 'b')
+sub_id <- c(1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6)
+df <- data.frame(sub_id = sub_id, pre_test = pre, post_test = post, test_group = group)
 
-Paper cited ~314 times (https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Assessing+the+robustness+of+power+posing%3A+no+effect+on+hormones+and+risk+tolerance+in+a+large+sample+of+men+and+women+%5BReview+of+Assessing+the+robustness+of+power+posing%3A+no+effect+on+hormones+and+risk+tolerance+in+a+large+sample+of+men+and+women%5D&btnG=) according to Google Scholar on 2023-03-01.
+library(ggplot2)
+df |>
+  ggplot() +
+  aes(x = time, y = measure, group = sub_id, color = test_group) +
+  geom_point() +
+  geom_line() +
+  facet_grid(~ test_group)
+```
 
 ## Exploring logical/causal diagrams {-}
 
@@ -164,28 +183,42 @@ Causal diagrams are one tool to reveal an authors' claims and assumptions.
 nodes <- data.frame(id = c('01', '02', '03'), label = c("feelings", "behaviors", "physiology"))
 edges <- data.frame(from = c('02', '02'), to = c('01', '03'))
 net <- igraph::graph_from_data_frame(d = edges, vertices = nodes, directed = T)
-plot(net)
+plot(net, vertex.size = 80, vertex.shape = 'rectangle', vertex.color = 'white', edge.curved = .5)
 ```
+More typically, we think that feelings cause behaviors.
 
 ```{r, out.width="100%", fig.cap="Conventional causal model"}
 nodes <- data.frame(id = c('01', '02', '03'), label = c("feelings", "behaviors", "physiology"))
 edges <- data.frame(from = c('01'), to = c('02'))
 net <- igraph::graph_from_data_frame(d = edges, vertices = nodes, directed = T)
-plot(net)
+plot(net, vertex.size = 80, vertex.shape = 'rectangle', vertex.color = 'white', edge.curved = .5)
 ```
+
+Or that feelings and physiological responses (e.g., hormones like cortisol and testosterone) together influence behaviors.
 
 ```{r, out.width="100%", fig.cap="Conventional causal model II"}
 nodes <- data.frame(id = c('01', '02', '03'), label = c("feelings", "behaviors", "physiology"))
 edges <- data.frame(from = c('01', '01', '03', '03'), to = c('02', '03', '01', '02'))
 net <- igraph::graph_from_data_frame(d = edges, vertices = nodes, directed = T)
-plot(net)
+plot(net, vertex.size = 80, vertex.shape = 'rectangle', vertex.color = 'white', edge.curved = .5)
 ```
+
+Neuroscientists might argue that feelings are the *outcome* of physiological processes like hormone levels and nervous system activity. Also, physiological processes influence one another.
+
+```{r, out.width="100%", fig.cap="Neuroscience-oriented causal model"}
+nodes <- data.frame(id = c('01', '02', '03'), label = c("feelings", "behaviors", "physiology"))
+edges <- data.frame(from = c('03', '03', '03'), to = c('02', '01', '03'))
+net <- igraph::graph_from_data_frame(d = edges, vertices = nodes, directed = T)
+plot(net, vertex.size = 80, vertex.shape = 'rectangle', vertex.color = 'white', edge.curved = .5)
+```
+
+To understand the full system of influences, we might need to look at a more complicated causal model. Here, behaviors influence and are influenced by physiology. Behaviors influence, and are influenced by feelings through influences on physiology. However, the evidence presented in [@Carney2010-gq](http://dx.doi.org/10.1177/0956797610383437) and  [@Ranehill2015-dj](http://dx.doi.org/10.1177/0956797614553946) show that 'posing' behavior influences feelings, but not (hormonal) physiology. If the neuroscientific view is correct, there must be another route for behaviors to influence feeling through physiology. That route is probably nervous system activity.
 
 ```{r, out.width="100%", fig.cap="Plausible fully interactive causal model"}
 nodes <- data.frame(id = c('01', '02', '03'), label = c("feelings", "behaviors", "physiology"))
-edges <- data.frame(from = c('01', '01', '03', '03', '02', '02'), to = c('02', '03', '01', '02', '01', '03'))
+edges <- data.frame(from = c('03', '03', '03', '02', '01'), to = c('02', '01', '03', '03', '03'))
 net <- igraph::graph_from_data_frame(d = edges, vertices = nodes, directed = T)
-plot(net)
+plot(net, vertex.size = 80, vertex.shape = 'rectangle', vertex.color = 'white', edge.curved = .5)
 ```
 
 ## Next time... {-}
