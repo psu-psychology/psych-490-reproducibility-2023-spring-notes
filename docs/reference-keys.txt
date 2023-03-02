@@ -1,10 +1,10 @@
-fig:unnamed-chunk-77
-fig:unnamed-chunk-78
-fig:unnamed-chunk-79
 fig:unnamed-chunk-80
 fig:unnamed-chunk-81
 fig:unnamed-chunk-82
 fig:unnamed-chunk-83
+fig:unnamed-chunk-84
+fig:unnamed-chunk-85
+fig:unnamed-chunk-86
 fig:unnamed-chunk-5
 fig:unnamed-chunk-6
 fig:unnamed-chunk-7
@@ -78,3 +78,6 @@ fig:unnamed-chunk-62
 fig:unnamed-chunk-63
 fig:unnamed-chunk-64
 fig:unnamed-chunk-65
+fig:unnamed-chunk-66
+fig:unnamed-chunk-67
+fig:unnamed-chunk-68

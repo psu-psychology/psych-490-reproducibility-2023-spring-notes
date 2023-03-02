@@ -33,6 +33,21 @@ Reading the Times' story would make a great final project topic, however.
 
 ## [@Ritchie2020-fm], Chapter 6 {-}
 
+- Problems with scientific press releases
+    - Not written by scientists
+    - give unwarranted advice
+    - cross-species leaps or generalizations
+    - equating correlation with causation
+    
+- "Churnalism"
+    - Journalists do not do their own investigations but repeat press releases
+    
+- Popular books (by scientists, too) can gloss over complexities, nuances
+
+- Positive rhetoric/spin
+
+- Counter-example from OPERA study of faster-than-light particle
+
 ## [@Carney2010-gq](http://dx.doi.org/10.1177/0956797610383437) {-}
 
 Carney, D. R., Cuddy, A. J. C. & Yap, A. J. (2010). Power posing: brief nonverbal displays affect neuroendocrine levels and risk tolerance. Psychological Science, 21(10), 1363–1368. https://doi.org/10.1177/0956797610383437
@@ -48,11 +63,11 @@ Carney, D. R., Cuddy, A. J. C. & Yap, A. J. (2010). Power posing: brief nonverba
 - Experimenter posed bodies
 - Two different poses held for 1 min
 
-```{r, out.width="80%", fig.cap="High power poses. Figure 1 from [@Carney2010-gq](http://dx.doi.org/10.1177/0956797610383437)"}
+```{r, out.width="100%", fig.cap="High power poses. Figure 1 from [@Carney2010-gq](http://dx.doi.org/10.1177/0956797610383437)"}
 knitr::include_graphics("include/img/carney-etal-fig01.png")
 ```
 
-```{r, fig.cap="Low power poses. Figure 2 from [@Carney2010-gq](http://dx.doi.org/10.1177/0956797610383437)"}
+```{r, out.width="100%", fig.cap="Low power poses. Figure 2 from [@Carney2010-gq](http://dx.doi.org/10.1177/0956797610383437)"}
 knitr::include_graphics("include/img/carney-etal-fig02.png")
 ```
 
@@ -64,11 +79,11 @@ knitr::include_graphics("include/img/carney-etal-fig02.png")
     
 ### Results {-}
 
-```{r, out.width="80%", fig.cap="[@Carney2010-gq](http://dx.doi.org/10.1177/0956797610383437)"}
+```{r, out.width="100%", fig.cap="[@Carney2010-gq](http://dx.doi.org/10.1177/0956797610383437)"}
 knitr::include_graphics("include/img/carney-etal-2010-results.png")
 ```
 
-```{r, out.width="80%", fig.cap="Figure 3 from [@Carney2010-gq](http://dx.doi.org/10.1177/0956797610383437)"}
+```{r, out.width="100%", fig.cap="Figure 3 from [@Carney2010-gq](http://dx.doi.org/10.1177/0956797610383437)"}
 knitr::include_graphics("include/img/carney-etal-fig03.png")
 ```
 
@@ -78,9 +93,14 @@ knitr::include_graphics("include/img/carney-etal-fig03.png")
 - PDF was available via authenticated access to PSU Libraries.
 - No data are shared; no code used to make the figures or conduct the analyses were shared.
 
+### Presentation comments {-}
+
+- Better to show individual participant data points
+
 ---
 
 Paper cited ~1,500 times (https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Power+posing%3A+brief+nonverbal+displays+affect+neuroendocrine+levels+and+risk+tolerance&btnG=) according to Google Scholar on 2023-03-01.
+
 
 ## [@Cuddy2012-zx](https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are)  {-}
 
@@ -109,11 +129,11 @@ Ranehill, E., Dreber, A., Johannesson, M., Leiberg, S., Sul, S. & Weber, R. A. (
 
 ### Results {-}
 
-```{r, out.width="80%", fig.cap="Results excerpt from [@Ranehill2015-dj](http://dx.doi.org/10.1177/0956797614553946)"}
+```{r, out.width="100%", fig.cap="Results excerpt from [@Ranehill2015-dj](http://dx.doi.org/10.1177/0956797614553946)"}
 knitr::include_graphics("include/img/ranehill-etal-2015-results.png")
 ```
 
-```{r, fig.cap="Figure 1 from [@Ranehill2015-dj](http://dx.doi.org/10.1177/0956797614553946)"}
+```{r, out.width="100%", fig.cap="Figure 1 from [@Ranehill2015-dj](http://dx.doi.org/10.1177/0956797614553946)"}
 knitr::include_graphics("include/img/ranehill-etal-2015-fig01.png")
 ```
 
@@ -124,17 +144,49 @@ knitr::include_graphics("include/img/ranehill-etal-2015-fig01.png")
 - The PDF did not easily permit cutting and pasting of text, so it was hard to excerpt those for this document.
 - The HTML version of the article was unavailable, so I had to make screenshots of figures.
 - There is an [OSF site](https://osf.io/6akvt) with data and materials.
+    - The OSF site includes very helpful details about the experiments.
+    - The data and code were shared, but I don't have access to the statistical program used (Stata) to rerun the analysis. The data had a `.dta` file extension. This appears to be a plain text, 'tidy' data file format that could be used by another program.
+    
+### Presentation comments {-}
 
-```{r, out.width="80%", fig.cap="Open Science Framework site (https://osf.io/6akvt) for [@Ranehill2015-dj](http://dx.doi.org/10.1177/0956797614553946)"}
-knitr::include_url("https://osf.io/6akvt")
-```
-
-- The OSF site includes very helpful details about the experiments.
-- The data and code were shared, but I don't have access to the statistical program used (Stata) to rerun the analysis. The data had a `.dta` file extension. This appears to be a plain text, 'tidy' data file format that could be used by another program.
+- Better to show individual participant data points
 
 ---
 
 Paper cited ~314 times (https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Assessing+the+robustness+of+power+posing%3A+no+effect+on+hormones+and+risk+tolerance+in+a+large+sample+of+men+and+women+%5BReview+of+Assessing+the+robustness+of+power+posing%3A+no+effect+on+hormones+and+risk+tolerance+in+a+large+sample+of+men+and+women%5D&btnG=) according to Google Scholar on 2023-03-01.
+
+## Exploring logical/causal diagrams {-}
+
+Causal diagrams are one tool to reveal an authors' claims and assumptions.
+
+```{r, out.width="100%", fig.cap="Implicit causal model tested"}
+# https://kateto.net/network-visualization
+nodes <- data.frame(id = c('01', '02', '03'), label = c("feelings", "behaviors", "physiology"))
+edges <- data.frame(from = c('02', '02'), to = c('01', '03'))
+net <- igraph::graph_from_data_frame(d = edges, vertices = nodes, directed = T)
+plot(net)
+```
+
+```{r, out.width="100%", fig.cap="Conventional causal model"}
+nodes <- data.frame(id = c('01', '02', '03'), label = c("feelings", "behaviors", "physiology"))
+edges <- data.frame(from = c('01'), to = c('02'))
+net <- igraph::graph_from_data_frame(d = edges, vertices = nodes, directed = T)
+plot(net)
+```
+
+```{r, out.width="100%", fig.cap="Conventional causal model II"}
+nodes <- data.frame(id = c('01', '02', '03'), label = c("feelings", "behaviors", "physiology"))
+edges <- data.frame(from = c('01', '01', '03', '03'), to = c('02', '03', '01', '02'))
+net <- igraph::graph_from_data_frame(d = edges, vertices = nodes, directed = T)
+plot(net)
+```
+
+```{r, out.width="100%", fig.cap="Plausible fully interactive causal model"}
+nodes <- data.frame(id = c('01', '02', '03'), label = c("feelings", "behaviors", "physiology"))
+edges <- data.frame(from = c('01', '01', '03', '03', '02', '02'), to = c('02', '03', '01', '02', '01', '03'))
+net <- igraph::graph_from_data_frame(d = edges, vertices = nodes, directed = T)
+plot(net)
+```
 
 ## Next time... {-}
 

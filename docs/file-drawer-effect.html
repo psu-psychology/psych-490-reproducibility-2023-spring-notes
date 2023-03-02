@@ -23,7 +23,7 @@
 <meta name="author" content="Rick O. Gilmore, Ph.D." />
 
 
-<meta name="date" content="2023-03-01" />
+<meta name="date" content="2023-03-02" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -449,6 +449,7 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#methods"><i class="fa fa-check"></i>Methods</a></li>
 <li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#results-1"><i class="fa fa-check"></i>Results</a></li>
 <li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#reproducibility-notes-1"><i class="fa fa-check"></i>Reproducibility notes</a></li>
+<li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#presentation-comments"><i class="fa fa-check"></i>Presentation comments</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#cuddy2012-zx"><i class="fa fa-check"></i><span class="citation">Cuddy (2012)</span></a></li>
 <li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#ranehill2015-dj"><i class="fa fa-check"></i><span class="citation">Ranehill et al. (2015)</span></a>
@@ -456,7 +457,9 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#methods-1"><i class="fa fa-check"></i>Methods</a></li>
 <li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#results-2"><i class="fa fa-check"></i>Results</a></li>
 <li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#reproducibility-notes-2"><i class="fa fa-check"></i>Reproducibility notes</a></li>
+<li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#presentation-comments-1"><i class="fa fa-check"></i>Presentation comments</a></li>
 </ul></li>
+<li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#exploring-logicalcausal-diagrams"><i class="fa fa-check"></i>Exploring logical/causal diagrams</a></li>
 <li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#next-time-13"><i class="fa fa-check"></i>Next time…</a></li>
 </ul></li>
 <li class="part"><span><b>I R Code</b></span></li>
@@ -580,15 +583,15 @@ discussed.</p>
 </blockquote>
 <div class="infobox">
 <p>Rosenthal’s illustration relies on the <em>standard normal deviate</em> or <span class="math inline">\(Z\)</span>, which is the value on a standard normal distribution (with mean <span class="math inline">\(\mu=0\)</span> and standard deviation <span class="math inline">\(\sigma=1\)</span>) that one would need to observe for a given <em>p</em> value.</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="file-drawer-effect.html#cb11-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">1000</span></span>
-<span id="cb11-2"><a href="file-drawer-effect.html#cb11-2" aria-hidden="true" tabindex="-1"></a>p_val <span class="ot">&lt;-</span> <span class="fl">0.05</span></span>
-<span id="cb11-3"><a href="file-drawer-effect.html#cb11-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tibble</span>(<span class="at">x =</span> <span class="fu">rnorm</span>(n, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="dv">1</span>))</span>
-<span id="cb11-4"><a href="file-drawer-effect.html#cb11-4" aria-hidden="true" tabindex="-1"></a>qt_05 <span class="ot">&lt;-</span> <span class="fu">qt</span>(p_val, n, <span class="at">lower.tail =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb11-5"><a href="file-drawer-effect.html#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df) <span class="sc">+</span></span>
-<span id="cb11-6"><a href="file-drawer-effect.html#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(x) <span class="sc">+</span></span>
-<span id="cb11-7"><a href="file-drawer-effect.html#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">bins =</span> <span class="dv">20</span>) <span class="sc">+</span></span>
-<span id="cb11-8"><a href="file-drawer-effect.html#cb11-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> qt_05) <span class="sc">+</span></span>
-<span id="cb11-9"><a href="file-drawer-effect.html#cb11-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="fu">paste0</span>(<span class="st">&quot;Z=&quot;</span>, <span class="fu">format</span>(qt_05, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; for p=&quot;</span>, <span class="fu">format</span>(p_val, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; and n=&quot;</span>, n))</span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="file-drawer-effect.html#cb9-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">1000</span></span>
+<span id="cb9-2"><a href="file-drawer-effect.html#cb9-2" aria-hidden="true" tabindex="-1"></a>p_val <span class="ot">&lt;-</span> <span class="fl">0.05</span></span>
+<span id="cb9-3"><a href="file-drawer-effect.html#cb9-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tibble</span>(<span class="at">x =</span> <span class="fu">rnorm</span>(n, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="dv">1</span>))</span>
+<span id="cb9-4"><a href="file-drawer-effect.html#cb9-4" aria-hidden="true" tabindex="-1"></a>qt_05 <span class="ot">&lt;-</span> <span class="fu">qt</span>(p_val, n, <span class="at">lower.tail =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb9-5"><a href="file-drawer-effect.html#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df) <span class="sc">+</span></span>
+<span id="cb9-6"><a href="file-drawer-effect.html#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(x) <span class="sc">+</span></span>
+<span id="cb9-7"><a href="file-drawer-effect.html#cb9-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">bins =</span> <span class="dv">20</span>) <span class="sc">+</span></span>
+<span id="cb9-8"><a href="file-drawer-effect.html#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> qt_05) <span class="sc">+</span></span>
+<span id="cb9-9"><a href="file-drawer-effect.html#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="fu">paste0</span>(<span class="st">&quot;Z=&quot;</span>, <span class="fu">format</span>(qt_05, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; for p=&quot;</span>, <span class="fu">format</span>(p_val, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; and n=&quot;</span>, n))</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-50"></span>
 <img src="include/img/unnamed-chunk-50-1.png" alt="Illustration of $Z$ discussed in [@Rosenthal1979-zi](https://doi.org/10.1037/0033-2909.86.3.638)" width="100%" />
 <p class="caption">
@@ -663,8 +666,8 @@ Figure 68: Table 3 from <a href="http://dx.doi.org/10.1126/science.1255484"><spa
 ## 
 ## data:  bounds
 ## X-squared = 70.503, df = 1, p-value &lt; 2.2e-16</code></pre>
-<pre><code>## quartz_off_screen 
-##                 2</code></pre>
+<pre><code>## RStudioGD 
+##         2</code></pre>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-53"></span>
 <embed src="franco-etal-2014/bounds.pdf" title="Figure generated from code in https://doi.org/10.5281/zenodo.11300" width="100%" type="application/pdf" />
 <p class="caption">
