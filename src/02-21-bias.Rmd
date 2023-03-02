@@ -160,7 +160,7 @@ p_hacking |>
   geom_line()
 ```
 
-::: {.rmdnote}
+::: {.infobox}
 
 How many different combinations of variable choices are there? 
 
