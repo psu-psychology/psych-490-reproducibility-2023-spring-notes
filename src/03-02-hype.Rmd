@@ -87,7 +87,7 @@ knitr::include_graphics("include/img/carney-etal-2010-results.png")
 knitr::include_graphics("include/img/carney-etal-fig03.png")
 ```
 
-### Citation data
+### Citation data {-}
 
 Paper cited ~1,500 times (https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Power+posing%3A+brief+nonverbal+displays+affect+neuroendocrine+levels+and+risk+tolerance&btnG=) according to Google Scholar on 2023-03-01.
 
@@ -107,7 +107,7 @@ Paper cited ~1,500 times (https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39
 knitr::include_graphics("include/img/cuddy-ted.png")
 ```
 
-### Citation data
+### Citation data {-}
 
 Talk viewed ~67 million times according to TED web page on 2023-03-01.
 
@@ -138,7 +138,7 @@ knitr::include_graphics("include/img/ranehill-etal-2015-results.png")
 knitr::include_graphics("include/img/ranehill-etal-2015-fig01.png")
 ```
 
-### Citation data
+### Citation data {-}
 
 Paper cited ~314 times (https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Assessing+the+robustness+of+power+posing%3A+no+effect+on+hormones+and+risk+tolerance+in+a+large+sample+of+men+and+women+%5BReview+of+Assessing+the+robustness+of+power+posing%3A+no+effect+on+hormones+and+risk+tolerance+in+a+large+sample+of+men+and+women%5D&btnG=) according to Google Scholar on 2023-03-01.
 
@@ -163,7 +163,7 @@ measure <- c(1, .8, 1.2, 1.1, .7, .75, 1.1, 1, 1.15, 1.05, .75, .8)
 time <- c(1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2)
 group <- c('a', 'a', 'a', 'b', 'b', 'b', 'a', 'a', 'a', 'b', 'b', 'b')
 sub_id <- c(1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6)
-df <- data.frame(sub_id = sub_id, pre_test = pre, post_test = post, test_group = group)
+df <- data.frame(sub_id = sub_id, measure = measure, time = time, test_group = group)
 
 library(ggplot2)
 df |>
