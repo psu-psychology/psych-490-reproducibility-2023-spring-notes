@@ -23,7 +23,7 @@
 <meta name="author" content="Rick O. Gilmore, Ph.D." />
 
 
-<meta name="date" content="2023-03-02" />
+<meta name="date" content="2023-03-13" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -204,7 +204,7 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="how-science-works-or-should.html"><a href="how-science-works-or-should.html#author"><i class="fa fa-check"></i>Author</a></li>
 <li class="chapter" data-level="" data-path="how-science-works-or-should.html"><a href="how-science-works-or-should.html#chapter-1-how-science-works"><i class="fa fa-check"></i>Chapter 1: How Science Works</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="how-science-works-or-should.html"><a href="how-science-works-or-should.html#discuss-nosek2012-al"><i class="fa fa-check"></i>Discuss <span class="citation">(Nosek &amp; Bar-Anan, 2012)</span></a>
+<li class="chapter" data-level="" data-path="how-science-works-or-should.html"><a href="how-science-works-or-should.html#discuss-nosek2012-al"><i class="fa fa-check"></i>Discuss <span class="citation">(Brian A. Nosek &amp; Bar-Anan, 2012)</span></a>
 <ul>
 <li class="chapter" data-level="" data-path="how-science-works-or-should.html"><a href="how-science-works-or-should.html#authors"><i class="fa fa-check"></i>Authors</a></li>
 <li class="chapter" data-level="" data-path="how-science-works-or-should.html"><a href="how-science-works-or-should.html#scientific-utopia-i.-opening-scientific-communication"><i class="fa fa-check"></i>Scientific Utopia: I. Opening Scientific Communication</a></li>
@@ -467,6 +467,23 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#exploring-logicalcausal-diagrams"><i class="fa fa-check"></i>Exploring logical/causal diagrams</a></li>
 <li class="chapter" data-level="" data-path="hype.html"><a href="hype.html#next-time-13"><i class="fa fa-check"></i>Next time…</a></li>
 </ul></li>
+<li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html"><i class="fa fa-check"></i>Solutions</a>
+<ul>
+<li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#roadmap-15"><i class="fa fa-check"></i>Roadmap</a></li>
+<li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#munafo_manifesto_2017"><i class="fa fa-check"></i><span class="citation">Munafò et al. (2017)</span></a>
+<ul>
+<li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#abstract-6"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#figure-1"><i class="fa fa-check"></i>Figure 1</a></li>
+<li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#table-1"><i class="fa fa-check"></i>Table 1</a></li>
+<li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#improving-methods"><i class="fa fa-check"></i>Improving methods</a></li>
+<li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#improving-reporting-and-dissemination"><i class="fa fa-check"></i>Improving reporting and dissemination</a></li>
+<li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#improving-reproducibility"><i class="fa fa-check"></i>Improving reproducibility</a></li>
+<li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#improving-evaluation"><i class="fa fa-check"></i>Improving evaluation</a></li>
+<li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#changing-incentives"><i class="fa fa-check"></i>Changing incentives</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#begley2013-vm"><i class="fa fa-check"></i><span class="citation">Begley (2013)</span></a></li>
+<li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#next-time-14"><i class="fa fa-check"></i>Next time…</a></li>
+</ul></li>
 <li class="part"><span><b>I R Code</b></span></li>
 <li class="chapter" data-level="" data-path="survey_01_results.html"><a href="survey_01_results.html"><i class="fa fa-check"></i>Survey 1 results</a>
 <ul>
@@ -588,15 +605,15 @@ discussed.</p>
 </blockquote>
 <div class="infobox">
 <p>Rosenthal’s illustration relies on the <em>standard normal deviate</em> or <span class="math inline">\(Z\)</span>, which is the value on a standard normal distribution (with mean <span class="math inline">\(\mu=0\)</span> and standard deviation <span class="math inline">\(\sigma=1\)</span>) that one would need to observe for a given <em>p</em> value.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="file-drawer-effect.html#cb10-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">1000</span></span>
-<span id="cb10-2"><a href="file-drawer-effect.html#cb10-2" aria-hidden="true" tabindex="-1"></a>p_val <span class="ot">&lt;-</span> <span class="fl">0.05</span></span>
-<span id="cb10-3"><a href="file-drawer-effect.html#cb10-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tibble</span>(<span class="at">x =</span> <span class="fu">rnorm</span>(n, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="dv">1</span>))</span>
-<span id="cb10-4"><a href="file-drawer-effect.html#cb10-4" aria-hidden="true" tabindex="-1"></a>qt_05 <span class="ot">&lt;-</span> <span class="fu">qt</span>(p_val, n, <span class="at">lower.tail =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb10-5"><a href="file-drawer-effect.html#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df) <span class="sc">+</span></span>
-<span id="cb10-6"><a href="file-drawer-effect.html#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(x) <span class="sc">+</span></span>
-<span id="cb10-7"><a href="file-drawer-effect.html#cb10-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">bins =</span> <span class="dv">20</span>) <span class="sc">+</span></span>
-<span id="cb10-8"><a href="file-drawer-effect.html#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> qt_05) <span class="sc">+</span></span>
-<span id="cb10-9"><a href="file-drawer-effect.html#cb10-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="fu">paste0</span>(<span class="st">&quot;Z=&quot;</span>, <span class="fu">format</span>(qt_05, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; for p=&quot;</span>, <span class="fu">format</span>(p_val, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; and n=&quot;</span>, n))</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="file-drawer-effect.html#cb5-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">1000</span></span>
+<span id="cb5-2"><a href="file-drawer-effect.html#cb5-2" aria-hidden="true" tabindex="-1"></a>p_val <span class="ot">&lt;-</span> <span class="fl">0.05</span></span>
+<span id="cb5-3"><a href="file-drawer-effect.html#cb5-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> tibble<span class="sc">::</span><span class="fu">tibble</span>(<span class="at">x =</span> <span class="fu">rnorm</span>(n, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="dv">1</span>))</span>
+<span id="cb5-4"><a href="file-drawer-effect.html#cb5-4" aria-hidden="true" tabindex="-1"></a>qt_05 <span class="ot">&lt;-</span> <span class="fu">qt</span>(p_val, n, <span class="at">lower.tail =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb5-5"><a href="file-drawer-effect.html#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df) <span class="sc">+</span></span>
+<span id="cb5-6"><a href="file-drawer-effect.html#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(x) <span class="sc">+</span></span>
+<span id="cb5-7"><a href="file-drawer-effect.html#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">bins =</span> <span class="dv">20</span>) <span class="sc">+</span></span>
+<span id="cb5-8"><a href="file-drawer-effect.html#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> qt_05) <span class="sc">+</span></span>
+<span id="cb5-9"><a href="file-drawer-effect.html#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="fu">paste0</span>(<span class="st">&quot;Z=&quot;</span>, <span class="fu">format</span>(qt_05, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; for p=&quot;</span>, <span class="fu">format</span>(p_val, <span class="at">digits =</span> <span class="dv">3</span>, <span class="at">nsmall =</span> <span class="dv">2</span>), <span class="st">&quot; and n=&quot;</span>, n))</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-50"></span>
 <img src="include/img/unnamed-chunk-50-1.png" alt="Illustration of $Z$ discussed in [@Rosenthal1979-zi](https://doi.org/10.1037/0033-2909.86.3.638)" width="100%" />
 <p class="caption">
@@ -674,8 +691,7 @@ Figure 68: Table 3 from <a href="http://dx.doi.org/10.1126/science.1255484"><spa
 ## [39] &quot;max_h_current&quot;        &quot;max_pub_attime&quot;      
 ## [41] &quot;why_excluded&quot;</code></pre>
 <pre><code>## 
-##  Pearson&#39;s Chi-squared test with Yates&#39;
-##  continuity correction
+##  Pearson&#39;s Chi-squared test with Yates&#39; continuity correction
 ## 
 ## data:  bounds
 ## X-squared = 70.503, df = 1, p-value &lt; 2.2e-16</code></pre>

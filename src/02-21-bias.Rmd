@@ -65,14 +65,14 @@ But not always.
 
 First, I authenticate (sign-in) to Google using my Gmail account. If I haven't logged in using this script recently, it will ask me to log-in again.
 
-```{r}
+```{r, eval=FALSE}
 googledrive::drive_auth("rick.o.gilmore@gmail.com")
 ```
 
 Then I download the Google Sheet to a directory/folder called `csv/` using the file name `p-hacking.csv`.
 
 
-```{r}
+```{r, eval=FALSE}
 googledrive::drive_download(file = "PSYCH 490.002 2023 P-hacking", path = "csv/p-hacking.csv", type = 'csv', overwrite = TRUE)
 ```
 

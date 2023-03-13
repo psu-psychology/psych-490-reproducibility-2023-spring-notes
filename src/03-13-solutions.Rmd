@@ -1,0 +1,80 @@
+# Solutions {-}
+
+## Roadmap {-}
+
+- Announcements
+    - - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes) write-up [due this Thursday, March 16]{.orange_due}.
+- Discuss
+    - [@munafo_manifesto_2017](https://doi.org/10.1038/s41562-016-0021)
+    - [@Begley2013-vm](http://dx.doi.org/10.1038/497433a)
+    
+## [@munafo_manifesto_2017](https://doi.org/10.1038/s41562-016-0021) {-}
+
+Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Sert, N. P. du, Simonsohn, U., Wagenmakers, E.-J., Ware, J. J. & Ioannidis, J. P. A. (2017). A manifesto for reproducible science. *Nature Human Behaviour*, 1, 0021. https://doi.org/10.1038/s41562-016-0021
+
+### Abstract {-}
+
+>"*Improving the reliability and efficiency of scientific research will increase the credibility of the published scientific literature and accelerate discovery. Here we argue for the adoption of measures to optimize key elements of the scientific process: methods, reporting and dissemination, reproducibility, evaluation and incentives. There is some evidence from both simulations and empirical studies supporting the likely effectiveness of these measures, but their broad adoption by researchers, institutions, funders and journals will require iterative evaluation and improvement. We discuss the goals of these measures, and how they can be implemented, in the hope that this will facilitate action toward improving the transparency, reproducibility and efficiency of scientific research.*"
+
+### Figure 1 {-}
+
+```{r, fig.cap="Figure 1 from [@munafo_manifesto_2017](https://doi.org/10.1038/s41562-016-0021)"}
+knitr::include_graphics("https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-016-0021/MediaObjects/41562_2016_Article_BFs415620160021_Fig1_HTML.jpg?as=webp")
+```
+
+### Table 1 {-}
+
+<https://www.nature.com/articles/s41562-016-0021/tables/1>
+
+### Improving methods {-}
+
+>"*Protecting against cognitive biases.*"
+
+>"*Improving methodological training*"
+
+>"*Implementing independent methodological support*"
+
+>"*Encouraging collaboration and team science.*"
+
+### Improving reporting and dissemination {-}
+
+>"*Promoting study pre-registration*"
+
+>"*Improving the quality of reporting*"
+
+### Improving reproducibility {-}
+
+>"*Promoting transparency and open science*"
+
+### Improving evaluation {-}
+
+>"*Diversifying peer review*"
+
+### Changing incentives {-}
+
+## [@Begley2013-vm](http://dx.doi.org/10.1038/497433a) {-}
+
+Begley, C. G. (2013). Six red flags for suspect work. *Nature*, *497*(7450), 433–434. https://doi.org/10.1038/497433a
+
+>"*Were experiments performed blinded?*"
+
+>"*Were basic experiments repeated?*"
+
+>"*Were all the results presented?*"
+
+>"*Were there positive and negative controls? Often in the non-reproducible, high-profile papers, the crucial control experiments were excluded or mentioned as 'data not shown'.*"
+
+>"*Were reagents validated?*"
+
+>"*Were statistical tests appropriate?*"
+
+>"*Why do we repeatedly see these poor-quality papers in basic science? In part, it is down to the fact that there is no real consequence for investigators or journals. It is also because many busy reviewers (and disappointingly, even co-authors) do not actually read the papers, and because journals are required to fill their pages with simple, complete 'stories'. And because of the apparent failure to recognize authors' competing interests — beyond direct financial interests — that may interfere with their judgement.*"
+
+## Next time... {-}
+
+- Changing journal policies
+    - [@nosek_promoting_2015](https://doi.org/10.1126/science.aab2374)
+    - [@Gilmore2020-sl](https://doi.org/10.1111/cdep.12360)
+    - [@Srcd2019-hg](https://www.srcd.org/policy-scientific-integrity-transparency-and-openness)
+- [Due]{.orange_due}
+    - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes) write-up
