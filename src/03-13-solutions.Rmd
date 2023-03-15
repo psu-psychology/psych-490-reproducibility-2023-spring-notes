@@ -3,7 +3,7 @@
 ## Roadmap {-}
 
 - Announcements
-    - - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes) write-up [due this Thursday, March 16]{.orange_due}.
+    - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes) write-up [due this Thursday, March 16]{.orange_due}.
 - Discuss
     - [@munafo_manifesto_2017](https://doi.org/10.1038/s41562-016-0021)
     - [@Begley2013-vm](http://dx.doi.org/10.1038/497433a)

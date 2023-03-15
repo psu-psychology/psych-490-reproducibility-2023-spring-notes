@@ -23,7 +23,7 @@
 <meta name="author" content="Rick O. Gilmore, Ph.D." />
 
 
-<meta name="date" content="2023-03-13" />
+<meta name="date" content="2023-03-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -484,6 +484,20 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#begley2013-vm"><i class="fa fa-check"></i><span class="citation">Begley (2013)</span></a></li>
 <li class="chapter" data-level="" data-path="solutions-1.html"><a href="solutions-1.html#next-time-14"><i class="fa fa-check"></i>Next time…</a></li>
 </ul></li>
+<li class="chapter" data-level="" data-path="changing-journal-policies.html"><a href="changing-journal-policies.html"><i class="fa fa-check"></i>Changing journal policies</a>
+<ul>
+<li class="chapter" data-level="" data-path="changing-journal-policies.html"><a href="changing-journal-policies.html#roadmap-16"><i class="fa fa-check"></i>Roadmap</a></li>
+<li class="chapter" data-level="" data-path="changing-journal-policies.html"><a href="changing-journal-policies.html#nosek_promoting_2015"><i class="fa fa-check"></i><span class="citation">B. A. Nosek et al. (2015)</span></a>
+<ul>
+<li class="chapter" data-level="" data-path="changing-journal-policies.html"><a href="changing-journal-policies.html#transparency-and-openness-promotion-top-guidelines"><i class="fa fa-check"></i>Transparency and Openness Promotion (TOP) guidelines</a></li>
+<li class="chapter" data-level="" data-path="changing-journal-policies.html"><a href="changing-journal-policies.html#notes"><i class="fa fa-check"></i>Notes</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="changing-journal-policies.html"><a href="changing-journal-policies.html#changing-society-journal-policies"><i class="fa fa-check"></i>Changing society &amp; journal policies</a>
+<ul>
+<li class="chapter" data-level="" data-path="changing-journal-policies.html"><a href="changing-journal-policies.html#notes-1"><i class="fa fa-check"></i>Notes</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="changing-journal-policies.html"><a href="changing-journal-policies.html#next-time-15"><i class="fa fa-check"></i>Next time…</a></li>
+</ul></li>
 <li class="part"><span><b>I R Code</b></span></li>
 <li class="chapter" data-level="" data-path="survey_01_results.html"><a href="survey_01_results.html"><i class="fa fa-check"></i>Survey 1 results</a>
 <ul>
@@ -669,27 +683,20 @@ Figure 68: Table 3 from <a href="http://dx.doi.org/10.1126/science.1255484"><spa
 <li>Data &amp; code shared on Zenodo <a href="https://doi.org/10.5281/zenodo.11300" class="uri">https://doi.org/10.5281/zenodo.11300</a></li>
 <li>Let’s try to run it…</li>
 </ul>
-<pre><code>##  [1] &quot;id&quot;                   &quot;author1field&quot;        
-##  [3] &quot;author2field&quot;         &quot;author3field&quot;        
-##  [5] &quot;discipline&quot;           &quot;discipline2&quot;         
-##  [7] &quot;POL&quot;                  &quot;PSY&quot;                 
-##  [9] &quot;SOC&quot;                  &quot;OTHER&quot;               
-## [11] &quot;year&quot;                 &quot;fieldingperiod1stday&quot;
-## [13] &quot;age_months&quot;           &quot;age_day&quot;             
-## [15] &quot;age_year&quot;             &quot;timetopublish&quot;       
-## [17] &quot;iv_coder1&quot;            &quot;iv_coder2&quot;           
-## [19] &quot;disagreement&quot;         &quot;IV_all&quot;              
-## [21] &quot;IV&quot;                   &quot;strong&quot;              
-## [23] &quot;mixed&quot;                &quot;null&quot;                
-## [25] &quot;DV&quot;                   &quot;DV_all&quot;              
-## [27] &quot;DV_tri&quot;               &quot;DV_book_separate&quot;    
-## [29] &quot;DV_book_unpub&quot;        &quot;DV_book_nontop&quot;      
-## [31] &quot;DV_book_top&quot;          &quot;journal&quot;             
-## [33] &quot;journal_field&quot;        &quot;insample&quot;            
-## [35] &quot;pubyear&quot;              &quot;pub&quot;                 
-## [37] &quot;anyresults&quot;           &quot;written&quot;             
-## [39] &quot;max_h_current&quot;        &quot;max_pub_attime&quot;      
-## [41] &quot;why_excluded&quot;</code></pre>
+<pre><code>##  [1] &quot;id&quot;                   &quot;author1field&quot;         &quot;author2field&quot;        
+##  [4] &quot;author3field&quot;         &quot;discipline&quot;           &quot;discipline2&quot;         
+##  [7] &quot;POL&quot;                  &quot;PSY&quot;                  &quot;SOC&quot;                 
+## [10] &quot;OTHER&quot;                &quot;year&quot;                 &quot;fieldingperiod1stday&quot;
+## [13] &quot;age_months&quot;           &quot;age_day&quot;              &quot;age_year&quot;            
+## [16] &quot;timetopublish&quot;        &quot;iv_coder1&quot;            &quot;iv_coder2&quot;           
+## [19] &quot;disagreement&quot;         &quot;IV_all&quot;               &quot;IV&quot;                  
+## [22] &quot;strong&quot;               &quot;mixed&quot;                &quot;null&quot;                
+## [25] &quot;DV&quot;                   &quot;DV_all&quot;               &quot;DV_tri&quot;              
+## [28] &quot;DV_book_separate&quot;     &quot;DV_book_unpub&quot;        &quot;DV_book_nontop&quot;      
+## [31] &quot;DV_book_top&quot;          &quot;journal&quot;              &quot;journal_field&quot;       
+## [34] &quot;insample&quot;             &quot;pubyear&quot;              &quot;pub&quot;                 
+## [37] &quot;anyresults&quot;           &quot;written&quot;              &quot;max_h_current&quot;       
+## [40] &quot;max_pub_attime&quot;       &quot;why_excluded&quot;</code></pre>
 <pre><code>## 
 ##  Pearson&#39;s Chi-squared test with Yates&#39; continuity correction
 ## 

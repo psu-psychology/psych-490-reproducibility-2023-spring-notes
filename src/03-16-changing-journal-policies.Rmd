@@ -1,0 +1,76 @@
+# Changing journal policies {-}
+
+## Roadmap {-}
+
+- Announcements
+    - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes) write-up [due today]{.orange_due}.
+- Discuss
+    - [@nosek_promoting_2015](https://doi.org/10.1126/science.aab2374)
+    - [@Gilmore2020-sl](https://doi.org/10.1111/cdep.12360)
+    - [@Srcd2019-hg](https://www.srcd.org/policy-scientific-integrity-transparency-and-openness)
+    
+## [@nosek_promoting_2015](https://doi.org/10.1126/science.aab2374) {-}
+
+Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., Buck, S., Chambers, C. D., Chin, G., Christensen, G., Contestabile, M., Dafoe, A., Eich, E., Freese, J., Glennerster, R., Goroff, D., Green, D. P., Hesse, B., Humphreys, M., … Yarkoni, T. (2015). Promoting an open research culture. Science, 348(6242), 1422–1425. https://doi.org/10.1126/science.aab2374
+
+### Transparency and Openness Promotion (TOP) [guidelines](https://cos.io/top) {-}
+
+```{r, out.width="100%", fig.cap="Figure from [@nosek_promoting_2015](https://doi.org/10.1126/science.aab2374)"}
+knitr::include_graphics("https://www-science-org.ezaccess.libraries.psu.edu/cms/10.1126/science.aab2374/asset/2679c1cf-6388-48d7-9268-ca28a95a4d5c/assets/graphic/348_1422_f2.jpeg")
+```
+
+- [TOP Factor](https://topfactor.org/journals) database
+
+#### TOP factor for journals I've published in recently
+
+```{r fig.cap="TOP Factors for Journals Rick Gilmore has published in recently"}
+journal <- c("Scientific Reports", "Symmetry", "Journal of Speech, Language, and Hearing Research", "Journal of eScience Librarianship", "Infant and Child Development", "Developmental Psychology", "Computers in Electronics and Agriculture", "Journal of Motor Behavior", "Journal of Experimental Child Psychology", "Child Development Perspectives", "Advances in Intelligent Systems and Computing", "Neuropsychologia", "Advances in Methods and Practices in Psychological Science", "Nature Human Behavior", "Annals of the New York Academy of Sciences")
+top_factor <-c(10, 0, 2, 0, 13, 12, 0, 0, 1, 0, 0, 1, 25, 18, 0)
+
+gilmore_top <- tibble::tibble(journal, top_factor)
+
+gilmore_top |>
+  ggplot2::ggplot() +
+  ggplot2::aes(top_factor) +
+  ggplot2::geom_histogram(bins = 5)
+  #ggtitle("TOP Factors for Journals Rick Gilmore has published in recently")
+```
+
+- There are many factors that influence where an author publishes a paper.
+
+### Notes {-}
+
+- Article was behind a paywall.
+- I was able to access the article via authenticated access to libraries.psu.edu.
+- There were two files of supplementary materials
+  - <https://www-science-org.ezaccess.libraries.psu.edu/doi/suppl/10.1126/science.aab2374/suppl_file/aab2374-nosek-sm.pdf>
+  - <https://www-science-org.ezaccess.libraries.psu.edu/doi/suppl/10.1126/science.aab2374/suppl_file/top_guidelines_summary-google_sheets_files.zip>
+- There was an Open Access (OA) [version of the article available on OSF](https://osf.io/vj54c/).
+
+## Changing society & journal policies {-}
+
+- [@Gilmore2020-sl](https://doi.org/10.1111/cdep.12360)
+- [@Srcd2019-hg](https://www.srcd.org/policy-scientific-integrity-transparency-and-openness)
+
+::: {.infobox}
+
+Do you think that explaining *why* data and materials sharing is important will help persuade researchers to do more?
+
+N.B. -- SRCD's *Child Development* has a TOP Factor score of 7.
+
+:::
+
+### Notes {-}
+
+- The article abstract was publicly available, but the full article was behind a paywall.
+- I was able to access the article via authenticated access to libraries.psu.edu.
+
+## Next time... {-}
+
+- [Assignment distributed]{.green_assigned}
+    - [Exercise 04: Replication]()
+- Large-scale replication studies
+    - [@collaboration_estimating_2015](https://doi.org/10.1126/science.aac4716)
+    - (Optional) [@Camerer2018-tr](https://doi.org/10.1038/s41562-018-0399-z)
+      - For 5 extra credit points, write a paragraph that summarizes the main findings of this paper. [Due Tuesday, March 28]{.due_orange}.
+
