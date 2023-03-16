@@ -21,7 +21,7 @@ knitr::include_graphics("https://www-science-org.ezaccess.libraries.psu.edu/cms/
 
 - [TOP Factor](https://topfactor.org/journals) database
 
-#### TOP factor for journals I've published in recently
+#### TOP factor for journals I've published in recently {-}
 
 ```{r fig.cap="TOP Factors for Journals Rick Gilmore has published in recently"}
 journal <- c("Scientific Reports", "Symmetry", "Journal of Speech, Language, and Hearing Research", "Journal of eScience Librarianship", "Infant and Child Development", "Developmental Psychology", "Computers in Electronics and Agriculture", "Journal of Motor Behavior", "Journal of Experimental Child Psychology", "Child Development Perspectives", "Advances in Intelligent Systems and Computing", "Neuropsychologia", "Advances in Methods and Practices in Psychological Science", "Nature Human Behavior", "Annals of the New York Academy of Sciences")

@@ -86,4 +86,3 @@ fig:unnamed-chunk-70
 fig:unnamed-chunk-71
 fig:unnamed-chunk-72
 fig:unnamed-chunk-73
-top-factor-for-journals-ive-published-in-recently
