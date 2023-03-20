@@ -7,6 +7,10 @@
     - (Optional) [@Camerer2018-tr](https://doi.org/10.1038/s41562-018-0399-z)
       - For 5 extra credit points, write a paragraph that summarizes the main findings of this paper. [Due Tuesday, March 28]{.due_orange}.
 - [Exercise 04: Replication](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_replication.html) [distributed]{.green_assigned}. [Due Tuesday, March 28]{.due_orange}.
+- Announcement
+    - Open Science seminar series by the [Open Science Alliance](https://openscialliance.github.io/index.html)
+      - Monday's 9a-10a during March/April 2023.
+      - [Schedule (PDF)](include/pdf/os_seminar_series_spring2023-1.pdf)
 
 ## [@collaboration_estimating_2015](https://doi.org/10.1126/science.aac4716) {-}
 
