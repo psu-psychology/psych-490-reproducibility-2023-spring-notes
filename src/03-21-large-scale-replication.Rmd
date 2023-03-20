@@ -1,0 +1,92 @@
+# Large-scale replications {-}
+
+## Roadmap {-}
+
+- Large-scale replication studies
+    - [@collaboration_estimating_2015](https://doi.org/10.1126/science.aac4716)
+    - (Optional) [@Camerer2018-tr](https://doi.org/10.1038/s41562-018-0399-z)
+      - For 5 extra credit points, write a paragraph that summarizes the main findings of this paper. [Due Tuesday, March 28]{.due_orange}.
+- [Exercise 04: Replication](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_replication.html) [distributed]{.green_assigned}. [Due Tuesday, March 28]{.due_orange}.
+
+## [@collaboration_estimating_2015](https://doi.org/10.1126/science.aac4716) {-}
+
+Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science*, *349*(6251), aac4716–aac4716. https://doi.org/10.1126/science.aac4716
+
+### Abstract {-}
+
+>Reproducibility is a defining feature of science, but the extent to which it characterizes current research is unknown. We conducted replications of 100 experimental and correlational studies published in three psychology journals using high-powered designs and original materials when available. Replication effects were half the magnitude of original effects, representing a substantial decline. Ninety-seven percent of original studies had statistically significant results. Thirty-six percent of replications had statistically significant results; 47% of original effect sizes were in the 95% confidence interval of the replication effect size; 39% of effects were subjectively rated to have replicated the original result; and if no bias in original results is assumed, combining original and replication results left 68% with statistically significant effects. Correlational tests suggest that replication success was better predicted by the strength of original evidence than by characteristics of the original and replication teams.
+>
+>-- [@collaboration_estimating_2015](https://doi.org/10.1126/science.aac4716)
+
+>Structured Abstract
+>
+>**INTRODUCTION**
+>
+>Reproducibility is a defining feature of science, but the extent to which it characterizes current research is unknown. Scientific claims should not gain credence because of the status or authority of their originator but by the replicability of their supporting evidence. Even research of exemplary quality may have irreproducible empirical findings because of random or systematic error.
+>
+>**RATIONALE**
+>
+There is concern about the rate and predictors of reproducibility, but limited evidence. Potentially problematic practices include selective reporting, selective analysis, and insufficient specification of the conditions necessary or sufficient to obtain the results. Direct replication is the attempt to recreate the conditions believed sufficient for obtaining a previously observed finding and is the means of establishing reproducibility of a finding with new data. We conducted a large-scale, collaborative effort to obtain an initial estimate of the reproducibility of psychological science.
+>
+>**RESULTS**
+>
+>We conducted replications of 100 experimental and correlational studies published in three psychology journals using high-powered designs and original materials when available. There is no single standard for evaluating replication success. Here, we evaluated reproducibility using significance and P values, effect sizes, subjective assessments of replication teams, and meta-analysis of effect sizes. The mean effect size (r) of the replication effects (Mr = 0.197, SD = 0.257) was half the magnitude of the mean effect size of the original effects (Mr = 0.403, SD = 0.188), representing a substantial decline. Ninety-seven percent of original studies had significant results (P < .05). Thirty-six percent of replications had significant results; 47% of original effect sizes were in the 95% confidence interval of the replication effect size; 39% of effects were subjectively rated to have replicated the original result; and if no bias in original results is assumed, combining original and replication results left 68% with statistically significant effects. Correlational tests suggest that replication success was better predicted by the strength of original evidence than by characteristics of the original and replication teams.
+>
+>**CONCLUSION**
+>
+>No single indicator sufficiently describes replication success, and the five indicators examined here are not the only ways to evaluate reproducibility. Nonetheless, collectively these results offer a clear conclusion: A large portion of replications produced weaker evidence for the original findings despite using materials provided by the original authors, review in advance for methodological fidelity, and high statistical power to detect the original effect sizes. Moreover, correlational evidence is consistent with the conclusion that variation in the strength of initial evidence (such as original P value) was more predictive of replication success than variation in the characteristics of the teams conducting the research (such as experience and expertise). The latter factors certainly can influence replication success, but they did not appear to do so here.
+>
+>Reproducibility is not well understood because the incentives for individual scientists prioritize novelty over replication. Innovation is the engine of discovery and is vital for a productive, effective scientific enterprise. However, innovative ideas become old news fast. Journal reviewers and editors may dismiss a new test of a published idea as unoriginal. The claim that “we already know this” belies the uncertainty of scientific evidence. Innovation points out paths that are possible; replication points out paths that are likely; progress relies on both. Replication can increase certainty when findings are reproduced and promote innovation when they are not. This project provides accumulating evidence for many findings in psychological research and suggests that there is still more work to do to verify whether we know what we think we know.
+>-- [@collaboration_estimating_2015](https://doi.org/10.1126/science.aac4716)
+
+### Results {-}
+
+```{r, out.width="100%", fig.cap="Table 1 from [@collaboration_estimating_2015](https://doi.org/10.1126/science.aac4716). Summary of reproducibility rates and effect sizes for original and replication studies overall and by journal/discipline."}
+knitr::include_graphics("include/img/collaboration-2015-table-01.png")
+```
+
+```{r, out.width="100%", fig.cap="Figure 1 from [@collaboration_estimating_2015](https://doi.org/10.1126/science.aac4716); Density plots of original and replication P values and effect sizes. (A) P values. (B) Effect sizes (correlation coefficients). Lowest quantiles for P values are not visible because they are clustered near zero."}
+knitr::include_graphics("include/img/collaboration-2015-fig-01.JPEG")
+```
+
+#### Deciding whether an effect replicates or not {-}
+
+- Statistically significant effect in same direction as original (35/89 studies)
+- Effect size of replication is within original confidence interval (30/73 studies)
+- Comparing original and replication effect sizes
+
+```{r, out.width="100%", fig.cap="[@collaboration_estimating_2015](https://doi.org/10.1126/science.aac4716)"}
+knitr::include_graphics("https://www.science.org/cms/10.1126/science.aac4716/asset/82f22975-91c8-4779-865b-6ed0650601cd/assets/graphic/349_aac4716_fa.jpeg")
+```
+
+- Subjective yes/no judgments
+
+### What influences whether a study replicates {-}
+
+- *Field of study/journal*: "Considering significance testing, reproducibility was stronger in studies and journals representing cognitive psychology than social psychology topics. For example, combining across journals, 14 of 55 (25%) of social psychology effects replicated by the P < 0.05 criterion, whereas 21 of 42 (50%) of cognitive psychology effects did so."
+- *Complexity of statistical tests*: "...type of test was associated with replication success. Among original, significant effects, 23 of the 49 (47%) that tested main or simple effects replicated at P < 0.05, but just 8 of the 37 (22%) that tested interaction effects did."
+- *p-values and large effect sizes in original*.
+- *Team characteristics* don't seem to matter systematically.
+
+### Conclusions {-}
+
+- Replication effect sizes usually smaller than original.
+- Successful replication ≠ original finding is correct.
+- *UN*-successful replication ≠ original finding is wrong.
+
+>We investigated the reproducibility rate of psychology not because there is something special about psychology, but because it is our discipline. Concerns about reproducibility are widespread across disciplines (9–21). Reproducibility is not well understood because the incentives for individual scientists prioritize novelty over replication (20). If nothing else, this project demonstrates that it is possible to conduct a large-scale examination of reproducibility despite the incentive barriers.
+>
+>-- [@collaboration_estimating_2015](https://doi.org/10.1126/science.aac4716)
+
+### Notes {-}
+
+- Extended abstract available publicly, but full article is behind a paywall.
+- Full HTML and PDF version available via Penn State Libraries.
+- Extensive materials shared via OSF: [@Anderson2012-iv](http://dx.doi.org/10.17605/OSF.IO/EZCUJ).
+- Details about independent reviews of analysis plans and related issues shared via OSF: <https://osf.io/xtine>; <https://osf.io/fkmwg>; <https://osf.io/a2eyg>. 
+
+## Next time... {-}
+
+- Meta-analysis & many analysts
+    - [@Wilson2014-ol](https://www.psychologicalscience.org/observer/introduction-to-meta-analysis-a-guide-for-the-novice)
+    - [@Silberzahn2018-st](https://doi.org/10.1177/2515245917747646)
