@@ -14,9 +14,16 @@
 
 ### Resources for final projects
 
-- McManus, K. (2022). Are replication studies infrequent because of negative attitudes?: Insights from a survey of attitudes and practices in second language research. *Studies in Second Language Acquisition*, 44(5), 1410–1423. https://doi.org/10.1017/S0272263121000838.
+McManus, K. (2022). Are replication studies infrequent because of negative attitudes?: Insights from a survey of attitudes and practices in second language research. *Studies in Second Language Acquisition*, 44(5), 1410–1423. https://doi.org/10.1017/S0272263121000838.
 
 >1) While this is technically also based on Retraction Watch, several reference managers (definitely [Zotero](https://www.zotero.org/) and [Endnote](https://guides.libraries.psu.edu/c.php?g=417962&p=2876102), maybe also [Papers/Readcube](https://www.papersapp.com/)) will automatically flag retracted items in your library now. Judging by social media reactions, that's a pretty effective way to alert students and researchers: certainly more so than anything that requires actively looking for the information. Might be fun to have students, or at least those using one of those tools anyway, test how this looks by importing a retracted study.
+
+Edlund, J. E., Okdie, B. M. & Scherer, C. R. (2022). Best practices for considering retractions. *Current Psychology*. https://doi.org/10.1007/s12144-022-03764-x
+
+### Data sharing and COVID
+
+- [@Wu2023-od](https://www.theatlantic.com/science/archive/2023/03/covid-pandemic-origins-missing-evidence-debate/673460/)
+- Article in The Atlantic about a dispute over shared data--who can use it, when, and for what purposes--that could shed light on the origins of the pandemic.
 
 ## [@collaboration_estimating_2015](https://doi.org/10.1126/science.aac4716) {-}
 
