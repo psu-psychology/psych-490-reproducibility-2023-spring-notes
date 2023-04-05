@@ -23,7 +23,7 @@
 <meta name="author" content="Rick O. Gilmore, Ph.D." />
 
 
-<meta name="date" content="2023-04-03" />
+<meta name="date" content="2023-04-05" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -550,6 +550,12 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="data-sharing.html"><a href="data-sharing.html#psu-where-store"><i class="fa fa-check"></i>Where store data</a></li>
 <li class="chapter" data-level="" data-path="data-sharing.html"><a href="data-sharing.html#psu-share-community"><i class="fa fa-check"></i>Sharing with research community</a></li>
 </ul></li>
+<li class="chapter" data-level="0.1" data-path="data-sharing.html"><a href="data-sharing.html#tenopir2020-mq"><i class="fa fa-check"></i><b>0.1</b> <span class="citation">Tenopir et al. (2020)</span></a>
+<ul>
+<li class="chapter" data-level="" data-path="data-sharing.html"><a href="data-sharing.html#fields"><i class="fa fa-check"></i>Fields</a></li>
+<li class="chapter" data-level="" data-path="data-sharing.html"><a href="data-sharing.html#where-data-are-stored"><i class="fa fa-check"></i>Where data are stored</a></li>
+<li class="chapter" data-level="" data-path="data-sharing.html"><a href="data-sharing.html#practices-perceptions-barriers"><i class="fa fa-check"></i>Practices, perceptions, &amp; barriers</a></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="data-sharing.html"><a href="data-sharing.html#next-time-19"><i class="fa fa-check"></i>Next time…</a></li>
 </ul></li>
 <li class="part"><span><b>I R Code</b></span></li>
@@ -737,33 +743,54 @@ Figure 68: Table 3 from <a href="http://dx.doi.org/10.1126/science.1255484"><spa
 <li>Data &amp; code shared on Zenodo <a href="https://doi.org/10.5281/zenodo.11300" class="uri">https://doi.org/10.5281/zenodo.11300</a></li>
 <li>Let’s try to run it…</li>
 </ul>
-<pre><code>##  [1] &quot;id&quot;                   &quot;author1field&quot;        
-##  [3] &quot;author2field&quot;         &quot;author3field&quot;        
-##  [5] &quot;discipline&quot;           &quot;discipline2&quot;         
-##  [7] &quot;POL&quot;                  &quot;PSY&quot;                 
-##  [9] &quot;SOC&quot;                  &quot;OTHER&quot;               
-## [11] &quot;year&quot;                 &quot;fieldingperiod1stday&quot;
-## [13] &quot;age_months&quot;           &quot;age_day&quot;             
-## [15] &quot;age_year&quot;             &quot;timetopublish&quot;       
-## [17] &quot;iv_coder1&quot;            &quot;iv_coder2&quot;           
-## [19] &quot;disagreement&quot;         &quot;IV_all&quot;              
-## [21] &quot;IV&quot;                   &quot;strong&quot;              
-## [23] &quot;mixed&quot;                &quot;null&quot;                
-## [25] &quot;DV&quot;                   &quot;DV_all&quot;              
-## [27] &quot;DV_tri&quot;               &quot;DV_book_separate&quot;    
-## [29] &quot;DV_book_unpub&quot;        &quot;DV_book_nontop&quot;      
-## [31] &quot;DV_book_top&quot;          &quot;journal&quot;             
-## [33] &quot;journal_field&quot;        &quot;insample&quot;            
-## [35] &quot;pubyear&quot;              &quot;pub&quot;                 
-## [37] &quot;anyresults&quot;           &quot;written&quot;             
-## [39] &quot;max_h_current&quot;        &quot;max_pub_attime&quot;      
+<pre><code>##  [1] &quot;id&quot;                  
+##  [2] &quot;author1field&quot;        
+##  [3] &quot;author2field&quot;        
+##  [4] &quot;author3field&quot;        
+##  [5] &quot;discipline&quot;          
+##  [6] &quot;discipline2&quot;         
+##  [7] &quot;POL&quot;                 
+##  [8] &quot;PSY&quot;                 
+##  [9] &quot;SOC&quot;                 
+## [10] &quot;OTHER&quot;               
+## [11] &quot;year&quot;                
+## [12] &quot;fieldingperiod1stday&quot;
+## [13] &quot;age_months&quot;          
+## [14] &quot;age_day&quot;             
+## [15] &quot;age_year&quot;            
+## [16] &quot;timetopublish&quot;       
+## [17] &quot;iv_coder1&quot;           
+## [18] &quot;iv_coder2&quot;           
+## [19] &quot;disagreement&quot;        
+## [20] &quot;IV_all&quot;              
+## [21] &quot;IV&quot;                  
+## [22] &quot;strong&quot;              
+## [23] &quot;mixed&quot;               
+## [24] &quot;null&quot;                
+## [25] &quot;DV&quot;                  
+## [26] &quot;DV_all&quot;              
+## [27] &quot;DV_tri&quot;              
+## [28] &quot;DV_book_separate&quot;    
+## [29] &quot;DV_book_unpub&quot;       
+## [30] &quot;DV_book_nontop&quot;      
+## [31] &quot;DV_book_top&quot;         
+## [32] &quot;journal&quot;             
+## [33] &quot;journal_field&quot;       
+## [34] &quot;insample&quot;            
+## [35] &quot;pubyear&quot;             
+## [36] &quot;pub&quot;                 
+## [37] &quot;anyresults&quot;          
+## [38] &quot;written&quot;             
+## [39] &quot;max_h_current&quot;       
+## [40] &quot;max_pub_attime&quot;      
 ## [41] &quot;why_excluded&quot;</code></pre>
 <pre><code>## 
 ##  Pearson&#39;s Chi-squared test with Yates&#39;
 ##  continuity correction
 ## 
 ## data:  bounds
-## X-squared = 70.503, df = 1, p-value &lt; 2.2e-16</code></pre>
+## X-squared = 70.503, df = 1, p-value &lt;
+## 2.2e-16</code></pre>
 <pre><code>## quartz_off_screen 
 ##                 2</code></pre>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-53"></span>
