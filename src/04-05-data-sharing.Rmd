@@ -91,7 +91,7 @@ knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2
 knitr::include_graphics("https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-where-data-shared-1.png")
 ```
 
-## [@Tenopir2020-mq](http://dx.doi.org/10.1371/journal.pone.0229003)
+## [@Tenopir2020-mq](http://dx.doi.org/10.1371/journal.pone.0229003) {-}
 
 ### Fields {-}
 

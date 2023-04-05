@@ -1,0 +1,96 @@
+# Presentations {-}
+
+Tentative schedule as of `r Sys.time()`.
+
+```{r, eval=FALSE}
+googledrive::drive_auth(email = "rick.o.gilmore@gmail.com")
+```
+
+```{r}
+if (!dir.exists('csv')) {
+  dir.create('csv')
+}
+
+csv_fn <- "csv/psych-490-2023-spring-presentations.csv"
+
+googledrive::drive_download(file = 'PSYCH 490 Spring Project Info (Responses)', path = csv_fn, type = 'csv', overwrite = TRUE)
+```
+
+```{r}
+if (file.exists(csv_fn)) {
+  presentations_df <- readr::read_csv(csv_fn, show_col_types = FALSE)
+} else {
+  message("File not found: ", csv_fn)
+  presentations_df <- NULL
+}
+```
+
+```{r}
+new_names <-
+  c(
+    "Timestamp",
+    "Authors",
+    "Title",
+    "Format",
+    "Give_talk",
+    "Preferred_date"
+  )
+
+# Make new data frame with long and short names for reference
+presentation_qs <- tibble::tibble(q_long = names(presentations_df), q_short = new_names)
+
+# Swap out old (long) names for new (short) names
+names(presentations_df) <- new_names
+```
+
+## Day 1: Tuesday, April 25, 2023 {- #presentations-day-1}
+
+```{r}
+presentations_df <- presentations_df |>
+  dplyr::filter(!stringr::str_detect(Authors, "Gilmore"))
+
+tues_df <- presentations_df |>
+  dplyr::filter(stringr::str_detect(Preferred_date, "Tues"),
+                Give_talk == "Yes")
+
+thurs_df <- presentations_df |>
+  dplyr::filter(stringr::str_detect(Preferred_date, "Thurs"),
+                Give_talk == "Yes")
+
+no_pref <- presentations_df |>
+  dplyr::filter(stringr::str_detect(Preferred_date, "No preference"),
+                Give_talk == "Yes")
+
+times <- c("10:40", "10:50", "11:00", "11:10", "11:20", "11:30", "11:40")
+```
+
+```{r}
+n_tues <- dim(tues_df)[1]
+n_no_pref <- dim(no_pref)[1]
+
+n_tues_slots_free <- length(times) - n_tues
+
+new_tues_df <- rbind(tues_df, no_pref[1:n_tues_slots_free,])
+new_tues_df$Time <- times
+
+new_tues_df |>
+  dplyr::filter(!is.na(Authors)) |>
+  dplyr::arrange(Time) |>
+  dplyr::select(Time, Authors, Title, Format) |>
+  kableExtra::kable(format = 'html') |>
+  kableExtra::kable_classic()
+```
+
+## Day 2: Thursday, April 27, 2023 {- #presentations-day-2}
+
+```{r}
+thurs_df$Time <- times[1:dim(thurs_df)[1]]
+
+thurs_df |>
+  dplyr::filter(!is.na(Authors)) |>
+  dplyr::arrange(Time) |>
+  dplyr::select(Time, Authors, Title, Format) |>
+  kableExtra::kable(format = 'html') |>
+  kableExtra::kable_classic()
+```
+
