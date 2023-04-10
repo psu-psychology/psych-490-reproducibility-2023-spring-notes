@@ -32,6 +32,13 @@ knitr::include_graphics("https://media.springernature.com/full/springer-static/i
 ### Table 3 Academic cheating and research misconduct  {-}
 
 <https://www.nature.com/articles/s41598-023-32445-3/tables/3>
+
+### Reproducibility notes
+
+- Data available only on request: <https://www-nature-com.ezaccess.libraries.psu.edu/articles/s41598-023-32445-3#data-availability>
+- Survey questions apparently unavailable
+- Analysis code unavailable
+- *Scientific Reports* has a [TOP Factor of 10](https://www.topfactor.org/journals/scientific-reports).
    
 ## Databrary {-}
 
