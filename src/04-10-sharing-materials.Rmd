@@ -1,0 +1,35 @@
+# Sharing materials, code, protocols
+
+## Roadmap
+
+- Materials, code, & protocol sharing
+    - [@Soska2021-mh](http://dx.doi.org/10.7191/jeslib.2021.1208)
+    - [@Gilroy2019-bf](http://dx.doi.org/10.1007/s40614-019-00202-5)
+- Explore
+    - [protocols.io](https://www.protocols.io/)
+    - [Journal of Visualized Experiments (JOVE)](https://www.jove.com/)
+- - [Assignment due this Thursday]{.orange_due}
+    - [Exercise 05: Data and materials sharing](#ex_data_sharing)
+   
+## Databrary
+
+- <https://databrary.org>
+- [@GilmoreAdolph2017](https://doi.org/10.1038/s41562-017-0128)
+- Open sharing, but restricted to authorized researchers
+
+### Play & Learning Across a Year (PLAY) Project
+
+- PLAY Project: <https://play-project.org>
+- Survey data via [KoBoToolbox](https://kobotoolbox.org): <https://PLAY-behaviorome.github.io/KoBoToolbox>
+
+## [@Soska2021-mh](http://dx.doi.org/10.7191/jeslib.2021.1208)
+
+## Next time...
+
+- Open science tools
+    - [@Kathawalla2021-tk](https://doi.org/10.1525/collabra.18684)
+    - [@Cruwell2019-nz](https://doi.org/10.1027/2151-2604/a000387)
+- [Assignment Due]{.orange_due}
+    - [Exercise 05: Data and materials sharing](#ex_data_sharing)
+
+

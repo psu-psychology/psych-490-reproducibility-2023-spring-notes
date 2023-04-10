@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Solutions | PSYCH 490.002 Spring 2023 notes</title>
+  <title>Topic 1 Sharing materials, code, protocols | PSYCH 490.002 Spring 2023 notes</title>
   <meta name="description" content="Lecture/discussion notes for the course." />
   <meta name="generator" content="bookdown 0.33 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Solutions | PSYCH 490.002 Spring 2023 notes" />
+  <meta property="og:title" content="Topic 1 Sharing materials, code, protocols | PSYCH 490.002 Spring 2023 notes" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Lecture/discussion notes for the course." />
   <meta name="github-repo" content="psu-psychology/psych-490-reproducibility-2023-spring-notes" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Solutions | PSYCH 490.002 Spring 2023 notes" />
+  <meta name="twitter:title" content="Topic 1 Sharing materials, code, protocols | PSYCH 490.002 Spring 2023 notes" />
   
   <meta name="twitter:description" content="Lecture/discussion notes for the course." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="hype.html"/>
-<link rel="next" href="changing-journal-policies.html"/>
+<link rel="prev" href="data-sharing.html"/>
+<link rel="next" href="presentations.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -611,121 +611,58 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="solutions-1" class="section level1 unnumbered hasAnchor">
-<h1>Solutions<a href="solutions-1.html#solutions-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="roadmap-15" class="section level2 unnumbered hasAnchor">
-<h2>Roadmap<a href="solutions-1.html#roadmap-15" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="sharing-materials-code-protocols" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Topic 1</span> Sharing materials, code, protocols<a href="sharing-materials-code-protocols.html#sharing-materials-code-protocols" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="roadmap-21" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Roadmap<a href="sharing-materials-code-protocols.html#roadmap-21" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li>Announcements
+<li>Materials, code, &amp; protocol sharing
 <ul>
-<li><a href="#ex_apes">Exercise 03: Alpha, Power, Effect Sizes, &amp; Sample Size</a> write-up <span class="orange_due">due this Thursday, March 16</span>.</li>
+<li><a href="http://dx.doi.org/10.7191/jeslib.2021.1208"><span class="citation">Soska et al. (<a href="#ref-Soska2021-mh" role="doc-biblioref">2021</a>)</span></a></li>
+<li><a href="http://dx.doi.org/10.1007/s40614-019-00202-5"><span class="citation">Gilroy &amp; Kaplan (<a href="#ref-Gilroy2019-bf" role="doc-biblioref">2019</a>)</span></a></li>
 </ul></li>
-<li>Discuss
+<li>Explore
 <ul>
-<li><a href="https://doi.org/10.1038/s41562-016-0021"><span class="citation">Munafò et al. (<a href="#ref-munafo_manifesto_2017" role="doc-biblioref">2017</a>)</span></a></li>
-<li><a href="http://dx.doi.org/10.1038/497433a"><span class="citation">Begley (<a href="#ref-Begley2013-vm" role="doc-biblioref">2013</a>)</span></a></li>
+<li><a href="https://www.protocols.io/">protocols.io</a></li>
+<li><a href="https://www.jove.com/">Journal of Visualized Experiments (JOVE)</a></li>
+</ul></li>
+<li><ul>
+<li><span class="orange_due">Assignment due this Thursday</span>
+<ul>
+<li><a href="#ex_data_sharing">Exercise 05: Data and materials sharing</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </div>
-<div id="munafo_manifesto_2017" class="section level2 unnumbered hasAnchor">
-<h2><a href="https://doi.org/10.1038/s41562-016-0021"><span class="citation">Munafò et al. (<a href="#ref-munafo_manifesto_2017" role="doc-biblioref">2017</a>)</span></a><a href="solutions-1.html#munafo_manifesto_2017" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Sert, N. P. du, Simonsohn, U., Wagenmakers, E.-J., Ware, J. J. &amp; Ioannidis, J. P. A. (2017). A manifesto for reproducible science. <em>Nature Human Behaviour</em>, 1, 0021. <a href="https://doi.org/10.1038/s41562-016-0021" class="uri">https://doi.org/10.1038/s41562-016-0021</a></p>
-<div id="abstract-6" class="section level3 unnumbered hasAnchor">
-<h3>Abstract<a href="solutions-1.html#abstract-6" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<blockquote>
-<p>“<em>Improving the reliability and efficiency of scientific research will increase the credibility of the published scientific literature and accelerate discovery. Here we argue for the adoption of measures to optimize key elements of the scientific process: methods, reporting and dissemination, reproducibility, evaluation and incentives. There is some evidence from both simulations and empirical studies supporting the likely effectiveness of these measures, but their broad adoption by researchers, institutions, funders and journals will require iterative evaluation and improvement. We discuss the goals of these measures, and how they can be implemented, in the hope that this will facilitate action toward improving the transparency, reproducibility and efficiency of scientific research.</em>”</p>
-</blockquote>
-</div>
-<div id="figure-1" class="section level3 unnumbered hasAnchor">
-<h3>Figure 1<a href="solutions-1.html#figure-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-71"></span>
-<img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-016-0021/MediaObjects/41562_2016_Article_BFs415620160021_Fig1_HTML.jpg?as=webp" alt="Figure 1 from [@munafo_manifesto_2017](https://doi.org/10.1038/s41562-016-0021)" width="50%" />
-<p class="caption">
-Figure 0.86: Figure 1 from <a href="https://doi.org/10.1038/s41562-016-0021"><span class="citation">Munafò et al. (<a href="#ref-munafo_manifesto_2017" role="doc-biblioref">2017</a>)</span></a>
-</p>
-</div>
-</div>
-<div id="table-1" class="section level3 unnumbered hasAnchor">
-<h3>Table 1<a href="solutions-1.html#table-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><a href="https://www.nature.com/articles/s41562-016-0021/tables/1" class="uri">https://www.nature.com/articles/s41562-016-0021/tables/1</a></p>
-</div>
-<div id="improving-methods" class="section level3 unnumbered hasAnchor">
-<h3>Improving methods<a href="solutions-1.html#improving-methods" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<blockquote>
-<p>“<em>Protecting against cognitive biases.</em>”</p>
-</blockquote>
-<blockquote>
-<p>“<em>Improving methodological training</em>”</p>
-</blockquote>
-<blockquote>
-<p>“<em>Implementing independent methodological support</em>”</p>
-</blockquote>
-<blockquote>
-<p>“<em>Encouraging collaboration and team science.</em>”</p>
-</blockquote>
-</div>
-<div id="improving-reporting-and-dissemination" class="section level3 unnumbered hasAnchor">
-<h3>Improving reporting and dissemination<a href="solutions-1.html#improving-reporting-and-dissemination" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<blockquote>
-<p>“<em>Promoting study pre-registration</em>”</p>
-</blockquote>
-<blockquote>
-<p>“<em>Improving the quality of reporting</em>”</p>
-</blockquote>
-</div>
-<div id="improving-reproducibility" class="section level3 unnumbered hasAnchor">
-<h3>Improving reproducibility<a href="solutions-1.html#improving-reproducibility" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<blockquote>
-<p>“<em>Promoting transparency and open science</em>”</p>
-</blockquote>
-</div>
-<div id="improving-evaluation" class="section level3 unnumbered hasAnchor">
-<h3>Improving evaluation<a href="solutions-1.html#improving-evaluation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<blockquote>
-<p>“<em>Diversifying peer review</em>”</p>
-</blockquote>
-</div>
-<div id="changing-incentives" class="section level3 unnumbered hasAnchor">
-<h3>Changing incentives<a href="solutions-1.html#changing-incentives" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-</div>
-<div id="begley2013-vm" class="section level2 unnumbered hasAnchor">
-<h2><a href="http://dx.doi.org/10.1038/497433a"><span class="citation">Begley (<a href="#ref-Begley2013-vm" role="doc-biblioref">2013</a>)</span></a><a href="solutions-1.html#begley2013-vm" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Begley, C. G. (2013). Six red flags for suspect work. <em>Nature</em>, <em>497</em>(7450), 433–434. <a href="https://doi.org/10.1038/497433a" class="uri">https://doi.org/10.1038/497433a</a></p>
-<blockquote>
-<p>“<em>Were experiments performed blinded?</em>”</p>
-</blockquote>
-<blockquote>
-<p>“<em>Were basic experiments repeated?</em>”</p>
-</blockquote>
-<blockquote>
-<p>“<em>Were all the results presented?</em>”</p>
-</blockquote>
-<blockquote>
-<p>“<em>Were there positive and negative controls? Often in the non-reproducible, high-profile papers, the crucial control experiments were excluded or mentioned as ‘data not shown’.</em>”</p>
-</blockquote>
-<blockquote>
-<p>“<em>Were reagents validated?</em>”</p>
-</blockquote>
-<blockquote>
-<p>“<em>Were statistical tests appropriate?</em>”</p>
-</blockquote>
-<blockquote>
-<p>“<em>Why do we repeatedly see these poor-quality papers in basic science? In part, it is down to the fact that there is no real consequence for investigators or journals. It is also because many busy reviewers (and disappointingly, even co-authors) do not actually read the papers, and because journals are required to fill their pages with simple, complete ‘stories’. And because of the apparent failure to recognize authors’ competing interests — beyond direct financial interests — that may interfere with their judgement.</em>”</p>
-</blockquote>
-</div>
-<div id="next-time-14" class="section level2 unnumbered hasAnchor">
-<h2>Next time…<a href="solutions-1.html#next-time-14" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="databrary" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Databrary<a href="sharing-materials-code-protocols.html#databrary" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li>Changing journal policies
+<li><a href="https://databrary.org" class="uri">https://databrary.org</a></li>
+<li><a href="https://doi.org/10.1038/s41562-017-0128"><span class="citation">Gilmore &amp; Adolph (<a href="#ref-GilmoreAdolph2017" role="doc-biblioref">2017</a>)</span></a></li>
+<li>Open sharing, but restricted to authorized researchers</li>
+</ul>
+<div id="play-learning-across-a-year-play-project" class="section level3 hasAnchor" number="1.2.1">
+<h3><span class="header-section-number">1.2.1</span> Play &amp; Learning Across a Year (PLAY) Project<a href="sharing-materials-code-protocols.html#play-learning-across-a-year-play-project" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li><a href="https://doi.org/10.1126/science.aab2374"><span class="citation">B. A. Nosek et al. (<a href="#ref-nosek_promoting_2015" role="doc-biblioref">2015</a>)</span></a></li>
-<li><a href="https://doi.org/10.1111/cdep.12360"><span class="citation">Gilmore, Cole, Verma, Aken, &amp; Worthman (<a href="#ref-Gilmore2020-sl" role="doc-biblioref">2020</a>)</span></a></li>
-<li><a href="https://www.srcd.org/policy-scientific-integrity-transparency-and-openness"><span class="citation">SRCD (<a href="#ref-Srcd2019-hg" role="doc-biblioref">2019</a>)</span></a></li>
+<li>PLAY Project: <a href="https://play-project.org" class="uri">https://play-project.org</a></li>
+<li>Survey data via <a href="https://kobotoolbox.org">KoBoToolbox</a>: <a href="https://PLAY-behaviorome.github.io/KoBoToolbox" class="uri">https://PLAY-behaviorome.github.io/KoBoToolbox</a></li>
+</ul>
+</div>
+</div>
+<div id="soska2021-mh" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> <a href="http://dx.doi.org/10.7191/jeslib.2021.1208"><span class="citation">Soska et al. (<a href="#ref-Soska2021-mh" role="doc-biblioref">2021</a>)</span></a><a href="sharing-materials-code-protocols.html#soska2021-mh" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="next-time-20" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> Next time…<a href="sharing-materials-code-protocols.html#next-time-20" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Open science tools
+<ul>
+<li><a href="https://doi.org/10.1525/collabra.18684"><span class="citation">Kathawalla, Silverstein, &amp; Syed (<a href="#ref-Kathawalla2021-tk" role="doc-biblioref">2021</a>)</span></a></li>
+<li><a href="https://doi.org/10.1027/2151-2604/a000387"><span class="citation">Crüwell et al. (<a href="#ref-Cruwell2019-nz" role="doc-biblioref">2019</a>)</span></a></li>
 </ul></li>
-<li><span class="orange_due">Due</span>
+<li><span class="orange_due">Assignment Due</span>
 <ul>
-<li><a href="#ex_apes">Exercise 03: Alpha, Power, Effect Sizes, &amp; Sample Size</a> write-up</li>
+<li><a href="#ex_data_sharing">Exercise 05: Data and materials sharing</a></li>
 </ul></li>
 </ul>
 
@@ -733,20 +670,20 @@ Figure 0.86: Figure 1 from <a href="https://doi.org/10.1038/s41562-016-0021"><sp
 </div>
 <h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
-<div id="ref-Begley2013-vm" class="csl-entry">
-Begley, C. G. (2013). Six red flags for suspect work. <em>Nature</em>, <em>497</em>(7450), 433–434. <a href="https://doi.org/10.1038/497433a">https://doi.org/10.1038/497433a</a>
+<div id="ref-Cruwell2019-nz" class="csl-entry">
+Crüwell, S., Doorn, J. van, Etz, A., Makel, M. C., Moshontz, H., Niebaum, J. C., … Schulte-Mecklenbeck, M. (2019). Seven easy steps to open science. <em>Zeitschrift f<span>ü</span>r Psychologie</em>, <em>227</em>(4), 237–248. <a href="https://doi.org/10.1027/2151-2604/a000387">https://doi.org/10.1027/2151-2604/a000387</a>
 </div>
-<div id="ref-Gilmore2020-sl" class="csl-entry">
-Gilmore, R. O., Cole, P. M., Verma, S., Aken, M. A. G., &amp; Worthman, C. M. (2020). Advancing scientific integrity, transparency, and openness in child development research: Challenges and possible solutions. <em>Child Development Perspectives</em>, <em>14</em>(1), 9–14. <a href="https://doi.org/10.1111/cdep.12360">https://doi.org/10.1111/cdep.12360</a>
+<div id="ref-GilmoreAdolph2017" class="csl-entry">
+Gilmore, R. O., &amp; Adolph, K. E. (2017). Video can make behavioural research more reproducible. <em>Nature Human Behavior</em>, <em>1</em>. <a href="https://doi.org/10.1038/s41562-017-0128">https://doi.org/10.1038/s41562-017-0128</a>
 </div>
-<div id="ref-munafo_manifesto_2017" class="csl-entry">
-Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Sert, N. P. du, … Ioannidis, J. P. A. (2017). A manifesto for reproducible science. <em>Nature Human Behaviour</em>, <em>1</em>, 0021. <a href="https://doi.org/10.1038/s41562-016-0021">https://doi.org/10.1038/s41562-016-0021</a>
+<div id="ref-Gilroy2019-bf" class="csl-entry">
+Gilroy, S. P., &amp; Kaplan, B. A. (2019). Furthering open science in behavior analysis: An introduction and tutorial for using <span>GitHub</span> in research. <em>Perspectives on Behavior Science</em>, <em>42</em>(3), 565–581. <a href="https://doi.org/10.1007/s40614-019-00202-5">https://doi.org/10.1007/s40614-019-00202-5</a>
 </div>
-<div id="ref-nosek_promoting_2015" class="csl-entry">
-Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., … Yarkoni, T. (2015). Promoting an open research culture. <em>Science</em>, <em>348</em>(6242), 1422–1425. <a href="https://doi.org/10.1126/science.aab2374">https://doi.org/10.1126/science.aab2374</a>
+<div id="ref-Kathawalla2021-tk" class="csl-entry">
+Kathawalla, U.-K., Silverstein, P., &amp; Syed, M. (2021). Easing into open science: A guide for graduate students and their advisors. <em>Collabra. Psychology</em>, <em>7</em>(1). <a href="https://doi.org/10.1525/collabra.18684">https://doi.org/10.1525/collabra.18684</a>
 </div>
-<div id="ref-Srcd2019-hg" class="csl-entry">
-SRCD. (2019). Policy on scientific integrity, transparency, and openness | society for research in child development <span>SRCD</span>. <a href="https://www.srcd.org/policy-scientific-integrity-transparency-and-openness" class="uri">https://www.srcd.org/policy-scientific-integrity-transparency-and-openness</a>. Retrieved from <a href="https://www.srcd.org/policy-scientific-integrity-transparency-and-openness">https://www.srcd.org/policy-scientific-integrity-transparency-and-openness</a>
+<div id="ref-Soska2021-mh" class="csl-entry">
+Soska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O., &amp; Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. <em>Journal of Escience Librarianship</em>, <em>10</em>(3). <a href="https://doi.org/10.7191/jeslib.2021.1208">https://doi.org/10.7191/jeslib.2021.1208</a>
 </div>
 </div>
             </section>
@@ -754,8 +691,8 @@ SRCD. (2019). Policy on scientific integrity, transparency, and openness | socie
           </div>
         </div>
       </div>
-<a href="hype.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="changing-journal-policies.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="data-sharing.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="presentations.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
