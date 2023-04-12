@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Course intro | PSYCH 490.002 Spring 2023 notes</title>
+  <title>Open science tools | PSYCH 490.002 Spring 2023 notes</title>
   <meta name="description" content="Lecture/discussion notes for the course." />
   <meta name="generator" content="bookdown 0.33 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Course intro | PSYCH 490.002 Spring 2023 notes" />
+  <meta property="og:title" content="Open science tools | PSYCH 490.002 Spring 2023 notes" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Lecture/discussion notes for the course." />
   <meta name="github-repo" content="psu-psychology/psych-490-reproducibility-2023-spring-notes" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Course intro | PSYCH 490.002 Spring 2023 notes" />
+  <meta name="twitter:title" content="Open science tools | PSYCH 490.002 Spring 2023 notes" />
   
   <meta name="twitter:description" content="Lecture/discussion notes for the course." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="how-science-works-or-should.html"/>
+<link rel="prev" href="sharing-materials-code-protocols.html"/>
+<link rel="next" href="presentations.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -628,385 +628,72 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="course-intro" class="section level1 unnumbered hasAnchor">
-<h1>Course intro<a href="course-intro.html#course-intro" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="prelude" class="section level2 unnumbered hasAnchor">
-<h2>Prelude<a href="course-intro.html#prelude" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>I like to have a series of songs or videos ready to play before class begins.
-They are loosely related to some of the themes of the course that day.
-Most are songs or artists I like.
-Showing them is just for fun.</p>
-<!-- Trust in Me, Jungle Book, Original -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cCX5JJwkZhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-<!-- Styx Fooling Yourself -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RwPS19swwiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</div>
-<div id="todays-topics" class="section level2 unnumbered hasAnchor">
-<h2>Today’s Topics<a href="course-intro.html#todays-topics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="open-science-tools" class="section level1 unnumbered hasAnchor">
+<h1>Open science tools<a href="open-science-tools.html#open-science-tools" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="roadmap-22" class="section level2 unnumbered hasAnchor">
+<h2>Roadmap<a href="open-science-tools.html#roadmap-22" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li>Introductions</li>
-<li><a href="https://psu-psychology.github.io/psych-490-reproducibility-2023/">Course overview</a></li>
-<li>Are we (scientists, the public) fooling ourselves? How can we know? Why might it matter?</li>
+<li>Open science tools
+<ul>
+<li><span class="citation">(<a href="#ref-Kathawalla2021-tk" role="doc-biblioref">Kathawalla et al., 2021</a>)</span></li>
+<li><span class="citation">(<a href="#ref-Cruwell2019-nz" role="doc-biblioref">Crüwell et al., 2019</a>)</span></li>
+</ul></li>
+<li><span class="orange_due">Assignment Due</span>
+<ul>
+<li><a href="#ex_data_sharing">Exercise 05: Data and materials sharing</a></li>
+</ul></li>
 </ul>
 </div>
-<div id="introductions" class="section level2 unnumbered hasAnchor">
-<h2>Introductions<a href="course-intro.html#introductions" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="teaching-assistant" class="section level3 unnumbered hasAnchor">
-<h3>Teaching Assistant<a href="course-intro.html#teaching-assistant" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Garrett Thomas. M.S.</br>
-gat84 AT-SIGN psu PERIOD edu</br></p>
-</div>
-<div id="professor" class="section level3 unnumbered hasAnchor">
-<h3>Professor<a href="course-intro.html#professor" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><strong>Rick O. Gilmore</strong>, Ph.D.</br>
-Professor of Psychology</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-118"></span>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DenverCP.JPG/266px-DenverCP.JPG" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DenverCP.JPG/266px-DenverCP.JPG" width="75%" />
-<p class="caption">
-Figure 1: <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DenverCP.JPG/266px-DenverCP.JPG" class="uri">https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DenverCP.JPG/266px-DenverCP.JPG</a>
-</p>
-</div>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-119"></span>
-<img src="http://watson.brown.edu/ds/sites/all/themes/ds/img/header/brown_large.png" alt="http://watson.brown.edu/ds/sites/all/themes/ds/img/header/brown_large.png" width="75%" />
-<p class="caption">
-Figure 2: <a href="http://watson.brown.edu/ds/sites/all/themes/ds/img/header/brown_large.png" class="uri">http://watson.brown.edu/ds/sites/all/themes/ds/img/header/brown_large.png</a>
-</p>
-</div>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-120"></span>
-<img src="https://www.wheretraveler.com/sites/default/files/styles/wt17_promoted/public/WashingtonDC-shutterstock_93633676.jpg?itok=IT7CL9PU" alt="https://www.wheretraveler.com/sites/default/files/styles/wt17_promoted/public/WashingtonDC-shutterstock_93633676.jpg?itok=IT7CL9PU" width="75%" />
-<p class="caption">
-Figure 3: <a href="https://www.wheretraveler.com/sites/default/files/styles/wt17_promoted/public/WashingtonDC-shutterstock_93633676.jpg?itok=IT7CL9PU" class="uri">https://www.wheretraveler.com/sites/default/files/styles/wt17_promoted/public/WashingtonDC-shutterstock_93633676.jpg?itok=IT7CL9PU</a>
-</p>
-</div>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-121"></span>
-<img src="https://ai.cs.cmu.edu/sites/default/files/CMU.png" alt="https://ai.cs.cmu.edu/sites/default/files/CMU.png" width="75%" />
-<p class="caption">
-Figure 4: <a href="https://ai.cs.cmu.edu/sites/default/files/CMU.png" class="uri">https://ai.cs.cmu.edu/sites/default/files/CMU.png</a>
-</p>
-</div>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-122"></span>
-<img src="http://onwardstate.com/wp-content/uploads/2014/10/93" alt="http://onwardstate.com/wp-content/uploads/2014/10/93" width="75%" />
-<p class="caption">
-Figure 5: <a href="http://onwardstate.com/wp-content/uploads/2014/10/93" class="uri">http://onwardstate.com/wp-content/uploads/2014/10/93</a>
-</p>
-</div>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-123"></span>
-<img src="include/img/sleic.png" alt="https://imaging.psu.edu" width="75%" />
-<p class="caption">
-Figure 6: <a href="https://imaging.psu.edu" class="uri">https://imaging.psu.edu</a>
-</p>
-</div>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-124"></span>
-<img src="https://nyu.databrary.org/web/images/logo/databrary-nav.svg" alt="https://nyu.databrary.org/web/images/logo/databrary-nav.svg" width="75%" />
-<p class="caption">
-Figure 7: <a href="https://nyu.databrary.org/web/images/logo/databrary-nav.svg" class="uri">https://nyu.databrary.org/web/images/logo/databrary-nav.svg</a>
-</p>
-</div>
-</div>
-</div>
-<div id="course-overview" class="section level2 unnumbered hasAnchor">
-<h2>Course overview<a href="course-intro.html#course-overview" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<ul>
-<li>Resources</li>
-<li>Themes/topics</li>
-<li>Structure</li>
-<li>Assignments/evaluation</li>
-</ul>
-</div>
-<div id="resources" class="section level2 unnumbered hasAnchor">
-<h2>Resources<a href="course-intro.html#resources" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="websites" class="section level3 unnumbered hasAnchor">
-<h3>Websites<a href="course-intro.html#websites" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<ul>
-<li>Syllabus: <a href="https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/" class="uri">https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/</a></li>
-<li>Class notes: <a href="https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/" class="uri">https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/</a></li>
-</ul>
-</div>
-<div id="book" class="section level3 unnumbered hasAnchor">
-<h3>Book<a href="course-intro.html#book" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><img src="include/img/ritchie-science-fictions.jpg" width="50%" style="display: block; margin: auto;" /></p>
-</div>
-<div id="other-readings" class="section level3 unnumbered hasAnchor">
-<h3>Other readings<a href="course-intro.html#other-readings" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div id="book-selections" class="section level4 unnumbered hasAnchor">
-<h4>Book selections<a href="course-intro.html#book-selections" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p><img src="include/img/chambers-seven-deadly-sins.jpg" width="20%" style="display: block; margin: auto;" /><img src="include/img/bausell-problem-with-science.jpg" width="20%" style="display: block; margin: auto;" /><img src="include/img/harris-rigor-mortis.jpg" width="20%" style="display: block; margin: auto;" /><img src="include/img/oreskes-why-trust-science.jpg" width="20%" style="display: block; margin: auto;" /></p>
-<ul>
-<li>Scanned PDFs of book selections are available on Canvas: <a href="https://psu.instructure.com/courses/2245007/files/folder/readings" class="uri">https://psu.instructure.com/courses/2245007/files/folder/readings</a></li>
-</ul>
-</div>
-<div id="articles" class="section level4 unnumbered hasAnchor">
-<h4>Articles<a href="course-intro.html#articles" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ul>
-<li>Retrieve them yourself via the URL (uniform resource locator) and the <a href="https://www.doi.org">DOI</a> (digital object identifier).</li>
-<li>Why do I do this?</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="themestopics" class="section level2 unnumbered hasAnchor">
-<h2>Themes/topics<a href="course-intro.html#themestopics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<ul>
-<li>What is science trying to do?</li>
-<li>What practices and norms constitute better science? What practices and norms constitute poorer science?</li>
-<li>Is there a crisis of reproducibility or replicability in psychological science?</li>
-<li>Is there a crisis in other areas of science?</li>
-<li>What are scientists doing to address these criticisms?</li>
-</ul>
-</div>
-<div id="structure" class="section level2 unnumbered hasAnchor">
-<h2>Structure<a href="course-intro.html#structure" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<ul>
-<li>Meet twice weekly</li>
-<li>Discussion/work sessions</li>
-<li>Do your homework; I will call on you.</li>
-</ul>
-</div>
-<div id="assignments-evaluation" class="section level2 unnumbered hasAnchor">
-<h2><a href="https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/evaluation.html">Assignments &amp; evaluation</a><a href="course-intro.html#assignments-evaluation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<ul>
-<li>Class attendance</li>
-<li>Exercises</li>
-<li>Final project</li>
-</ul>
-</div>
-<div id="are-we-scientists-the-public-fooling-ourselves-how-can-we-know-why-might-it-matter" class="section level2 unnumbered hasAnchor">
-<h2>Are we (scientists, the public) fooling ourselves? How can we know? Why might it matter?<a href="course-intro.html#are-we-scientists-the-public-fooling-ourselves-how-can-we-know-why-might-it-matter" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="a-humorous-perspective-nyu_health_sciences_library2013-gp" class="section level3 unnumbered hasAnchor">
-<h3>A humorous perspective <a href="https://www.youtube.com/watch?v=66oNv_DJuPc"><span class="citation">(<a href="#ref-NYU_Health_Sciences_Library2013-gp" role="doc-biblioref">NYU Health Sciences Library, 2013</a>)</span></a><a href="course-intro.html#a-humorous-perspective-nyu_health_sciences_library2013-gp" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/66oNv_DJuPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+<div id="survey-questions-from-cruwell2019-nz" class="section level2 unnumbered hasAnchor">
+<h2>Survey: Questions from <span class="citation">(<a href="#ref-Cruwell2019-nz" role="doc-biblioref">Crüwell et al., 2019</a>)</span><a href="open-science-tools.html#survey-questions-from-cruwell2019-nz" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><img src="include/img/survey-1.png" width="50%" style="display: block; margin: auto;" /></p>
+<p>OR</p>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeUGnw7xc9e-Cxol4xEVZ36EaF0_zhFtSGGx5Sc7RE2Q2on6w/viewform?embedded=true" width="640" height="3978" frameborder="0" marginheight="0" marginwidth="0">
+Loading…
 </iframe>
 </div>
-<div id="feynmann-on-cargo-cult-science" class="section level3 unnumbered hasAnchor">
-<h3>Feynmann on ‘Cargo Cult Science’<a href="course-intro.html#feynmann-on-cargo-cult-science" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="kathawalla2021-tk" class="section level2 unnumbered hasAnchor">
+<h2><span class="citation">(<a href="#ref-Kathawalla2021-tk" role="doc-biblioref">Kathawalla et al., 2021</a>)</span><a href="open-science-tools.html#kathawalla2021-tk" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<blockquote>
+<p>This article provides a roadmap to assist graduate students and their advisors to engage in open science practices. We suggest eight open science practices that novice graduate students could begin adopting today. The topics we cover include journal clubs, project workflow, preprints, reproducible code, data sharing, transparent writing, preregistration, and registered reports. To address concerns about not knowing how to engage in open science practices, we provide a difficulty rating of each behavior (easy, medium, difficult), present them in order of suggested adoption, and follow the format of what, why, how, and worries. We give graduate students ideas on how to approach conversations with their advisors/collaborators, ideas on how to integrate open science practices within the graduate school framework, and specific resources on how to engage with each behavior. We emphasize that engaging in open science behaviors need not be an all or nothing approach, but rather graduate students can engage with any number of the behaviors outlined.</p>
+<p><span class="citation">(<a href="#ref-Kathawalla2021-tk" role="doc-biblioref">Kathawalla et al., 2021</a>)</span></p>
+</blockquote>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Richard_Feynman">Richard Feynman</a></li>
+<li>Open Science Framework (OSF) project: <a href="https://osf.io/w5mbp/" class="uri">https://osf.io/w5mbp/</a></li>
+<li>Wiki: <a href="https://osf.io/w5mbp/wiki/home/" class="uri">https://osf.io/w5mbp/wiki/home/</a></li>
 </ul>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
-<img src="https://upload.wikimedia.org/wikipedia/en/4/42/Richard_Feynman_Nobel.jpg" alt="Richard P. Feynman, Wikipedia" width="50%" />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-99"></span>
+<img src="https://ucp.silverchair-cdn.com/ucp/content_public/journal/collabra/7/1/10.1525_collabra.18684/2/m_collabra_2021_7_1_18684_49218.jpeg?Expires=1683620528&Signature=dlqxuXl9GGSMcmMA7Bje2z9f6UwaIgeDt5Ryd-FydjA78M70uG~xprbTsrrnjWb~SYujcbWcvXvH-V9FL-w~GeFX8OPC4mmPTVUCDqoXMEC8kKcpfUUP44gst-FEyBST1ujDYghrphWPyQ84Pg50pArBpKIzBiBmT26WZJD1Grfw6y3I8EY10u9zqcqytRy6fw9tNyhA90oXd5v5rGS6Ekcmiz5wv5kUVh4b8WzriNmNjj0roQLK7BfKyKStog4CYrA5DXyvLa5t02dxwuBPejek9PQobrWzc7BLpnnaJi8DgGVCHrbkPE0n9RWWlnsx2yxS3ppIb7eHLWsJUaMJvA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Figure 1 from [@Kathawalla2021-tk]" width="50%" />
 <p class="caption">
-Figure 8: Richard P. Feynman, Wikipedia
-</p>
-</div>
-<ul>
-<li>Who was he?</li>
-</ul>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-6"></span>
-<iframe src="https://calteches.library.caltech.edu/51/2/CargoCult.htm" width="50%" height="400px" data-external="1">
-</iframe>
-<p class="caption">
-Figure 9: <a href="https://calteches.library.caltech.edu/51/2/CargoCult.htm"><span class="citation">(<a href="#ref-Feynman1974-ld" role="doc-biblioref">Feynman, 1974</a>)</span></a>
-</p>
-</div>
-<div id="what-does-feynman-mean-by-cargo-cult-science" class="section level4 unnumbered hasAnchor">
-<h4>What does Feynman mean by ‘Cargo Cult Science’?<a href="course-intro.html#what-does-feynman-mean-by-cargo-cult-science" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<blockquote>
-<p>I think the educational and psychological studies I mentioned are examples of what I would like to call Cargo Cult Science. In the South Seas there is a Cargo Cult of people. During the war they saw airplanes land with lots of good materials, and they want the same thing to happen now. So they’ve arranged to make things like runways, to put fires along the sides of the runways, to make a wooden hut for a man to sit in, with two wooden pieces on his head like headphones and bars of bamboo sticking out like antennas—he’s the controller—and they wait for the airplanes to land. They’re doing everything right. The form is perfect. It looks exactly the way it looked before. But it doesn’t work. No airplanes land. So I call these things Cargo Cult Science, because they follow all the apparent precepts and forms of scientific investigation, but they’re missing something essential, because the planes don’t land.</p>
-</blockquote>
-<p>More about “cargo cults”: <a href="https://rjlipton.wpcomstaging.com/2023/01/06/cargo-cult-redo/"><span class="citation">(<a href="#ref-Rjlipton2023-sb" role="doc-biblioref">rjlipton, 2023</a>)</span></a></p>
-</div>
-<div id="implicit-rules-practices-or-norms-in-science" class="section level4 unnumbered hasAnchor">
-<h4>Implicit rules (practices or norms) in science<a href="course-intro.html#implicit-rules-practices-or-norms-in-science" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<blockquote>
-<p>…That is the idea that we all hope you have learned in studying science in school—we never explicitly say what this is, but just hope that you catch on by all the examples of scientific investigation. It is interesting, therefore, to bring it out now and speak of it explicitly. It’s a kind of scientific integrity, a principle of scientific thought that corresponds to a kind of utter honesty—a kind of leaning over backwards. For example, if you’re doing an experiment, you should report everything that you think might make it invalid—not only what you think is right about it: other causes that could possibly explain your results; and things you thought of that you’ve eliminated by some other experiment, and how they worked—to make sure the other fellow can tell they have been eliminated.</p>
-</blockquote>
-</div>
-<div id="principle-1-dont-fool-yourself" class="section level4 unnumbered hasAnchor">
-<h4>Principle 1: Don’t fool yourself<a href="course-intro.html#principle-1-dont-fool-yourself" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<blockquote>
-<p>The first principle is that you must not fool yourself—and you are the easiest person to fool. So you have to be very careful about that. After you’ve not fooled yourself, it’s easy not to fool other scientists. You just have to be honest in a conventional way after that.</p>
-</blockquote>
-</div>
-<div id="principle-2-show-how-your-maybe-wrong" class="section level4 unnumbered hasAnchor">
-<h4>Principle 2: Show how your maybe wrong<a href="course-intro.html#principle-2-show-how-your-maybe-wrong" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<blockquote>
-<p>I’m talking about a specific, extra type of integrity that is not lying, but bending over backwards to show how you’re maybe wrong, that you ought to do when acting as a scientist. And this is our responsibility as scientists, certainly to other scientists, and I think to laymen.</p>
-</blockquote>
-</div>
-<div id="principle-3-publish-your-results-whichever-way-they-come-out" class="section level4 unnumbered hasAnchor">
-<h4>Principle 3: Publish your results whichever way they come out<a href="course-intro.html#principle-3-publish-your-results-whichever-way-they-come-out" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<blockquote>
-<p>One example of the principle is this: If you’ve made up your mind to test a theory, or you want to explain some idea, you should always decide to publish it whichever way it comes out. If we only publish results of a certain kind, we can make the argument look good. We must publish both kinds of result.</p>
-</blockquote>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-7"></span>
-<img src="include/img/oreskes-why-trust-science.jpg" alt="[@Oreskes2017]" width="50%" />
-<p class="caption">
-Figure 10: <span class="citation">(<a href="#ref-Oreskes2017" role="doc-biblioref">Oreskes, 2019</a>)</span>
+Figure 114: Figure 1 from <span class="citation">(<a href="#ref-Kathawalla2021-tk" role="doc-biblioref">Kathawalla et al., 2021</a>)</span>
 </p>
 </div>
 </div>
-<div id="flaws-in-how-science-is-actually-practiced" class="section level4 unnumbered hasAnchor">
-<h4>Flaws in how science is actually practiced<a href="course-intro.html#flaws-in-how-science-is-actually-practiced" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="cruwell2019-nz" class="section level2 unnumbered hasAnchor">
+<h2><span class="citation">(<a href="#ref-Cruwell2019-nz" role="doc-biblioref">Crüwell et al., 2019</a>)</span><a href="open-science-tools.html#cruwell2019-nz" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <blockquote>
-<p>Other kinds of errors are more characteristic of poor science. When I was at Cornell. I often talked to the people in the psychology department. One of the students told me she wanted to do an experiment that went something like this—I don’t remember it in detail, but it had been found by others that under certain circumstances, X, rats did something, A. She was curious as to whether, if she changed the circumstances to Y, they would still do, A. So her proposal was to do the experiment under circumstances Y and see if they still did A.
-I explained to her that it was necessary first to repeat in her laboratory the experiment of the other person—to do it under condition X to see if she could also get result A—and then change to Y and see if A changed. Then she would know that the real difference was the thing she thought she had under control.
-She was very delighted with this new idea, and went to her professor. And his reply was, no, you cannot do that, because the experiment has already been done and you would be wasting time. This was in about 1935 or so, and it seems to have been the general policy then to not try to repeat psychological experiments, but only to change the conditions and see what happens.</p>
+<p>Over the past 10 years, crises surrounding replication, fraud, and best practices in research methods have dominated discussions in the field of psychology. However, no research exists examining how to communicate these issues to undergraduates and what effect this has on their attitudes toward the field. We developed and validated a 1-hr lecture communicating issues surrounding the replication crisis and current recommendations to increase reproducibility. Pre- and post-lecture surveys suggest that the lecture serves as an excellent pedagogical tool. Following the lecture, students trusted psychological studies slightly less but saw greater similarities between psychology and natural science fields. We discuss challenges for instructors taking the initiative to communicate these issues to undergraduates in an evenhanded way.</p>
+<p><span class="citation">(<a href="#ref-Cruwell2019-nz" role="doc-biblioref">Crüwell et al., 2019</a>)</span></p>
 </blockquote>
 <ul>
-<li>Principle 4: Replicate then extend.</li>
+<li>Table 1 from <span class="citation">(<a href="#ref-Cruwell2019-nz" role="doc-biblioref">Crüwell et al., 2019</a>)</span>: <a href="https://journals.sagepub.com/doi/10.1177/0098628318762900#table1-0098628318762900" class="uri">https://journals.sagepub.com/doi/10.1177/0098628318762900#table1-0098628318762900</a></li>
+<li>Table 2 from <span class="citation">(<a href="#ref-Cruwell2019-nz" role="doc-biblioref">Crüwell et al., 2019</a>)</span>: <a href="https://journals.sagepub.com/doi/10.1177/0098628318762900#table2-0098628318762900" class="uri">https://journals.sagepub.com/doi/10.1177/0098628318762900#table2-0098628318762900</a></li>
 </ul>
-</div>
-<div id="principle-5-scientific-integrity-requires-a-form-of-freedom" class="section level4 unnumbered hasAnchor">
-<h4>Principle 5: Scientific integrity requires a form of freedom<a href="course-intro.html#principle-5-scientific-integrity-requires-a-form-of-freedom" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<blockquote>
-<p>…So I have just one wish for you—the good luck to be somewhere where you are free to maintain the kind of integrity I have described, and where you do not feel forced by a need to maintain your position in the organization, or financial support, or so on, to lose your integrity. May you have that freedom.</p>
-</blockquote>
-</div>
-<div id="questions-to-ponder" class="section level4 unnumbered hasAnchor">
-<h4>Questions to ponder<a href="course-intro.html#questions-to-ponder" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="reproducibility-notes-4" class="section level3 unnumbered hasAnchor">
+<h3>Reproducibility notes<a href="open-science-tools.html#reproducibility-notes-4" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li>Do you agree or disagree with Feynman’s characterizations of poor science? Why or why not?</li>
-<li>What are Feynman’s ‘rules’ or principles?</li>
-<li>Are these ‘rules’ or principles taught explicitly? Where and how?</li>
-<li>If not, why not?</li>
-<li>Do you agree or disagree that these rules are essential for scientific integrity?</li>
-<li>Why does Feynman suggest that you, the scientist or student, are the easiest one to fool?</li>
-</ul>
-</div>
-<div id="going-deeper" class="section level4 unnumbered hasAnchor">
-<h4>Going deeper<a href="course-intro.html#going-deeper" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ul>
-<li><a href="https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/schedule.html#thursday-january-12">Thu Jan 12</a>: How science works or should work</li>
-<li><a href="https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/schedule.html#tuesday-january-17">Tue Jan 17</a>: Scientific norms and counter-norms</li>
-<li><a href="https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/schedule.html#thursday-january-19">Thu Jan 19</a>: Adherence to norms and counter-norms.</li>
-<li><a href="https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_norms_counternorms.html">Exercise 01</a>: Norms and counter-norms</li>
+<li>Survey questions in article</li>
+<li>OSF project for materials <span class="citation">(<a href="#ref-Defever2016-ki" role="doc-biblioref">Defever, Chopik, Keller, &amp; Bremner, 2016</a>)</span>: <a href="https://osf.io/mh9pe/" class="uri">https://osf.io/mh9pe/</a></li>
+<li>Data not shared</li>
 </ul>
 </div>
 </div>
-<div id="begleys-bombshell" class="section level3 unnumbered hasAnchor">
-<h3>Begley’s ‘Bombshell’<a href="course-intro.html#begleys-bombshell" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="next-time-21" class="section level2 unnumbered hasAnchor">
+<h2>Next time…<a href="open-science-tools.html#next-time-21" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li>Reading: <span class="citation">(<a href="#ref-Harris2017-oz" role="doc-biblioref">Harris, 2017</a>)</span>, Chapter 1.</li>
-</ul>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-8"></span>
-<img src="include/img/harris-rigor-mortis.jpg" alt="[@Harris2017-oz]" width="50%" />
-<p class="caption">
-Figure 11: <span class="citation">(<a href="#ref-Harris2017-oz" role="doc-biblioref">Harris, 2017</a>)</span>
-</p>
-</div>
-<div id="background" class="section level4 unnumbered hasAnchor">
-<h4>Background<a href="course-intro.html#background" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<li>Final project work day
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/C._Glenn_Begley">C. Glenn Begley</a></li>
-<li><a href="http://dx.doi.org/10.1038/483531a"><span class="citation">(<a href="#ref-Begley2012-cr" role="doc-biblioref">Begley &amp; Ellis, 2012</a>)</span></a></li>
-</ul>
-<blockquote>
-<p>The scientific community assumes that the claims in a preclinical study can be taken at face value — that although there might be some errors in detail, the main message of the paper can be relied on and the data will, for the most part, stand the test of time. Unfortunately, this is not always the case.</p>
-</blockquote>
-<blockquote>
-<p>Over the past decade, before pursuing a particular line of research, scientists (including C.G.B.) in the haematology and oncology department at the biotechnology firm Amgen in Thousand Oaks, California, tried to confirm published findings related to that work. Fifty-three papers were deemed ‘landmark’ studies (see ‘Reproducibility of research findings’). It was acknowledged from the outset that some of the data might not hold up, because papers were deliberately selected that described something completely new, such as fresh approaches to targeting cancers or alternative clinical uses for existing therapeutics. Nevertheless, scientific findings were confirmed in only 6 (11%) cases. Even knowing the limitations of preclinical research, this was a shocking result.</p>
-</blockquote>
-<table>
-<colgroup>
-<col width="16%" />
-<col width="10%" />
-<col width="38%" />
-<col width="35%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Journal Impact Factor</th>
-<th><span class="math inline">\(n\)</span> articles</th>
-<th>Mean number of citations for non-reproduced articles</th>
-<th>Mean number of citations of reproduced articles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&gt;20</td>
-<td>21</td>
-<td>248 [3, 800]</td>
-<td>231 [82-519]</td>
-</tr>
-<tr class="even">
-<td>5-19</td>
-<td>32</td>
-<td>168 [6, 1,909]</td>
-<td>13 [3, 24]</td>
-</tr>
-</tbody>
-</table>
-<p>Table 1 from <a href="http://dx.doi.org/10.1038/483531a"><span class="citation">(<a href="#ref-Begley2012-cr" role="doc-biblioref">Begley &amp; Ellis, 2012</a>)</span></a></p>
-</div>
-<div id="findings" class="section level4 unnumbered hasAnchor">
-<h4>Findings<a href="course-intro.html#findings" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ul>
-<li>Findings of 6/53 published papers (11%) could be reproduced</li>
-<li>Original authors often could not reproduce their own work</li>
-<li>Earlier paper <a href="http://dx.doi.org/10.1038/nrd3439-c1"><span class="citation">(<a href="#ref-Prinz2011-vo" role="doc-biblioref">Prinz, Schlange, &amp; Asadullah, 2011</a>)</span></a> had also found low rate of reproducibility. Paper titled “Believe it or not: How much can we rely on published data on potential drug targets?”</li>
-<li><a href="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrd3439-c1/MediaObjects/41573_2011_Article_BFnrd3439c1_Fig1_HTML.jpg?as=webp">Figure 1</a> from <a href="http://dx.doi.org/10.1038/nrd3439-c1"><span class="citation">(<a href="#ref-Prinz2011-vo" role="doc-biblioref">Prinz et al., 2011</a>)</span></a></li>
-</ul>
-<blockquote>
-<p>We received input from 23 scientists (heads of laboratories) and collected data from 67 projects, most of them (47) from the field of oncology. This analysis revealed that only in ∼20–25% of the projects were the relevant published data completely in line with our in-house findings</p>
-<ul>
-<li><a href="http://dx.doi.org/10.1038/nrd3439-c1"><span class="citation">(<a href="#ref-Prinz2011-vo" role="doc-biblioref">Prinz et al., 2011</a>)</span></a></li>
-</ul>
-</blockquote>
-<ul>
-<li>Published papers (that can’t be reproduced) are cited hundreds or thousands of times</li>
-<li>Cost of irreproducible research estimated in billions of dollars <a href="http://dx.doi.org/10.1371/journal.pbio.1002165"><span class="citation">(<a href="#ref-Freedman2015-ki" role="doc-biblioref">Freedman, Cockburn, &amp; Simcoe, 2015</a>)</span></a>.</li>
-</ul>
-<blockquote>
-<p>An analysis of past studies indicates that the cumulative (total) prevalence of irreproducible preclinical research exceeds 50%, resulting in approximately US$28,000,000,000 (US$28B)/year spent on preclinical research that is not reproducible—in the United States alone.</p>
-<ul>
-<li><a href="http://dx.doi.org/10.1371/journal.pbio.1002165"><span class="citation">(<a href="#ref-Freedman2015-ki" role="doc-biblioref">Freedman et al., 2015</a>)</span></a>.</li>
-</ul>
-</blockquote>
-<ul>
-<li><a href="https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pbio.1002165/1/pbio.1002165.g002.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&amp;X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20230110%2Fauto%2Fstorage%2Fgoog4_request&amp;X-Goog-Date=20230110T171557Z&amp;X-Goog-Expires=86400&amp;X-Goog-SignedHeaders=host&amp;X-Goog-Signature=b9227f9379c2e55197326ea311fb9b554436f88d9053a72ed433af479ac607bb4f79bfc7f8a3b51da4fee702750475c77cafa2dcb4650e1431a488551f46d3cc46c8a7c3b97b71c4f82ef8e4c0642c51dc9437869802c1686ccb7da2e8acd1f346e4765619355a5daafd8894d2d5fa807012254093d8c6bd01fbf238eb9ea456afac5c77d23a8821af0b0a455023d4143927c8c57e6fc3c2c307808b234d1710993dd7cb379b1c5a595941c2c5fd8c5ef6103dbf5cffeaf85460155432df55ec529d54be79c3f75cd6855017a4582aa7498e7bc994c4646fc8376035c62b9f22e64d3d89eaa7128a777406a197dc5def01bfd0443b3ff6e9aeb1bb0ec10a460c">Figure 2</a> from <span class="citation">(<a href="#ref-Freedman2015-ki" role="doc-biblioref">Freedman et al., 2015</a>)</span></li>
-</ul>
-<p>Information about U.S. Research &amp; Development (R&amp;D) Expenditures from the <a href="https://sgp.fas.org/crs/misc/R44307.pdf">Congressional Research Service</a>.
-- Note that business accounts for 2-3x+ the Government’s share of R&amp;D expenditures.</p>
-</div>
-<div id="questions-to-ponder-1" class="section level4 unnumbered hasAnchor">
-<h4>Questions to ponder<a href="course-intro.html#questions-to-ponder-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ul>
-<li>Why does Harris call this a ‘bombshell’?</li>
-<li>Do you agree that it has/had or should have an ‘explosive’ impact? Why?</li>
-<li>Why do Begley &amp; Ellis focus on a journal’s impact factor?</li>
-<li>Why do Begley &amp; Ellis focus on citations to reproduced vs. non-reproduced articles?</li>
-<li>Why should non-scientists care?</li>
-<li>Why should scientists in other fields (not cancer biology) care?</li>
-</ul>
-</div>
-<div id="going-deeper-1" class="section level4 unnumbered hasAnchor">
-<h4>Going deeper<a href="course-intro.html#going-deeper-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ul>
-<li><a href="https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/schedule.html#tuesday-january-24">Tues Jan 24</a>: Replication crisis</li>
-<li><a href="https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/schedule.html#thursday-february-2">Thu Feb 2</a>: Replication in cancer biology</li>
-<li><a href="https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/schedule.html#tuesday-february-7">Tue Feb 7</a>: Reproducibility and replicability reconsidered.</li>
-<li><a href="https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_replication.html">Exercise 04</a>: Replication</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="learn-more" class="section level2 unnumbered hasAnchor">
-<h2>Learn more<a href="course-intro.html#learn-more" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="talk-by-begley-crossfit2019-xq" class="section level3 unnumbered hasAnchor">
-<h3>Talk by Begley <a href="https://www.youtube.com/watch?v=YJADzllTM9w"><span class="citation">(<a href="#ref-CrossFit2019-xq" role="doc-biblioref">CrossFit, 2019</a>)</span></a><a href="course-intro.html#talk-by-begley-crossfit2019-xq" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div class="infobox">
-<p>Watching the talk by Begley is not required. But you might get inspired and decide to focus your final project around the topic.</p>
-</div>
-<!-- Dr. Glenn Begley: Perverse Incentives Promote Scientific Laziness, Exaggeration, and Desperation -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YJADzllTM9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-<blockquote>
-<p>“What I’m alleging is that the reviewers, the editors of the so-called top-tier journals, grant review committees, promotion committees, and the scientific community repeatedly tolerate poor-quality science.”</p>
-<p>– C. Glenn Begley</p>
-</blockquote>
-</div>
-</div>
-<div id="next-time" class="section level2 unnumbered hasAnchor">
-<h2>Next time…<a href="course-intro.html#next-time" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<ul>
-<li>How science works (or should)</li>
-<li>Read
-<ul>
-<li><span class="citation">(<a href="#ref-Ritchie2020-fm" role="doc-biblioref">Ritchie, 2020</a>)</span>, Chapter 1.</li>
-<li><a href="http://dx.doi.org/10.1080/1047840X.2012.692215"><span class="citation">(<a href="#ref-Nosek2012-al" role="doc-biblioref">Brian A. Nosek &amp; Bar-Anan, 2012</a>)</span></a></li>
-<li>Optional <span class="citation">(<a href="#ref-sagan-1996-baloney" role="doc-biblioref">Sagan, 1996</a>)</span>, Chapter 12, “The Fine Art of Baloney Detection”</li>
+<li>Not coming to class? Email Garrett.</li>
 </ul></li>
 </ul>
 
@@ -1014,41 +701,14 @@ Figure 11: <span class="citation">(<a href="#ref-Harris2017-oz" role="doc-biblio
 </div>
 <h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
-<div id="ref-Begley2012-cr" class="csl-entry">
-Begley, C. G., &amp; Ellis, L. M. (2012). Drug development: Raise standards for preclinical cancer research. <em>Nature</em>, <em>483</em>(7391), 531–533. <a href="https://doi.org/10.1038/483531a">https://doi.org/10.1038/483531a</a>
+<div id="ref-Cruwell2019-nz" class="csl-entry">
+Crüwell, S., Doorn, J. van, Etz, A., Makel, M. C., Moshontz, H., Niebaum, J. C., … Schulte-Mecklenbeck, M. (2019). Seven easy steps to open science. <em>Zeitschrift f<span>ü</span>r Psychologie</em>, <em>227</em>(4), 237–248. <a href="https://doi.org/10.1027/2151-2604/a000387">https://doi.org/10.1027/2151-2604/a000387</a>
 </div>
-<div id="ref-CrossFit2019-xq" class="csl-entry">
-CrossFit. (2019, July). Dr. Glenn begley: Perverse incentives promote scientific laziness, exaggeration, and desperation. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=YJADzllTM9w">https://www.youtube.com/watch?v=YJADzllTM9w</a>
+<div id="ref-Defever2016-ki" class="csl-entry">
+Defever, A. M., Chopik, W. J., Keller, V. N., &amp; Bremner, R. (2016, August). Best practices pedagogy. Center For Open Science. Retrieved from <a href="https://osf.io/mh9pe/">https://osf.io/mh9pe/</a>
 </div>
-<div id="ref-Feynman1974-ld" class="csl-entry">
-Feynman, R. P. (1974). Cargo cult science. Retrieved from <a href="https://calteches.library.caltech.edu/51/2/CargoCult.htm">https://calteches.library.caltech.edu/51/2/CargoCult.htm</a>
-</div>
-<div id="ref-Freedman2015-ki" class="csl-entry">
-Freedman, L. P., Cockburn, I. M., &amp; Simcoe, T. S. (2015). The economics of reproducibility in preclinical research. <em>PLoS Biology</em>, <em>13</em>(6), e1002165. <a href="https://doi.org/10.1371/journal.pbio.1002165">https://doi.org/10.1371/journal.pbio.1002165</a>
-</div>
-<div id="ref-Harris2017-oz" class="csl-entry">
-Harris, R. (2017). <em>Rigor mortis: How sloppy science creates worthless cures, crushes hope, and wastes billions</em> (1st edition). Basic Books.
-</div>
-<div id="ref-Nosek2012-al" class="csl-entry">
-Nosek, Brian A., &amp; Bar-Anan, Y. (2012). Scientific utopia i: Opening scientific communication. <em>Psychological Inquiry</em>, <em>23</em>(3), 217–243. <a href="https://doi.org/10.1080/1047840X.2012.692215">https://doi.org/10.1080/1047840X.2012.692215</a>
-</div>
-<div id="ref-NYU_Health_Sciences_Library2013-gp" class="csl-entry">
-NYU Health Sciences Library. (2013, November). Data sharing and management snafu in 3 short acts (higher quality). Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=66oNv_DJuPc">https://www.youtube.com/watch?v=66oNv_DJuPc</a>
-</div>
-<div id="ref-Oreskes2017" class="csl-entry">
-Oreskes, N. (2019). <em>Why trust science</em>. Princeton University Press.
-</div>
-<div id="ref-Prinz2011-vo" class="csl-entry">
-Prinz, F., Schlange, T., &amp; Asadullah, K. (2011). Believe it or not: How much can we rely on published data on potential drug targets? <em>Nature Reviews. Drug Discovery</em>, <em>10</em>(9), 712. <a href="https://doi.org/10.1038/nrd3439-c1">https://doi.org/10.1038/nrd3439-c1</a>
-</div>
-<div id="ref-Ritchie2020-fm" class="csl-entry">
-Ritchie, S. (2020). <em>Science fictions: Exposing fraud, bias, negligence and hype in science</em> (1st ed.). Penguin Random House. Retrieved from <a href="https://www.amazon.com/Science-Fictions/dp/1847925669">https://www.amazon.com/Science-Fictions/dp/1847925669</a>
-</div>
-<div id="ref-Rjlipton2023-sb" class="csl-entry">
-rjlipton. (2023, January). Cargo cult redo. <a href="https://rjlipton.wpcomstaging.com/2023/01/06/cargo-cult-redo/" class="uri">https://rjlipton.wpcomstaging.com/2023/01/06/cargo-cult-redo/</a>. Retrieved from <a href="https://rjlipton.wpcomstaging.com/2023/01/06/cargo-cult-redo/">https://rjlipton.wpcomstaging.com/2023/01/06/cargo-cult-redo/</a>
-</div>
-<div id="ref-sagan-1996-baloney" class="csl-entry">
-Sagan, C. (1996). <em>The demon-haunted world: Science as a candle in the dark</em> (pp. 200–218). Ballantine Books.
+<div id="ref-Kathawalla2021-tk" class="csl-entry">
+Kathawalla, U.-K., Silverstein, P., &amp; Syed, M. (2021). Easing into open science: A guide for graduate students and their advisors. <em>Collabra. Psychology</em>, <em>7</em>(1). <a href="https://doi.org/10.1525/collabra.18684">https://doi.org/10.1525/collabra.18684</a>
 </div>
 </div>
             </section>
@@ -1056,8 +716,8 @@ Sagan, C. (1996). <em>The demon-haunted world: Science as a candle in the dark</
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="how-science-works-or-should.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="sharing-materials-code-protocols.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="presentations.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

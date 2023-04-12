@@ -576,6 +576,17 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="sharing-materials-code-protocols.html"><a href="sharing-materials-code-protocols.html#soska2021-mh"><i class="fa fa-check"></i><span class="citation">Soska et al. (2021)</span></a></li>
 <li class="chapter" data-level="" data-path="sharing-materials-code-protocols.html"><a href="sharing-materials-code-protocols.html#next-time-20"><i class="fa fa-check"></i>Next time…</a></li>
 </ul></li>
+<li class="chapter" data-level="" data-path="open-science-tools.html"><a href="open-science-tools.html"><i class="fa fa-check"></i>Open science tools</a>
+<ul>
+<li class="chapter" data-level="" data-path="open-science-tools.html"><a href="open-science-tools.html#roadmap-22"><i class="fa fa-check"></i>Roadmap</a></li>
+<li class="chapter" data-level="" data-path="open-science-tools.html"><a href="open-science-tools.html#survey-questions-from-cruwell2019-nz"><i class="fa fa-check"></i>Survey: Questions from <span class="citation">(Crüwell et al., 2019)</span></a></li>
+<li class="chapter" data-level="" data-path="open-science-tools.html"><a href="open-science-tools.html#kathawalla2021-tk"><i class="fa fa-check"></i><span class="citation">(Kathawalla et al., 2021)</span></a></li>
+<li class="chapter" data-level="" data-path="open-science-tools.html"><a href="open-science-tools.html#cruwell2019-nz"><i class="fa fa-check"></i><span class="citation">(Crüwell et al., 2019)</span></a>
+<ul>
+<li class="chapter" data-level="" data-path="open-science-tools.html"><a href="open-science-tools.html#reproducibility-notes-4"><i class="fa fa-check"></i>Reproducibility notes</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="open-science-tools.html"><a href="open-science-tools.html#next-time-21"><i class="fa fa-check"></i>Next time…</a></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="presentations.html"><a href="presentations.html"><i class="fa fa-check"></i>Presentations</a>
 <ul>
 <li class="chapter" data-level="" data-path="presentations.html"><a href="presentations.html#presentations-day-1"><i class="fa fa-check"></i>Day 1: Tuesday, April 25, 2023</a></li>
@@ -632,35 +643,35 @@ We thank these authors for publishing the survey questions in their article so t
 <div id="set-up" class="section level2 unnumbered hasAnchor">
 <h2>Set-up<a href="survey_01_results.html#set-up" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>We load the required R packages.</p>
-<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="survey_01_results.html#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(<span class="st">&quot;tidyverse&quot;</span>)) <span class="co"># for pipe %&gt;%</span></span>
-<span id="cb20-2"><a href="survey_01_results.html#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(<span class="st">&quot;googledrive&quot;</span>))</span>
-<span id="cb20-3"><a href="survey_01_results.html#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(<span class="st">&quot;magrittr&quot;</span>))</span>
-<span id="cb20-4"><a href="survey_01_results.html#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(<span class="st">&quot;dplyr&quot;</span>))</span>
-<span id="cb20-5"><a href="survey_01_results.html#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(<span class="st">&quot;ggplot2&quot;</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="survey_01_results.html#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(<span class="st">&quot;tidyverse&quot;</span>)) <span class="co"># for pipe %&gt;%</span></span>
+<span id="cb13-2"><a href="survey_01_results.html#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(<span class="st">&quot;googledrive&quot;</span>))</span>
+<span id="cb13-3"><a href="survey_01_results.html#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(<span class="st">&quot;magrittr&quot;</span>))</span>
+<span id="cb13-4"><a href="survey_01_results.html#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(<span class="st">&quot;dplyr&quot;</span>))</span>
+<span id="cb13-5"><a href="survey_01_results.html#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(<span class="st">&quot;ggplot2&quot;</span>))</span></code></pre></div>
 </div>
 <div id="download-data" class="section level2 unnumbered hasAnchor">
 <h2>Download data<a href="survey_01_results.html#download-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Download the data file from the spreadsheet generated by the Google Form into a comma-separated value (CSV) file in a local directory called <code>csv/</code>.</p>
 <p>Authenticate to Google.</p>
-<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="survey_01_results.html#cb21-1" aria-hidden="true" tabindex="-1"></a>googledrive<span class="sc">::</span><span class="fu">drive_auth</span>(<span class="at">email =</span> <span class="st">&quot;rick.o.gilmore@gmail.com&quot;</span>)</span></code></pre></div>
-<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="survey_01_results.html#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">dir.exists</span>(<span class="st">&#39;csv&#39;</span>)) {</span>
-<span id="cb22-2"><a href="survey_01_results.html#cb22-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">dir.create</span>(<span class="st">&#39;csv&#39;</span>)</span>
-<span id="cb22-3"><a href="survey_01_results.html#cb22-3" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb22-4"><a href="survey_01_results.html#cb22-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb22-5"><a href="survey_01_results.html#cb22-5" aria-hidden="true" tabindex="-1"></a>csv_fn <span class="ot">&lt;-</span> <span class="st">&quot;csv/psych-490-2023-spring-survey-01.csv&quot;</span></span></code></pre></div>
-<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="survey_01_results.html#cb23-1" aria-hidden="true" tabindex="-1"></a>googledrive<span class="sc">::</span><span class="fu">drive_download</span>(<span class="at">file =</span> <span class="st">&#39;PSYCH 490.002 Survey 1 (Responses)&#39;</span>, <span class="at">path =</span> csv_fn, <span class="at">type =</span> <span class="st">&#39;csv&#39;</span>, <span class="at">overwrite =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="survey_01_results.html#cb14-1" aria-hidden="true" tabindex="-1"></a>googledrive<span class="sc">::</span><span class="fu">drive_auth</span>(<span class="at">email =</span> <span class="st">&quot;rick.o.gilmore@gmail.com&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="survey_01_results.html#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">dir.exists</span>(<span class="st">&#39;csv&#39;</span>)) {</span>
+<span id="cb15-2"><a href="survey_01_results.html#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">dir.create</span>(<span class="st">&#39;csv&#39;</span>)</span>
+<span id="cb15-3"><a href="survey_01_results.html#cb15-3" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb15-4"><a href="survey_01_results.html#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="survey_01_results.html#cb15-5" aria-hidden="true" tabindex="-1"></a>csv_fn <span class="ot">&lt;-</span> <span class="st">&quot;csv/psych-490-2023-spring-survey-01.csv&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="survey_01_results.html#cb16-1" aria-hidden="true" tabindex="-1"></a>googledrive<span class="sc">::</span><span class="fu">drive_download</span>(<span class="at">file =</span> <span class="st">&#39;PSYCH 490.002 Survey 1 (Responses)&#39;</span>, <span class="at">path =</span> csv_fn, <span class="at">type =</span> <span class="st">&#39;csv&#39;</span>, <span class="at">overwrite =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
 </div>
 <div id="clean-data" class="section level2 unnumbered hasAnchor">
 <h2>Clean data<a href="survey_01_results.html#clean-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Load the data file.</p>
-<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="survey_01_results.html#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">file.exists</span>(csv_fn)) {</span>
-<span id="cb24-2"><a href="survey_01_results.html#cb24-2" aria-hidden="true" tabindex="-1"></a>  survey_01 <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(csv_fn, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb24-3"><a href="survey_01_results.html#cb24-3" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
-<span id="cb24-4"><a href="survey_01_results.html#cb24-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">message</span>(<span class="st">&quot;File not found: &quot;</span>, csv_fn)</span>
-<span id="cb24-5"><a href="survey_01_results.html#cb24-5" aria-hidden="true" tabindex="-1"></a>  survey_01 <span class="ot">&lt;-</span> <span class="cn">NULL</span></span>
-<span id="cb24-6"><a href="survey_01_results.html#cb24-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="survey_01_results.html#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">file.exists</span>(csv_fn)) {</span>
+<span id="cb17-2"><a href="survey_01_results.html#cb17-2" aria-hidden="true" tabindex="-1"></a>  survey_01 <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(csv_fn, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb17-3"><a href="survey_01_results.html#cb17-3" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb17-4"><a href="survey_01_results.html#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">message</span>(<span class="st">&quot;File not found: &quot;</span>, csv_fn)</span>
+<span id="cb17-5"><a href="survey_01_results.html#cb17-5" aria-hidden="true" tabindex="-1"></a>  survey_01 <span class="ot">&lt;-</span> <span class="cn">NULL</span></span>
+<span id="cb17-6"><a href="survey_01_results.html#cb17-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 <p>Examine the data set as a whole.</p>
-<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="survey_01_results.html#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(survey_01)</span></code></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="survey_01_results.html#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(survey_01)</span></code></pre></div>
 <pre><code>## spc_tbl_ [21 × 10] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
 ##  $ Timestamp                                                                                                                                              : chr [1:21] &quot;10/21/2022 16:07:25&quot; &quot;1/10/2023 11:48:53&quot; &quot;1/12/2023 11:43:32&quot; &quot;1/12/2023 11:43:54&quot; ...
 ##  $ Scientists are generally motivated by the desire for knowledge and discovery, and not by the possibility of personal gain.                             : num [1:21] 3 4 3 3 3 4 3 3 5 3 ...
@@ -687,11 +698,11 @@ We thank these authors for publishing the survey questions in their article so t
 ##   .. )
 ##  - attr(*, &quot;problems&quot;)=&lt;externalptr&gt;</code></pre>
 <p>Examine the variable names.</p>
-<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="survey_01_results.html#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">is.null</span>(survey_01)) {</span>
-<span id="cb27-2"><a href="survey_01_results.html#cb27-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">warning</span>(<span class="st">&quot;Error loading data file&quot;</span>)</span>
-<span id="cb27-3"><a href="survey_01_results.html#cb27-3" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
-<span id="cb27-4"><a href="survey_01_results.html#cb27-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">names</span>(survey_01)</span>
-<span id="cb27-5"><a href="survey_01_results.html#cb27-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="survey_01_results.html#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">is.null</span>(survey_01)) {</span>
+<span id="cb20-2"><a href="survey_01_results.html#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">warning</span>(<span class="st">&quot;Error loading data file&quot;</span>)</span>
+<span id="cb20-3"><a href="survey_01_results.html#cb20-3" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb20-4"><a href="survey_01_results.html#cb20-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">names</span>(survey_01)</span>
+<span id="cb20-5"><a href="survey_01_results.html#cb20-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 <pre><code>##  [1] &quot;Timestamp&quot;                                                                                                                                              
 ##  [2] &quot;Scientists are generally motivated by the desire for knowledge and discovery, and not by the possibility of personal gain.&quot;                             
 ##  [3] &quot;Scientists make an attempt to consider all new evidence, hypotheses, theories, and innovations, even those that challenge or contradict their own work.&quot;
@@ -706,48 +717,48 @@ We thank these authors for publishing the survey questions in their article so t
 Let’s look at the source publication <a href="https://doi.org/10.1007/s11251-011-9195-0"><span class="citation">(<a href="#ref-Kardash2012-kq" role="doc-biblioref">Kardash &amp; Edwards, 2012</a>)</span></a> to see if we can simplify them in a useful way.</p>
 <p>So, the Appendix labels each question with a short phrase and notes whether the concept is a norm (N) or counter-norm (CN).
 Let’s rename the variables using the single words.</p>
-<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="survey_01_results.html#cb29-1" aria-hidden="true" tabindex="-1"></a>new_names <span class="ot">&lt;-</span></span>
-<span id="cb29-2"><a href="survey_01_results.html#cb29-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">c</span>(</span>
-<span id="cb29-3"><a href="survey_01_results.html#cb29-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Timestamp&quot;</span>,</span>
-<span id="cb29-4"><a href="survey_01_results.html#cb29-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Disinterestedness&quot;</span>,</span>
-<span id="cb29-5"><a href="survey_01_results.html#cb29-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Organized Skepticism&quot;</span>,</span>
-<span id="cb29-6"><a href="survey_01_results.html#cb29-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Particularism&quot;</span>,</span>
-<span id="cb29-7"><a href="survey_01_results.html#cb29-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Communality&quot;</span>,</span>
-<span id="cb29-8"><a href="survey_01_results.html#cb29-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Organized Dogmatism&quot;</span>,</span>
-<span id="cb29-9"><a href="survey_01_results.html#cb29-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Self-interestedness&quot;</span>,</span>
-<span id="cb29-10"><a href="survey_01_results.html#cb29-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Universalism&quot;</span>,</span>
-<span id="cb29-11"><a href="survey_01_results.html#cb29-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Solitariness&quot;</span>,</span>
-<span id="cb29-12"><a href="survey_01_results.html#cb29-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Comments&quot;</span></span>
-<span id="cb29-13"><a href="survey_01_results.html#cb29-13" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb29-14"><a href="survey_01_results.html#cb29-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb29-15"><a href="survey_01_results.html#cb29-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Make new data frame with long and short names for reference</span></span>
-<span id="cb29-16"><a href="survey_01_results.html#cb29-16" aria-hidden="true" tabindex="-1"></a>survey_qs <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">q_long =</span> <span class="fu">names</span>(survey_01), <span class="at">q_short =</span> new_names)</span>
-<span id="cb29-17"><a href="survey_01_results.html#cb29-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb29-18"><a href="survey_01_results.html#cb29-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Swap out old (long) names for new (short) names</span></span>
-<span id="cb29-19"><a href="survey_01_results.html#cb29-19" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(survey_01) <span class="ot">&lt;-</span> new_names</span></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="survey_01_results.html#cb22-1" aria-hidden="true" tabindex="-1"></a>new_names <span class="ot">&lt;-</span></span>
+<span id="cb22-2"><a href="survey_01_results.html#cb22-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">c</span>(</span>
+<span id="cb22-3"><a href="survey_01_results.html#cb22-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Timestamp&quot;</span>,</span>
+<span id="cb22-4"><a href="survey_01_results.html#cb22-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Disinterestedness&quot;</span>,</span>
+<span id="cb22-5"><a href="survey_01_results.html#cb22-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Organized Skepticism&quot;</span>,</span>
+<span id="cb22-6"><a href="survey_01_results.html#cb22-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Particularism&quot;</span>,</span>
+<span id="cb22-7"><a href="survey_01_results.html#cb22-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Communality&quot;</span>,</span>
+<span id="cb22-8"><a href="survey_01_results.html#cb22-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Organized Dogmatism&quot;</span>,</span>
+<span id="cb22-9"><a href="survey_01_results.html#cb22-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Self-interestedness&quot;</span>,</span>
+<span id="cb22-10"><a href="survey_01_results.html#cb22-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Universalism&quot;</span>,</span>
+<span id="cb22-11"><a href="survey_01_results.html#cb22-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Solitariness&quot;</span>,</span>
+<span id="cb22-12"><a href="survey_01_results.html#cb22-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Comments&quot;</span></span>
+<span id="cb22-13"><a href="survey_01_results.html#cb22-13" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb22-14"><a href="survey_01_results.html#cb22-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-15"><a href="survey_01_results.html#cb22-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Make new data frame with long and short names for reference</span></span>
+<span id="cb22-16"><a href="survey_01_results.html#cb22-16" aria-hidden="true" tabindex="-1"></a>survey_qs <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">q_long =</span> <span class="fu">names</span>(survey_01), <span class="at">q_short =</span> new_names)</span>
+<span id="cb22-17"><a href="survey_01_results.html#cb22-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-18"><a href="survey_01_results.html#cb22-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Swap out old (long) names for new (short) names</span></span>
+<span id="cb22-19"><a href="survey_01_results.html#cb22-19" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(survey_01) <span class="ot">&lt;-</span> new_names</span></code></pre></div>
 <p>These data are ‘wide’, meaning that there are multiple variables for each respondent.
 The data will be easier to visualize and analyze if we make the data ‘longer’.</p>
-<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="survey_01_results.html#cb30-1" aria-hidden="true" tabindex="-1"></a>survey_01_long <span class="ot">&lt;-</span> survey_01 <span class="sc">%&gt;%</span></span>
-<span id="cb30-2"><a href="survey_01_results.html#cb30-2" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(.,</span>
-<span id="cb30-3"><a href="survey_01_results.html#cb30-3" aria-hidden="true" tabindex="-1"></a>                      <span class="sc">!</span><span class="fu">c</span>(<span class="st">&#39;Timestamp&#39;</span>, <span class="st">&#39;Comments&#39;</span>),</span>
-<span id="cb30-4"><a href="survey_01_results.html#cb30-4" aria-hidden="true" tabindex="-1"></a>                      <span class="at">names_to =</span> <span class="st">&quot;norm_counternorm&quot;</span>,</span>
-<span id="cb30-5"><a href="survey_01_results.html#cb30-5" aria-hidden="true" tabindex="-1"></a>                      <span class="at">values_to =</span> <span class="st">&quot;rating&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="survey_01_results.html#cb23-1" aria-hidden="true" tabindex="-1"></a>survey_01_long <span class="ot">&lt;-</span> survey_01 <span class="sc">%&gt;%</span></span>
+<span id="cb23-2"><a href="survey_01_results.html#cb23-2" aria-hidden="true" tabindex="-1"></a>  tidyr<span class="sc">::</span><span class="fu">pivot_longer</span>(.,</span>
+<span id="cb23-3"><a href="survey_01_results.html#cb23-3" aria-hidden="true" tabindex="-1"></a>                      <span class="sc">!</span><span class="fu">c</span>(<span class="st">&#39;Timestamp&#39;</span>, <span class="st">&#39;Comments&#39;</span>),</span>
+<span id="cb23-4"><a href="survey_01_results.html#cb23-4" aria-hidden="true" tabindex="-1"></a>                      <span class="at">names_to =</span> <span class="st">&quot;norm_counternorm&quot;</span>,</span>
+<span id="cb23-5"><a href="survey_01_results.html#cb23-5" aria-hidden="true" tabindex="-1"></a>                      <span class="at">values_to =</span> <span class="st">&quot;rating&quot;</span>)</span></code></pre></div>
 <p>We should indicate whether these are norms, and label them “N”, or counternorms, and label them “CN”.</p>
-<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="survey_01_results.html#cb31-1" aria-hidden="true" tabindex="-1"></a>survey_01_long <span class="ot">&lt;-</span> survey_01_long <span class="sc">%&gt;%</span></span>
-<span id="cb31-2"><a href="survey_01_results.html#cb31-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(., <span class="at">type =</span> <span class="fu">if_else</span>(</span>
-<span id="cb31-3"><a href="survey_01_results.html#cb31-3" aria-hidden="true" tabindex="-1"></a>    norm_counternorm <span class="sc">%in%</span> <span class="fu">c</span>(</span>
-<span id="cb31-4"><a href="survey_01_results.html#cb31-4" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Disinterestedness&quot;</span>,</span>
-<span id="cb31-5"><a href="survey_01_results.html#cb31-5" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Organized Skepticism&quot;</span>,</span>
-<span id="cb31-6"><a href="survey_01_results.html#cb31-6" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Communality&quot;</span>,</span>
-<span id="cb31-7"><a href="survey_01_results.html#cb31-7" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Universalism&quot;</span></span>
-<span id="cb31-8"><a href="survey_01_results.html#cb31-8" aria-hidden="true" tabindex="-1"></a>    ),</span>
-<span id="cb31-9"><a href="survey_01_results.html#cb31-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Norm&quot;</span>,</span>
-<span id="cb31-10"><a href="survey_01_results.html#cb31-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Counternorm&quot;</span></span>
-<span id="cb31-11"><a href="survey_01_results.html#cb31-11" aria-hidden="true" tabindex="-1"></a>  ))</span></code></pre></div>
+<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="survey_01_results.html#cb24-1" aria-hidden="true" tabindex="-1"></a>survey_01_long <span class="ot">&lt;-</span> survey_01_long <span class="sc">%&gt;%</span></span>
+<span id="cb24-2"><a href="survey_01_results.html#cb24-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(., <span class="at">type =</span> <span class="fu">if_else</span>(</span>
+<span id="cb24-3"><a href="survey_01_results.html#cb24-3" aria-hidden="true" tabindex="-1"></a>    norm_counternorm <span class="sc">%in%</span> <span class="fu">c</span>(</span>
+<span id="cb24-4"><a href="survey_01_results.html#cb24-4" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Disinterestedness&quot;</span>,</span>
+<span id="cb24-5"><a href="survey_01_results.html#cb24-5" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Organized Skepticism&quot;</span>,</span>
+<span id="cb24-6"><a href="survey_01_results.html#cb24-6" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Communality&quot;</span>,</span>
+<span id="cb24-7"><a href="survey_01_results.html#cb24-7" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Universalism&quot;</span></span>
+<span id="cb24-8"><a href="survey_01_results.html#cb24-8" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb24-9"><a href="survey_01_results.html#cb24-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Norm&quot;</span>,</span>
+<span id="cb24-10"><a href="survey_01_results.html#cb24-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Counternorm&quot;</span></span>
+<span id="cb24-11"><a href="survey_01_results.html#cb24-11" aria-hidden="true" tabindex="-1"></a>  ))</span></code></pre></div>
 <p>Finally, there is a “test” set of responses that I used to test this data processing workflow.
 We should delete those responses since they are nonsensical–I just hit random buttons to make some data.</p>
-<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb32-1"><a href="survey_01_results.html#cb32-1" aria-hidden="true" tabindex="-1"></a>survey_01_long_clean <span class="ot">&lt;-</span> survey_01_long <span class="sc">%&gt;%</span></span>
-<span id="cb32-2"><a href="survey_01_results.html#cb32-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(., <span class="fu">is.na</span>(Comments))</span></code></pre></div>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="survey_01_results.html#cb25-1" aria-hidden="true" tabindex="-1"></a>survey_01_long_clean <span class="ot">&lt;-</span> survey_01_long <span class="sc">%&gt;%</span></span>
+<span id="cb25-2"><a href="survey_01_results.html#cb25-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(., <span class="fu">is.na</span>(Comments))</span></code></pre></div>
 </div>
 <div id="visualize-data" class="section level2 unnumbered hasAnchor">
 <h2>Visualize data<a href="survey_01_results.html#visualize-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -758,8 +769,8 @@ We should delete those responses since they are nonsensical–I just hit random 
 <p>The following statements reflect different values about how the scientific research community should function, according to studies of scientists’ work. Use the scale below to indicate the extent to which you personally feel it ACTUALLY REPRESENTS the behavior of most scientists.</p>
 <p>Source: Kardash, C. M. &amp; Edwards, O. V. (2012). Thinking and behaving like scientists: Perceptions of undergraduate science interns and their faculty mentors. Instructional Science, 40(6), 875–899. <a href="https://doi.org/10.1007/s11251-011-9195-0" class="uri">https://doi.org/10.1007/s11251-011-9195-0</a>.</p>
 </blockquote>
-<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="survey_01_results.html#cb33-1" aria-hidden="true" tabindex="-1"></a>survey_qs <span class="sc">%&gt;%</span></span>
-<span id="cb33-2"><a href="survey_01_results.html#cb33-2" aria-hidden="true" tabindex="-1"></a>  kableExtra<span class="sc">::</span><span class="fu">kable</span>(., <span class="at">format=</span><span class="st">&#39;html&#39;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="survey_01_results.html#cb26-1" aria-hidden="true" tabindex="-1"></a>survey_qs <span class="sc">%&gt;%</span></span>
+<span id="cb26-2"><a href="survey_01_results.html#cb26-2" aria-hidden="true" tabindex="-1"></a>  kableExtra<span class="sc">::</span><span class="fu">kable</span>(., <span class="at">format=</span><span class="st">&#39;html&#39;</span>)</span></code></pre></div>
 <table>
 <thead>
 <tr>
@@ -857,34 +868,34 @@ Comments
 </div>
 <div id="unique-respondents" class="section level3 unnumbered hasAnchor">
 <h3>Unique respondents<a href="survey_01_results.html#unique-respondents" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>There appear to be <span class="math inline">\(n=\)</span> 21 respondents as of 2023-04-12 08:06:16.</p>
+<p>There appear to be <span class="math inline">\(n=\)</span> 21 respondents as of 2023-04-12 14:08:21.</p>
 </div>
 <div id="rating-distribution" class="section level3 unnumbered hasAnchor">
 <h3>Rating distribution<a href="survey_01_results.html#rating-distribution" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Remember, the rating scale was from 1: “not at all” to 5: “a great deal”.</p>
-<div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb34-1"><a href="survey_01_results.html#cb34-1" aria-hidden="true" tabindex="-1"></a>survey_01_long <span class="sc">%&gt;%</span> </span>
-<span id="cb34-2"><a href="survey_01_results.html#cb34-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
-<span id="cb34-3"><a href="survey_01_results.html#cb34-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(norm_counternorm, rating, <span class="at">fill =</span> type) <span class="sc">+</span> </span>
-<span id="cb34-4"><a href="survey_01_results.html#cb34-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_violin</span>() <span class="sc">+</span></span>
-<span id="cb34-5"><a href="survey_01_results.html#cb34-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">width =</span> .<span class="dv">07</span>, <span class="at">height =</span> .<span class="dv">07</span>), <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
-<span id="cb34-6"><a href="survey_01_results.html#cb34-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
-<span id="cb34-7"><a href="survey_01_results.html#cb34-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="st">&quot;Ratings of scientists&#39; adherence to norms and counternorms&quot;</span>) <span class="sc">+</span></span>
-<span id="cb34-8"><a href="survey_01_results.html#cb34-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">&quot;bottom&quot;</span>) <span class="sc">+</span></span>
-<span id="cb34-9"><a href="survey_01_results.html#cb34-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.title =</span> <span class="fu">element_blank</span>())</span></code></pre></div>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="survey_01_results.html#cb27-1" aria-hidden="true" tabindex="-1"></a>survey_01_long <span class="sc">%&gt;%</span> </span>
+<span id="cb27-2"><a href="survey_01_results.html#cb27-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
+<span id="cb27-3"><a href="survey_01_results.html#cb27-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(norm_counternorm, rating, <span class="at">fill =</span> type) <span class="sc">+</span> </span>
+<span id="cb27-4"><a href="survey_01_results.html#cb27-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_violin</span>() <span class="sc">+</span></span>
+<span id="cb27-5"><a href="survey_01_results.html#cb27-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">width =</span> .<span class="dv">07</span>, <span class="at">height =</span> .<span class="dv">07</span>), <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb27-6"><a href="survey_01_results.html#cb27-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb27-7"><a href="survey_01_results.html#cb27-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="st">&quot;Ratings of scientists&#39; adherence to norms and counternorms&quot;</span>) <span class="sc">+</span></span>
+<span id="cb27-8"><a href="survey_01_results.html#cb27-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">&quot;bottom&quot;</span>) <span class="sc">+</span></span>
+<span id="cb27-9"><a href="survey_01_results.html#cb27-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.title =</span> <span class="fu">element_blank</span>())</span></code></pre></div>
 <p><img src="include/img/fig-survey-01-responses-1.png" width="100%" style="display: block; margin: auto;" /></p>
-<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="survey_01_results.html#cb35-1" aria-hidden="true" tabindex="-1"></a>survey_01_long <span class="sc">%&gt;%</span> </span>
-<span id="cb35-2"><a href="survey_01_results.html#cb35-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
-<span id="cb35-3"><a href="survey_01_results.html#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(type, rating, <span class="at">fill =</span> type) <span class="sc">+</span> </span>
-<span id="cb35-4"><a href="survey_01_results.html#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_violin</span>() <span class="sc">+</span></span>
-<span id="cb35-5"><a href="survey_01_results.html#cb35-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">width =</span> .<span class="dv">07</span>, <span class="at">height =</span> .<span class="dv">07</span>), <span class="at">alpha =</span> <span class="fl">0.5</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="survey_01_results.html#cb28-1" aria-hidden="true" tabindex="-1"></a>survey_01_long <span class="sc">%&gt;%</span> </span>
+<span id="cb28-2"><a href="survey_01_results.html#cb28-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
+<span id="cb28-3"><a href="survey_01_results.html#cb28-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(type, rating, <span class="at">fill =</span> type) <span class="sc">+</span> </span>
+<span id="cb28-4"><a href="survey_01_results.html#cb28-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_violin</span>() <span class="sc">+</span></span>
+<span id="cb28-5"><a href="survey_01_results.html#cb28-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">width =</span> .<span class="dv">07</span>, <span class="at">height =</span> .<span class="dv">07</span>), <span class="at">alpha =</span> <span class="fl">0.5</span>)</span></code></pre></div>
 <p><img src="include/img/fig-survey-01-norm-counter-1.png" width="100%" style="display: block; margin: auto;" /></p>
-<div class="sourceCode" id="cb36"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb36-1"><a href="survey_01_results.html#cb36-1" aria-hidden="true" tabindex="-1"></a>survey_01 <span class="sc">%&gt;%</span></span>
-<span id="cb36-2"><a href="survey_01_results.html#cb36-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(., <span class="at">n_cum =</span> <span class="fu">seq_along</span>(Timestamp)) <span class="sc">%&gt;%</span></span>
-<span id="cb36-3"><a href="survey_01_results.html#cb36-3" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(., <span class="at">Timestamp =</span> lubridate<span class="sc">::</span><span class="fu">mdy_hms</span>(survey_01<span class="sc">$</span>Timestamp)) <span class="sc">%&gt;%</span></span>
-<span id="cb36-4"><a href="survey_01_results.html#cb36-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
-<span id="cb36-5"><a href="survey_01_results.html#cb36-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(Timestamp, n_cum) <span class="sc">+</span></span>
-<span id="cb36-6"><a href="survey_01_results.html#cb36-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb36-7"><a href="survey_01_results.html#cb36-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="survey_01_results.html#cb29-1" aria-hidden="true" tabindex="-1"></a>survey_01 <span class="sc">%&gt;%</span></span>
+<span id="cb29-2"><a href="survey_01_results.html#cb29-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(., <span class="at">n_cum =</span> <span class="fu">seq_along</span>(Timestamp)) <span class="sc">%&gt;%</span></span>
+<span id="cb29-3"><a href="survey_01_results.html#cb29-3" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(., <span class="at">Timestamp =</span> lubridate<span class="sc">::</span><span class="fu">mdy_hms</span>(survey_01<span class="sc">$</span>Timestamp)) <span class="sc">%&gt;%</span></span>
+<span id="cb29-4"><a href="survey_01_results.html#cb29-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
+<span id="cb29-5"><a href="survey_01_results.html#cb29-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(Timestamp, n_cum) <span class="sc">+</span></span>
+<span id="cb29-6"><a href="survey_01_results.html#cb29-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb29-7"><a href="survey_01_results.html#cb29-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>()</span></code></pre></div>
 <p><img src="include/img/fig-survey-01-cum-sum-1.png" width="75%" style="display: block; margin: auto;" /></p>
 
 </div>

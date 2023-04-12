@@ -1,0 +1,54 @@
+# Open science tools {-}
+
+## Roadmap {-}
+
+- Open science tools
+    - [@Kathawalla2021-tk]
+    - [@Cruwell2019-nz]
+- [Assignment Due]{.orange_due}
+    - [Exercise 05: Data and materials sharing](#ex_data_sharing)
+
+## Survey: Questions from [@Cruwell2019-nz] {-}
+
+```{r survey}
+survey_2_qr <- qrcode::qr_code("https://forms.gle/RKBcaadA3Vkt6pSq8")
+plot(survey_2_qr)
+```
+
+OR
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeUGnw7xc9e-Cxol4xEVZ36EaF0_zhFtSGGx5Sc7RE2Q2on6w/viewform?embedded=true" width="640" height="3978" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+## [@Kathawalla2021-tk] {-}
+
+>This article provides a roadmap to assist graduate students and their advisors to engage in open science practices. We suggest eight open science practices that novice graduate students could begin adopting today. The topics we cover include journal clubs, project workflow, preprints, reproducible code, data sharing, transparent writing, preregistration, and registered reports. To address concerns about not knowing how to engage in open science practices, we provide a difficulty rating of each behavior (easy, medium, difficult), present them in order of suggested adoption, and follow the format of what, why, how, and worries. We give graduate students ideas on how to approach conversations with their advisors/collaborators, ideas on how to integrate open science practices within the graduate school framework, and specific resources on how to engage with each behavior. We emphasize that engaging in open science behaviors need not be an all or nothing approach, but rather graduate students can engage with any number of the behaviors outlined.
+> 
+> [@Kathawalla2021-tk]
+
+- Open Science Framework (OSF) project: <https://osf.io/w5mbp/>
+- Wiki: <https://osf.io/w5mbp/wiki/home/>
+
+```{r, fig.cap="Figure 1 from [@Kathawalla2021-tk]"}
+knitr::include_graphics("https://ucp.silverchair-cdn.com/ucp/content_public/journal/collabra/7/1/10.1525_collabra.18684/2/m_collabra_2021_7_1_18684_49218.jpeg?Expires=1683620528&Signature=dlqxuXl9GGSMcmMA7Bje2z9f6UwaIgeDt5Ryd-FydjA78M70uG~xprbTsrrnjWb~SYujcbWcvXvH-V9FL-w~GeFX8OPC4mmPTVUCDqoXMEC8kKcpfUUP44gst-FEyBST1ujDYghrphWPyQ84Pg50pArBpKIzBiBmT26WZJD1Grfw6y3I8EY10u9zqcqytRy6fw9tNyhA90oXd5v5rGS6Ekcmiz5wv5kUVh4b8WzriNmNjj0roQLK7BfKyKStog4CYrA5DXyvLa5t02dxwuBPejek9PQobrWzc7BLpnnaJi8DgGVCHrbkPE0n9RWWlnsx2yxS3ppIb7eHLWsJUaMJvA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA")
+```
+
+## [@Cruwell2019-nz] {-}
+
+>Over the past 10 years, crises surrounding replication, fraud, and best practices in research methods have dominated discussions in the field of psychology. However, no research exists examining how to communicate these issues to undergraduates and what effect this has on their attitudes toward the field. We developed and validated a 1-hr lecture communicating issues surrounding the replication crisis and current recommendations to increase reproducibility. Pre- and post-lecture surveys suggest that the lecture serves as an excellent pedagogical tool. Following the lecture, students trusted psychological studies slightly less but saw greater similarities between psychology and natural science fields. We discuss challenges for instructors taking the initiative to communicate these issues to undergraduates in an evenhanded way.
+>
+> [@Cruwell2019-nz]
+
+- Table 1 from [@Cruwell2019-nz]: <https://journals.sagepub.com/doi/10.1177/0098628318762900#table1-0098628318762900>
+- Table 2 from [@Cruwell2019-nz]: <https://journals.sagepub.com/doi/10.1177/0098628318762900#table2-0098628318762900>
+
+### Reproducibility notes {-}
+
+- Survey questions in article
+- OSF project for materials [@Defever2016-ki]: <https://osf.io/mh9pe/>
+- Data not shared
+
+## Next time... {-}
+
+- Final project work day
+    - Not coming to class? Email Garrett.
+    
