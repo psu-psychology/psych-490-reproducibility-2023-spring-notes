@@ -8,14 +8,14 @@
 - Last time
     - **Replication crisis (or not)**
         - [@Ritchie2020-fm], Chapter 2. [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145003948).
-        - [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+        - [@Begley2012-cr](http://dx.doi.org/10.1038/483531a)
         - (Optional) [@Oreskes2017], Chapter 7, pp. 228-244.
 - Today's topic
     - **A replication failure: The "Lady Macbeth Effect"**
-        - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259808). [Supplemental material PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259809)
-        - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259807)
+        - [@Zhong2006-nf](http://dx.doi.org/10.1126/science.1130726). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259808). [Supplemental material PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259809)
+        - [@Earp2014-ek](https://doi.org/10.1080/01973533.2013.856792). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259807)
         
-## [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726) {-}
+## [@Zhong2006-nf](http://dx.doi.org/10.1126/science.1130726) {-}
 
 Zhong, C.-B. & Liljenquist, K. (2006). Washing away your sins: Threatened morality and physical cleansing. *Science*, *313*(5792), 1451–1452. https://doi.org/10.1126/science.1130726
 
@@ -90,7 +90,7 @@ Zhong, C.-B. & Liljenquist, K. (2006). Washing away your sins: Threatened morali
 
 ---
 
-```{r table-zhong-etal-2006, out.width="80%", fig.cap="Table 1 from [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)"}
+```{r table-zhong-etal-2006, out.width="80%", fig.cap="Table 1 from [@Zhong2006-nf](http://dx.doi.org/10.1126/science.1130726)"}
 knitr::include_graphics("include/img/zhong-etal-2006-table-1.png")
 ```
 
@@ -102,7 +102,7 @@ knitr::include_graphics("include/img/zhong-etal-2006-table-1.png")
 
 > Study 2 investigated whether an implicit threat to moral purity produces a psychological desire for cleansing, through expressed preferences for cleansing products. Participants were told that we were investi- gating the relationship between handwriting and personality and were asked to hand-copy a short story written in the first person. The story described either an ethical, selfless deed (helping a co-worker) or an unethical act (sabotaging a co-worker) (9). Participants then rated the desirability of various products from 1 (completely undesirable) to 7 (completely desirable). Cleansing products included Dove shower soap, Crest toothpaste, Windex cleaner, Lysol disinfectant, and Tide detergent; other products included Post-it Notes, Nantucket Nectars juice, Energizer batteries, Sony CD cases, and Snickers bars. As expected, copying the unethical story increased the desirability of cleansing products as compared to copying the ethical story [F(1,25) = 6.99, P = 0.01], with no differ- ences between conditions for the noncleans- ing products [F(1,25) = 0.02, P = 0.89] (Fig. 1).
 
-```{r zhong-etal-2006-fig1, out.width="80%", fig.cap="Figure 1 from [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)"}
+```{r zhong-etal-2006-fig1, out.width="80%", fig.cap="Figure 1 from [@Zhong2006-nf](http://dx.doi.org/10.1126/science.1130726)"}
 knitr::include_graphics("include/img/zhong-etal-2006-fig-1.png")
 ```
 
@@ -113,7 +113,7 @@ because the sanitation wipes had already washed away their moral stains and rest
 >
 > As predicted, physical cleansing significantly reduced volunteerism: 74% of those in the not-cleansed condition offered help, whereas only 41% of participants who had a chance to cleanse their hands offered to help ($\chi^2$=5.02, P = 0.025). Thus, the direct compensatory behavior (i.e., volunteering) dropped by almost 50% when participants had a chance to physically cleanse after recalling an unethical behavior.
 
-## [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792) {-}
+## [@Earp2014-ek](https://doi.org/10.1080/01973533.2013.856792) {-}
 
 Earp, B. D., Everett, J. A. C., Madva, E. N. & Hamlin, J. K. (2014). Out, Damned Spot: Can the “Macbeth Effect” Be Replicated? *Basic and Applied Social Psychology*, *36*(1), 91–98. https://doi.org/10.1080/01973533.2013.856792
 
@@ -204,6 +204,6 @@ It might be interesting to write up a case study that focuses on the history of 
 
 - Replication failure: Priming effect
 - Read
-    - [[@Bargh1996-yv]](http://dx.doi.org/10.1037//0022-3514.71.2.230)
-    - [[@Doyen2012-ib]](http://dx.doi.org/10.1371/journal.pone.0029081)
+    - [@Bargh1996-yv](http://dx.doi.org/10.1037//0022-3514.71.2.230)
+    - [@Doyen2012-ib](http://dx.doi.org/10.1371/journal.pone.0029081)
 

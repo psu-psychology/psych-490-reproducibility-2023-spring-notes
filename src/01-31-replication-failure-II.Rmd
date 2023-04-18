@@ -4,12 +4,12 @@
 
 - Last time
     - **A replication failure: The "Lady Macbeth Effect"**
-        - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259808). [Supplemental material PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259809)
-        - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259807)
+        - [@Zhong2006-nf](http://dx.doi.org/10.1126/science.1130726). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259808). [Supplemental material PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259809)
+        - [@Earp2014-ek](https://doi.org/10.1080/01973533.2013.856792). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145259807)
 - Today's topic
     - **A replication failure: The priming effect**
-        - [[@Bargh1996-yv]](http://dx.doi.org/10.1037//0022-3514.71.2.230); [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145417755)
-        - [[@Doyen2012-ib]](http://dx.doi.org/10.1371/journal.pone.0029081)
+        - [@Bargh1996-yv](http://dx.doi.org/10.1037//0022-3514.71.2.230); [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145417755)
+        - [@Doyen2012-ib](http://dx.doi.org/10.1371/journal.pone.0029081)
 
 ## [@Bargh1996-yv](http://dx.doi.org/10.1037//0022-3514.71.2.230) {-}
 

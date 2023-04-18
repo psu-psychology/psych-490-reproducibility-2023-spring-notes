@@ -5,11 +5,11 @@
 - Last time
     - Scientific norms and counter-norms
 - Readings
-    - [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0).
-    - [[@Macfarlane2008-tc]](https://doi.org/10.1007/s10805-008-9055-y).
+    - [@Kardash2012-kq](https://doi.org/10.1007/s11251-011-9195-0).
+    - [@Macfarlane2008-tc](https://doi.org/10.1007/s10805-008-9055-y).
     - Skim
-        - [[@Anderson2010-rl]](Anderson2010-rl).
-        - [[@Kim2018-tr]](https://doi.org/10.1177/0971721817744438).
+        - [@Anderson2010-rl](Anderson2010-rl).
+        - [@Kim2018-tr](https://doi.org/10.1177/0971721817744438).
 - Survey [results](survey_01_results.html)
 - [Assignment]{.green_assigned}
     - [Exercise 01: Norms and counter-norms write-up](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/ex_norms_counternorms.html#ex_norms_counternorms)
@@ -37,7 +37,7 @@
 
 :::
 
-## Discuss [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0) {-}
+## Discuss [@Kardash2012-kq](https://doi.org/10.1007/s11251-011-9195-0) {-}
 
 Kardash, C. M. & Edwards, O. V. (2012). Thinking and behaving like scientists: Perceptions of undergraduate science interns and their faculty mentors. *Instructional Science*, 40(6), 875–899. https://doi.org/10.1007/s11251-011-9195-0
 
@@ -51,11 +51,11 @@ knitr::include_graphics("https://d5nffgciuchtn.cloudfront.net/as/assets-mem-com/
 
 > ...uncovering science majors’ conceptions of one aspect of academic life in the sciences—namely, what it means to think and behave like a research scientist. Specifically, we compared science undergraduates’ and faculty mentors’ perceptions of the practices and personal characteristics of research scientists. 
 >
-> -- [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0) 
+> -- [@Kardash2012-kq](https://doi.org/10.1007/s11251-011-9195-0) 
 
 > As students find themselves immersed in the day to day practices of researchers, what values, practices, and dispositions capture their attention, become most salient to them and provide the foundation for their beliefs about what constitutes the professional identity of research scientists? As important, to what extent are students’ perceptions of these values, practices, and dispositions congruent with the perceptions of the faculty mentors?
 > 
-> -- [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0)
+> -- [@Kardash2012-kq](https://doi.org/10.1007/s11251-011-9195-0)
 
 > Constantinides (2001) provides the following descriptions of the norms (p. 63):
 >
@@ -67,11 +67,11 @@ knitr::include_graphics("https://d5nffgciuchtn.cloudfront.net/as/assets-mem-com/
 > 
 > **Organized skepticism** requires that claims be critically scrutinized in terms of empirical and logical criteria.
 >
-> -- [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0)
+> -- [@Kardash2012-kq](https://doi.org/10.1007/s11251-011-9195-0)
 
 ### Study 1 {-}
 
-```{r fig-kardash-2012, out.width="100%", fig.cap="Figure 1 from [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0)"}
+```{r fig-kardash-2012, out.width="100%", fig.cap="Figure 1 from [@Kardash2012-kq](https://doi.org/10.1007/s11251-011-9195-0)"}
 knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11251-011-9195-0/MediaObjects/11251_2011_9195_Fig1_HTML.gif?as=webp")
 ```
 
@@ -93,7 +93,7 @@ A student could extend this analysis or do additional analyses as a final projec
 
 :::
 
-## Discuss [[@Macfarlane2008-tc]](https://doi.org/10.1007/s10805-008-9055-y) {-}
+## Discuss [@Macfarlane2008-tc](https://doi.org/10.1007/s10805-008-9055-y) {-}
 
 Macfarlane, B. & Cheng, M. (2008). Communism, universalism and disinterestedness: Re-examining contemporary support among academics for Merton’s scientific norms. Journal of Academic Ethics, 6(1), 67–78. https://doi.org/10.1007/s10805-008-9055-y
 
@@ -147,7 +147,7 @@ knitr::include_graphics("https://media.springernature.com/full/springer-static/i
 >
 > The results of the survey do not necessarily represent a ‘shift’ in values as Merton’s norms were not based on empirical data. While this research sample was broadly representative of academic staff by gender, this does not necessarily imply that it is representative of the academic profession in all respects. However, contemporary performative pressures on academic life may be having an impact in shaping, or perhaps re-shaping, some Mertonian norms. This is particularly apparent in respect to the norm of disinterestedness where large numbers of academics pragmatically align their research interests with funding opportunities. This finding may be related to a more competitive market-based university environment apparent in the UK and elsewhere internationally where it has been argued that the canons of scientific inquiry have been compromised by commercial pressures (Bok 2003). Despite these pressures, the norm of communism, in particular, still attracts strong popular espoused support which crosses disciplinary fields. The balance of evidence from this survey, though, suggests that market-based and commercial pressures might be beginning to subvert the Mertonian ideal. However, respondents’ support of universalism and disinterestedness varies with their subjects. In general, respondents from applied sciences showed stronger support for these two norms than respondents from the other subject fields.
 > 
-> -- [[@Macfarlane2008-tc]](https://doi.org/10.1007/s10805-008-9055-y)
+> -- [@Macfarlane2008-tc](https://doi.org/10.1007/s10805-008-9055-y)
 
 ::: {.infobox}
 
@@ -163,5 +163,5 @@ This paper would be slightly harder to reproduce as a final project, but somethi
 - Replication crisis (or not)
     - Read
         - [@Ritchie2020-fm], Chapter 2.
-        - [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+        - [@Begley2012-cr](http://dx.doi.org/10.1038/483531a)
         - (Optional) [@Oreskes2017], Chapter 7, pp. 228-244.

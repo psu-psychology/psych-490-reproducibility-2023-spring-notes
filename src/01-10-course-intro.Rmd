@@ -89,7 +89,7 @@ knitr::include_graphics(c("include/img/chambers-seven-deadly-sins.jpg", "include
 
 ## Are we (scientists, the public) fooling ourselves? How can we know? Why might it matter? {-}
 
-### A humorous perspective [[@NYU_Health_Sciences_Library2013-gp]](https://www.youtube.com/watch?v=66oNv_DJuPc) {-}
+### A humorous perspective [@NYU_Health_Sciences_Library2013-gp](https://www.youtube.com/watch?v=66oNv_DJuPc) {-}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/66oNv_DJuPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -103,7 +103,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/4/42/Richard_
 
 - Who was he?
 
-```{r, fig.cap="[[@Feynman1974-ld]](https://calteches.library.caltech.edu/51/2/CargoCult.htm)"}
+```{r, fig.cap="[@Feynman1974-ld](https://calteches.library.caltech.edu/51/2/CargoCult.htm)"}
 knitr::include_url("https://calteches.library.caltech.edu/51/2/CargoCult.htm")
 ```
 
@@ -111,7 +111,7 @@ knitr::include_url("https://calteches.library.caltech.edu/51/2/CargoCult.htm")
 
 > I think the educational and psychological studies I mentioned are examples of what I would like to call Cargo Cult Science.  In the South Seas there is a Cargo Cult of people.  During the war they saw airplanes land with lots of good materials, and they want the same thing to happen now.  So they’ve arranged to make things like runways, to put fires along the sides of the runways, to make a wooden hut for a man to sit in, with two wooden pieces on his head like headphones and bars of bamboo sticking out like antennas—he’s the controller—and they wait for the airplanes to land.  They’re doing everything right.  The form is perfect.  It looks exactly the way it looked before.  But it doesn’t work.  No airplanes land.  So I call these things Cargo Cult Science, because they follow all the apparent precepts and forms of scientific investigation, but they’re missing something essential, because the planes don’t land.
 
-More about "cargo cults": [[@Rjlipton2023-sb]](https://rjlipton.wpcomstaging.com/2023/01/06/cargo-cult-redo/)
+More about "cargo cults": [@Rjlipton2023-sb](https://rjlipton.wpcomstaging.com/2023/01/06/cargo-cult-redo/)
 
 #### Implicit rules (practices or norms) in science {-}
 
@@ -172,7 +172,7 @@ knitr::include_graphics("include/img/harris-rigor-mortis.jpg")
 #### Background {-}
 
 - [C. Glenn Begley](https://en.wikipedia.org/wiki/C._Glenn_Begley)
-- [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+- [@Begley2012-cr](http://dx.doi.org/10.1038/483531a)
 
 > The scientific community assumes that the claims in a preclinical study can be taken at face value — that although there might be some errors in detail, the main message of the paper can be relied on and the data will, for the most part, stand the test of time. Unfortunately, this is not always the case.
 
@@ -183,25 +183,25 @@ knitr::include_graphics("include/img/harris-rigor-mortis.jpg")
 | >20 | 21 | 248 [3, 800] | 231 [82-519] |
 | 5-19 | 32 | 168 [6, 1,909] | 13 [3, 24] |
 
-Table 1 from [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+Table 1 from [@Begley2012-cr](http://dx.doi.org/10.1038/483531a)
 
 #### Findings {-}
 
 - Findings of 6/53 published papers (11%) could be reproduced
 - Original authors often could not reproduce their own work
-- Earlier paper [[@Prinz2011-vo]](http://dx.doi.org/10.1038/nrd3439-c1) had also found low rate of reproducibility. Paper titled "Believe it or not: How much can we rely on published data on potential drug targets?"
-- [Figure 1](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrd3439-c1/MediaObjects/41573_2011_Article_BFnrd3439c1_Fig1_HTML.jpg?as=webp) from [[@Prinz2011-vo]](http://dx.doi.org/10.1038/nrd3439-c1)
+- Earlier paper [@Prinz2011-vo](http://dx.doi.org/10.1038/nrd3439-c1) had also found low rate of reproducibility. Paper titled "Believe it or not: How much can we rely on published data on potential drug targets?"
+- [Figure 1](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrd3439-c1/MediaObjects/41573_2011_Article_BFnrd3439c1_Fig1_HTML.jpg?as=webp) from [@Prinz2011-vo](http://dx.doi.org/10.1038/nrd3439-c1)
 
 > We received input from 23 scientists (heads of laboratories) and collected data from 67 projects, most of them (47) from the field of oncology. This analysis revealed that only in ∼20–25% of the projects were the relevant published data completely in line with our in-house findings
 >
-> - [[@Prinz2011-vo]](http://dx.doi.org/10.1038/nrd3439-c1)
+> - [@Prinz2011-vo](http://dx.doi.org/10.1038/nrd3439-c1)
 
 - Published papers (that can't be reproduced) are cited hundreds or thousands of times
-- Cost of irreproducible research estimated in billions of dollars [[@Freedman2015-ki]](http://dx.doi.org/10.1371/journal.pbio.1002165).
+- Cost of irreproducible research estimated in billions of dollars [@Freedman2015-ki](http://dx.doi.org/10.1371/journal.pbio.1002165).
 
 > An analysis of past studies indicates that the cumulative (total) prevalence of irreproducible preclinical research exceeds 50%, resulting in approximately US$28,000,000,000 (US$28B)/year spent on preclinical research that is not reproducible—in the United States alone.
 >
-> - [[@Freedman2015-ki]](http://dx.doi.org/10.1371/journal.pbio.1002165).
+> - [@Freedman2015-ki](http://dx.doi.org/10.1371/journal.pbio.1002165).
 
 - [Figure 2](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pbio.1002165/1/pbio.1002165.g002.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20230110%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230110T171557Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=b9227f9379c2e55197326ea311fb9b554436f88d9053a72ed433af479ac607bb4f79bfc7f8a3b51da4fee702750475c77cafa2dcb4650e1431a488551f46d3cc46c8a7c3b97b71c4f82ef8e4c0642c51dc9437869802c1686ccb7da2e8acd1f346e4765619355a5daafd8894d2d5fa807012254093d8c6bd01fbf238eb9ea456afac5c77d23a8821af0b0a455023d4143927c8c57e6fc3c2c307808b234d1710993dd7cb379b1c5a595941c2c5fd8c5ef6103dbf5cffeaf85460155432df55ec529d54be79c3f75cd6855017a4582aa7498e7bc994c4646fc8376035c62b9f22e64d3d89eaa7128a777406a197dc5def01bfd0443b3ff6e9aeb1bb0ec10a460c) from [@Freedman2015-ki]
 
@@ -226,7 +226,7 @@ Information about U.S. Research & Development (R&D) Expenditures from the [Congr
 
 ## Learn more {-}
 
-### Talk by Begley [[@CrossFit2019-xq]](https://www.youtube.com/watch?v=YJADzllTM9w) {-}
+### Talk by Begley [@CrossFit2019-xq](https://www.youtube.com/watch?v=YJADzllTM9w) {-}
 
 :::: {.infobox}
 
@@ -247,5 +247,5 @@ Watching the talk by Begley is not required. But you might get inspired and deci
 - How science works (or should)
 - Read
     - [@Ritchie2020-fm], Chapter 1.
-    - [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215)
+    - [@Nosek2012-al](http://dx.doi.org/10.1080/1047840X.2012.692215)
     - Optional [@sagan-1996-baloney], Chapter 12, "The Fine Art of Baloney Detection"
