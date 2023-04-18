@@ -1239,6 +1239,19 @@
       ],
       "Hash": "adfa41db3678b41bf9235c514c51799a"
     },
+    "qrcode": {
+      "Package": "qrcode",
+      "Version": "0.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "assertthat",
+        "stats",
+        "utils"
+      ],
+      "Hash": "f1192030a93de676c3f6d9bfa447e7cc"
+    },
     "ragg": {
       "Package": "ragg",
       "Version": "1.2.5",
