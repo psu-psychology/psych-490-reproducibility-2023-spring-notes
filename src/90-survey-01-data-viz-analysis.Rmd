@@ -10,7 +10,7 @@ This survey is part of the class discussion of [adherence to norms and counterno
 
 ## Background {-}
 
-The survey questions were derived from the Appendix in [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0).
+The survey questions were derived from the Appendix in [@Kardash2012-kq](https://doi.org/10.1007/s11251-011-9195-0).
 We thank these authors for publishing the survey questions in their article so that we could reuse them for our class.
 
 ## Set-up {-}
@@ -83,7 +83,7 @@ if (is.null(survey_01)) {
 ```
 
 These variable names are too long to be useful.
-Let's look at the source publication [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0) to see if we can simplify them in a useful way.
+Let's look at the source publication [@Kardash2012-kq](https://doi.org/10.1007/s11251-011-9195-0) to see if we can simplify them in a useful way.
 
 So, the Appendix labels each question with a short phrase and notes whether the concept is a norm (N) or counter-norm (CN).
 Let's rename the variables using the single words.
@@ -108,8 +108,6 @@ survey_qs <- tibble(q_long = names(survey_01), q_short = new_names)
 
 # Swap out old (long) names for new (short) names
 names(survey_01) <- new_names
-
-
 ```
 
 These data are 'wide', meaning that there are multiple variables for each respondent.
